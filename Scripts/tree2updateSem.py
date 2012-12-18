@@ -30,35 +30,59 @@ def main():
         elif sys.argv[i]== "-h":#print help screen
             helpprint()
             exit()
-   
+    x=1
     for line in inputfile:
         transformed=transform(line[:-1])
         print transformed
-
+        
 
 def transform(tree):
     semanticUpdate=""
     tree=tree[5:-1]#remove top
-    splitted=tree.split()
-    [semanticUpdate,splitted]=buildSem(splitted)
+    treeStructure=buildTreeStructure(tree)
+    semanticUpdate=buildSem(treeStructure)
+    return treeStructure
+
+
+def buildTreeStructure(treestring): # tree structure is a recursivly nested list.
+    splitted=treestring.split()
+    [treeStructure,splitted]=parseTree(splitted)
+    return treeStructure
+
+#def errorChild():
+
+def parseTree(splitted):
+    node=splitted.pop(0)
+    if "|" in node:
+        semantic=node.split("|")[1]
+        children=[]
+        while True:
+            if splitted[0][-1]==")": #next element closes current subtree
+                break
+            else:
+                [child,splitted]=parseTree(splitted)
+                children.append(child)
+
+        treeStructure=[semantic,children]
+    else:
+        treeStructure=parseTree(splitted) #else parse next node
+    
+    return [treeStructure,splitted]
+
+
+
+def buildSem(treeStructure):
+    print treeStructure
+    semanticUpdate=treeStructure[0]
+    ds=["d1","d2","d3","d4","d5","d6"]
+    for d in ds:
+        if d in semanticUpdate:
+            pieces=semanticUpdate.split(d)
+            print d
+            print treeStructure[1]
+            variable=buildSem(treeStructure[1][int(d[1])])#ha see what I did there
+            semanticUpdate=pieces[0]+variable+pieces[1]
     return semanticUpdate
-
-
-def buildSem(splitted):
-    semantics=splitted.pop(0)
-    if "|" in semantics:#there are semantics in the node
-        semantics=semantics.split("|")[1]
-        ds=["d1","d2","d3","d4","d5","d6"]
-        for d in ds:
-            if d in semantics:
-                pieces=semantics.split(d)
-                [variable,splitted]=buildSem(splitted)
-                semantics=pieces[0]+variable+pieces[1]
-        #dontuse=splitted.pop(0) #next node is terminal has no semantical value
-        stringer=semantics
-    else:#try next node
-        [stringer,splitted]=buildSem(splitted)
-    return [stringer,splitted]
 
 def helpprint():
 
