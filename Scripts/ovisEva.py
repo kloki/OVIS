@@ -96,11 +96,11 @@ def breakup(stringer,lister,prefix,suffix):
 def nested(stringer):
     answer=False
     brackets=0
-    if "(" in stringer or "[" in stringer:
+    if "(" in stringer or "[" in stringer or "{" in stringer:
         for i in xrange(len(stringer)):
-            if stringer[i]=="(" or stringer[i]=="[":
+            if stringer[i]=="(" or stringer[i]=="[" or stringer[i]=="{":
                 brackets=brackets+1
-            elif stringer[i]==")" or stringer[i]=="]":
+            elif stringer[i]==")" or stringer[i]=="]"or stringer[i]=="{":
                 brackets=brackets-1
             if brackets==0:
                 if i==len(stringer)-1:
@@ -110,9 +110,9 @@ def nested(stringer):
 
 def ifSuffix(chunk):
     answer=False
-    if chunk[0]=="(" or chunk[0]=="[":
+    if chunk[0]=="(" or chunk[0]=="[" or chunk[i]=="{":
         for i in xrange(len(chunk)-1,0,-1):
-            if chunk[i]==")" or chunk[i]=="]":
+            if chunk[i]==")" or chunk[i]=="]" or chunk[i]=="}":
                 break
             elif chunk[i]==".":
                 answer=True
@@ -123,9 +123,9 @@ def ifSuffix(chunk):
 def getchunk(stringer):
     brackets=0
     for i in xrange(0,len(stringer)):
-        if stringer[i]=="(":
+        if stringer[i]=="(" or stringer[i]=="{" :
             brackets=brackets+1
-        if stringer[i]==")":
+        if stringer[i]==")" or stringer[i]=="}" :
             brackets=brackets-1    
         if brackets==0 and stringer[i]==";":#only unnestedsemicolons
             chunk=stringer[:i]
@@ -136,7 +136,7 @@ def getchunk(stringer):
 def getpred(stringer):
     prefix=""
     for i in xrange(0,len(stringer)-1):
-        if stringer[i]=="(" or stringer[i]=="[":
+        if stringer[i]=="(" or stringer[i]=="{" or stringer[i]=="[":
             prefix=stringer[:i-1]
             stringer=stringer[i:]
             break
@@ -145,7 +145,7 @@ def getpred(stringer):
 def getsuf(stringer):
     suffix=""
     for i in xrange(len(stringer)-1,0,-1):
-        if stringer[i]=="]" or stringer[i]==")":
+        if stringer[i]=="]" or stringer[i]==")" or stringer[i]=="}" :
             suffix=stringer[i+1:]
             stringer=stringer[:i+1]
             break
