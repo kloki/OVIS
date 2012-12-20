@@ -41,7 +41,7 @@ def transform(tree):
     tree=tree[5:-1]#remove top
     treeStructure=buildTreeStructure(tree)
     #semanticUpdate=buildSem(treeStructure)
-    return treeStructure #semanticUpdate
+    return treeStructure#semanticUpdate
 
 
 def buildTreeStructure(treestring): # tree structure is a recursivly nested list.
@@ -62,7 +62,10 @@ def parseTree(splitted):
         if splitted==[]:
             break
         elif splitted[0][-1]==")": #next element closes current subtree
-            notuse=splitted.pop(0)
+            if splitted[0][-2]==")":#count the brackets this way mutliple subtrees in a row close nicely
+                splitted[0]=splitted[0][:-1]
+            else:
+                notuse=splitted.pop(0)
             break
         else:
             [child,splitted]=parseTree(splitted)
