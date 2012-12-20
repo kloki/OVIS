@@ -40,8 +40,8 @@ def transform(tree):
     semanticUpdate=""
     tree=tree[5:-1]#remove top
     treeStructure=buildTreeStructure(tree)
-    semanticUpdate=buildSem(treeStructure)
-    return treeStructure
+    #semanticUpdate=buildSem(treeStructure)
+    return treeStructure #semanticUpdate
 
 
 def buildTreeStructure(treestring): # tree structure is a recursivly nested list.
@@ -55,32 +55,34 @@ def parseTree(splitted):
     node=splitted.pop(0)
     if "|" in node:
         semantic=node.split("|")[1]
-        children=[]
-        while True:
-            if splitted[0][-1]==")": #next element closes current subtree
-                break
-            else:
-                [child,splitted]=parseTree(splitted)
-                children.append(child)
-
-        treeStructure=[semantic,children]
     else:
-        treeStructure=parseTree(splitted) #else parse next node
+        semantic="NOSEMAN"
+    children=[]
+    while True:#parse al children
+        if splitted==[]:
+            break
+        elif splitted[0][-1]==")": #next element closes current subtree
+            notuse=splitted.pop(0)
+            break
+        else:
+            [child,splitted]=parseTree(splitted)
+            children.append(child)
     
+    if children==[]:
+        treeStructure=[semantic]
+    else:
+        treeStructure=[semantic,children]    
     return [treeStructure,splitted]
 
 
 
 def buildSem(treeStructure):
-    print treeStructure
     semanticUpdate=treeStructure[0]
     ds=["d1","d2","d3","d4","d5","d6"]
     for d in ds:
         if d in semanticUpdate:
             pieces=semanticUpdate.split(d)
-            print d
-            print treeStructure[1]
-            variable=buildSem(treeStructure[1][int(d[1])])#ha see what I did there
+            variable=buildSem(treeStructure[1][int(d[1])-1])#ha see what I did there
             semanticUpdate=pieces[0]+variable+pieces[1]
     return semanticUpdate
 
