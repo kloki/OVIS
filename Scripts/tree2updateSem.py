@@ -30,7 +30,7 @@ def main():
         elif sys.argv[i]== "-h":#print help screen
             helpprint()
             exit()
-    x=1
+    
     for line in inputfile:
         transformed=transform(line[:-1])
         print transformed
@@ -40,8 +40,9 @@ def transform(tree):
     semanticUpdate=""
     tree=tree[5:-1]#remove top
     treeStructure=buildTreeStructure(tree)
-    #semanticUpdate=buildSem(treeStructure)
-    return treeStructure#semanticUpdate
+    print treeStructure
+    semanticUpdate=buildSem(treeStructure)
+    return semanticUpdate
 
 
 def buildTreeStructure(treestring): # tree structure is a recursivly nested list.
@@ -62,7 +63,7 @@ def parseTree(splitted):
         if splitted==[]:
             break
         elif splitted[0][-1]==")": #next element closes current subtree
-            if splitted[0][-2]==")":#count the brackets this way mutliple subtrees in a row close nicely
+            if splitted[0][-2]==")":#count the brackets this way mutliple subtrees in a row are closed nicely
                 splitted[0]=splitted[0][:-1]
             else:
                 notuse=splitted.pop(0)
@@ -72,15 +73,16 @@ def parseTree(splitted):
             children.append(child)
     
     if children==[]:
-        treeStructure=[semantic]
+        treeStructure=semantic
     else:
-        treeStructure=[semantic,children]    
+        treeStructure=[semantic,children]
     return [treeStructure,splitted]
 
 
 
 def buildSem(treeStructure):
     semanticUpdate=treeStructure[0]
+
     ds=["d1","d2","d3","d4","d5","d6"]
     for d in ds:
         if d in semanticUpdate:
