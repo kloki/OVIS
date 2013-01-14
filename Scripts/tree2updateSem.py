@@ -98,24 +98,61 @@ def postProcess (update):
     if ";" in update:
         if unnesstedbracket(update):
             update="("+update+")"
-   #sometimes origin appears twice in the tree so derivation also has origin two times, example:sentence 120
-    update=update.replace(".origin.origin",".origin")
+    #sometimes origin appears twice in the tree so derivation also has origin two times, example:sentence 120
+    update=update.replace(".origin.origin.",".origin.")
+    update=update.replace(".origin.(origin.",".(origin.")
+    update=update.replace(".origin.[#origin.",".[#origin.")
     #apperently we can also do some Arithmetic but only for christmas example:152
     update=update.replace("24+1","25")
+    update=update.replace("24+2","26")
     # and this special case 468
     update=update.replace("3+20","23")
+    #errors dont have parenthesis 487
+    update=update.replace("(error.not_understood)","error.not_understood")
     #the plus sign is removed example:563
     update=update.replace("minute.+","minute.")
     #minus time is changed:229
     if "minute.-" in update:
         update=adjustMinus(update)
 
+
+    #century is added example:5352
+    if "year." in update and "year.19" not in update:
+        update=update.replace("year.","year.19")
+    
+    #months by names not numbers example: 5694
+    if "month." in update:
+        if "month.12" in update:
+            update=update.replace("month.12","month.december")
+        elif "month.11" in update:
+            update=update.replace("month.11","month.november")
+        elif "month.10" in update:
+            update=update.replace("month.10","month.october")
+        elif "month.9" in update:
+            update=update.replace("month.9","month.september")
+        elif "month.8" in update:
+            update=update.replace("month.8","month.august")
+        elif "month.7" in update:
+            update=update.replace("month.7","month.july")
+        elif "month.6" in update:
+            update=update.replace("month.6","month.june")
+        elif "month.5" in update:
+            update=update.replace("month.5","month.may") 
+        elif "month.4" in update:
+            update=update.replace("month.4","month.april")
+        elif "month.3" in update:
+            update=update.replace("month.3","month.march")
+        elif "month.2" in update:
+            update=update.replace("month.2","month.february")
+        elif "month.1" in update:
+            update=update.replace("month.1","month.january")
+            
     return update
 
 def adjustMinus(update):
-    for i in xrange(7,len(update)):
-        if update[i-7:i]=="minus.-":
-            if update[i+2].isdigit():
+    for i in xrange(8,len(update)+1):
+        if update[i-8:i]=="minute.-":
+            if update[i+1].isdigit():#will never give an error because of parenthesis
                 left=update[:i]
                 right=update[i+2:]
                 x=str(60-int(update[i:i+2]))
@@ -123,25 +160,28 @@ def adjustMinus(update):
             else:
                 left=update[:i]
                 right=update[i+1:]
-                x=str(60-int(update[i+1]))
+                x=str(60-int(update[i]))
                 update=left+x+right
                 
-    for i in xrange(10,len(update)):
-        if update[i-10:i]=="clock_hour.":
-            if update[i+2].isdigit():
+    for i in xrange(11,len(update)):
+        if update[i-11:i]=="clock_hour.":
+            if update[i+1].isdigit():
                 left=update[:i]
                 right=update[i+2:]
                 x=str(int(update[i:i+2])-1)
+                if x=="0":
+                    x="12"
                 update=left+x+right
             else:
                 left=update[:i]
                 right=update[i+1:]
-                x=str(int(update[i+1])-1)
+                x=str(int(update[i])-1)
+                if x=="0":
+                    x="12"
                 update=left+x+right
-        
 
     #remove minus
-    #update=update.replace("minute.-","minute.")    
+    update=update.replace("minute.-","minute.")    
     return update
 
 

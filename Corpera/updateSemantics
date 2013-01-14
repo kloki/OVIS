@@ -827,7 +827,7 @@ user.wants.travel.destination.(place.town.winterswijk;at.hour.20)
 user.wants.(origin.place.((town.den_haag;suffix.laan_van_noi);suffix.laan_van_noi);destination.place.town.groningen)
 user.wants.origin.place.(town.den_haag;suffix.laan_van_noi)
 origin.place.town.den_haag
-eo.nothing_recorded
+error.nothing_recorded
 town.groningen
 town.groningen
 error.nothing_recorded

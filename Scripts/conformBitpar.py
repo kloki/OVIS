@@ -36,31 +36,39 @@ def main():
             helpprint()
             exit()
     for tree in inputfile:
-        conformed=conform(tree[:-1],semantical,brackets)#remove end of line symbol
+        conformed=conform(tree[:-1],semantical)#remove end of line symbol
+        if brackets:
+            conformed=curlyBrackets(conformed)
         print conformed
 
 
+def curlyBrackets(conformed):
+    bracketed=""
+    conformed=conformed.split()
+    for element in conformed:
+        if "|" in element:
+            pieces=element.split("|")
+            bracketed=bracketed+" "+pieces[0]+"|"+pieces[1].replace(")","}").replace("(","{")
+        else:
+            bracketed=bracketed+" "+element
+    return bracketed[1:]
 
-def conform(tree,semantical,brackets):
+
+
+def conform(tree,semantical):
     #is going to be a bit of a hack but they messed up tree annotation not me not me
     returntree="(TOP "
     if tree=="( empty_tree|error.nothing_recorded)":    
         returntree=returntree+tree[2:]
     elif tree[2]!="(": #we now have a single word
         xx=tree.split("/")
-        if brackets:
-            returntree=returntree+"{"
-        else:
-            returntree=returntree+"("
+        returntree=returntree+"("
         if semantical:
             returntree=returntree+xx[0][2:]
         else:
             returntree=returntree+xx[0].split("|")[0][2:]
         returntree=returntree+" "+ xx[1]
-        if brackets:
-            returntree=returntree+"}"
-        else:
-            returntree=returntree+")"
+        returntree=returntree+")"
     else:
         splitted=tree[2:].split()
         for element in splitted:
@@ -73,13 +81,7 @@ def conform(tree,semantical,brackets):
                     returntree=returntree+"("+xx[0].split("|")[0]+" "+xx[1]+") "
             else:
                 if semantical:
-                    if brackets and "|" in element:
-                        xx=element.split("|")
-                        xx[1]=xx[1].replace("(","{")
-                        xx[1]=xx[1].replace(")","}")
-                        returntree=returntree+xx[0]+"|"+xx[1]+" "
-                    else:
-                        returntree=returntree+element+" "
+                    returntree=returntree+element+" "
                 else:
                     returntree=returntree+element.split("|")[0]+" "
                 
