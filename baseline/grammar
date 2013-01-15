@@ -1,0 +1,934 @@
+ADJ "aanstaande"	3
+ADJ "hele"	1
+ADJ "komende"	1
+ADJ|1 "eerste"	9
+ADJ|earlier "eerder"	1
+ADJ|earlier "vroeger"	1
+ADJ|last "laatste"	3
+ADJ|minute.-30 "half"	10
+ADJ|more "andere"	6
+ADJ|next "volgende"	3
+ADJ|return_trip "terug"	3
+ADV "dan"	3
+ADV "ergens"	1
+ADV "graag"	21
+ADV "liefst"	1
+ADV "maar"	9
+ADV "mogelijk"	5
+ADV "nodig"	8
+ADV "ongeveer"	9
+ADV "ook"	4
+ADV "snel"	5
+ADV "toch"	1
+ADV "wanneer"	1
+ADV "wel"	14
+ADV "zo"	7
+ADV ADV ADV	4
+ADV|! "maar"	1
+ADV|# "niet"	36
+ADV|[=no] "niet"	1
+ADV|[=no] ADV ADV|#	1
+ADV|[=yes] "inderdaad"	4
+ADV|[d1dref] ADV|# ADV	1
+ADV|d1 ADV|# ADV	6
+ADV|d2 ADV ADV|#	1
+ADV|more "nog"	1
+ADV|now "nu"	1
+ADV|user.wants "alstublieft"	1
+A|[d1d2] TV|! IMPS|d2	1
+A|[d1d2] TV|! MP|d1.d2	3
+A|[d1d2] TV|! MP|evening	1
+A|[d1d2] TV|! MP|tomorrow	1
+A|[d1d2] TV|! MP|{d1;d2}	3
+A|[d1d2] TV|! N|date.{day.24+d1;month.december}	1
+A|[d1d2] TV|! S|d1.d2	11
+A|[d1d2] TV|! S|d2	1
+A|[d1d2] TV|! VP|d1.d2	1
+A|d1 MP|{d1;d2} ADV	3
+A|d1 MP|{today;afternoon} S	1
+A|d1 TV|[=no] ADV|d2	1
+A|d1 TV|[=no] PTP	10
+A|d1 TV|[=no] PTP S	1
+A|d1 TV|[=no] S	1
+A|d1 TV|[=no] VP	22
+A|d1 TV|[=yes] ADV	5
+A|d1 TV|[=yes] IMPS	3
+A|d1 TV|[=yes] S|[d2d1]	1
+A|d1 TV|[=yes] TS	1
+A|d1.d2 PER|user MP|{d1;d2}	2
+A|d1;[d2d3] TV|[=no] CON|! NP|d2	1
+A|d1;d2 P|at S|d1.d2	1
+A|d1;d2 S|d1.d2 S|d1.d2	6
+A|d1;d2 TS|d1 S|d2	1
+A|d1;d2 TV|[=no] INFP|[d1d2]	1
+A|d1;d2 TV|[=no] S|[d2d1]	15
+A|d1;d2 TV|[=no] S|d1.d2	2
+A|d1;d2 TV|[=no] TS|[d2d1]	1
+A|d1;d2 TV|[=yes] ADV|[=yes]	1
+A|d1;d2 TV|[=yes] MP|d1.d2	2
+A|d1;d2 TV|[=yes] MP|{d1;d2}	3
+A|d1;d2 TV|[=yes] NP|d2	6
+A|d1;d2 TV|[=yes] NP|{d1;d2}	1
+A|d1;d2 TV|[=yes] S|[d2d1]	17
+A|d1;d2 TV|[=yes] S|d1.d2	3
+A|d1;d2 TV|[=yes] S|d2	1
+A|d1;d2 TV|[=yes] TS|d2.d1	1
+A|d1;d3 TV|[=no] CON S|[d2d1]	1
+A|d1;d3 TV|[=yes] TS S|d1.d2	1
+A|d2 ADV TV|[=yes]	1
+A|d2 MP VP|[d2dref]	1
+A|d2 TV|d1 S|{d1;[d2d3]}	1
+A|origin.place.d1;d2 NP|d2 MP|d1.d2	1
+A|origin.place.d1;d2 NP|suffix.lelylaan MP|d1.d2	1
+A|origin.place.d1;destination.place.d2 NP|town.enschede NP|town.bergen	1
+CON "als"	1
+CON "en"	5
+CON "of"	2
+CON "want"	1
+CON|! "maar"	3
+CON|+ "en"	1
+DET "de"	18
+DET "een"	4
+DET "het"	1
+DET|# "geen"	5
+ERRORDET DET	1
+ERRORNP NP|town.soest	1
+ERRORP N|clock_hour	1
+ERRORP P|destination.place	2
+ERRORP P|origin.place	2
+ERRORS S|d1.d2	1
+ERRORV V|wants	1
+IMPS V ADV	7
+IMPS|d2 IMPS MP|{d1;d2}	3
+IMPS|d2 IMPS NP|town.amsterdam	1
+IMPS|d2 INT IMPS|d2	1
+INFP|[d1d2] ADV|# INF|repeat	1
+INFP|[d2d3] NP|d2 ADV|# INFP|d2	1
+INFP|d1 NP|[d1d2] INF|info	1
+INFP|d1.d2 INF|travel MP|{d1;d2}	5
+INFP|d1.d2 INF|travel.destination MP|{d1;d2}	2
+INFP|d1.d2 INF|travel.origin MP|d1.d2	1
+INFP|d2 ADV INFP|d1.d2	1
+INFP|d2 PART INF|repeat	1
+INFP|d2 PART INF|travel.destination	1
+INFP|d2.d1 MP|[d1d2] INF|travel	1
+INFP|d2.d1 MP|d1 INF|travel.origin	1
+INFP|d2.d1 MP|d1.d2 INF|travel	3
+INFP|d2.d1 MP|d1.d2 INF|travel.destination	3
+INFP|d2.d1 MP|d1.d2 INF|travel.origin	11
+INFP|d2.d1 MP|d2 INF|travel	3
+INFP|d2.d1 MP|d2 INF|travel.origin	1
+INFP|d2.d1 MP|now INF|travel.origin	1
+INFP|d2.d1 MP|{d1;d2} INF|to_be	1
+INFP|d2.d1 MP|{d1;d2} INF|travel	20
+INFP|d2.d1 MP|{d1;d2} INF|travel.destination	4
+INFP|d2.d1 MP|{d1;d2} INF|travel.origin	6
+INFP|d2.d1 NP|d2.d1 INF|travel.origin	1
+INFP|d2.{d1;d3} MP|{d1;d2} INF|travel.destination MP|d1.d2	1
+INF|info "weten"	1
+INF|repeat "herhalen"	2
+INF|to_be "zijn"	1
+INF|travel "gaan"	2
+INF|travel "reizen"	30
+INF|travel.destination "aankomen"	11
+INF|travel.destination "komen"	1
+INF|travel.origin "vertrekken"	22
+INT "dus"	1
+INT "goedemiddag"	1
+INT "goeiendag"	1
+INT "hallo"	2
+INT "hoor"	4
+INT "merci"	1
+INT "nou"	3
+INT "toch"	1
+INT "zeg"	1
+INT INT INT	1
+MP "terug"	2
+MP P N	1
+MP|[d1d2] ADV|! MP|{d1;d2}	1
+MP|[d1d2] ADV|# MP|d1.d2	11
+MP|afternoon "smiddags"	7
+MP|d1 MP|d1.clock_hour.d2 P|destination.place	1
+MP|d1 MP|d1.d2 ADV	1
+MP|d1 MP|d1.d2 S	2
+MP|d1 MP|{d1;d2} ADV	1
+MP|d1 MP|{d1;d2} ERRORP	1
+MP|d1.clock_hour.d2 P|at NUM|2	1
+MP|d1.d2 P|after NP|d2.d1	1
+MP|d1.d2 P|at NP|christmas	1
+MP|d1.d2 P|at NP|clock_hour.d1	1
+MP|d1.d2 P|at NP|d2	10
+MP|d1.d2 P|at NP|d2.d1	50
+MP|d1.d2 P|at NP|d2.d4	2
+MP|d1.d2 P|at NP|{clock_hour.d3;minute.d2d1}	2
+MP|d1.d2 P|at NP|{d1;clock_hour.d2}	8
+MP|d1.d2 P|at NP|{d1;d2}	2
+MP|d1.d2 P|at NP|{d1;day.d2}	1
+MP|d1.d2 P|at NP|{d2.d1;minute.d3}	5
+MP|d1.d2 P|at NP|{day.d1;d2}	4
+MP|d1.d2 P|at N|christmas	5
+MP|d1.d2 P|at N|date.{day.24+d1;month.december}	5
+MP|d1.d2 P|at N|date.{day.5;month.december}	2
+MP|d1.d2 P|at N|day_of_week.sunday	1
+MP|d1.d2 P|at N|day_of_week.tuesday	1
+MP|d1.d2 P|at N|day_of_week.wednesday	2
+MP|d1.d2 P|d2 NP|d2	1
+MP|d1.d2 P|d2 NP|town.duivendrecht	1
+MP|d1.d2 P|d2 NP|town.maastricht	1
+MP|d1.d2 P|d2 NP|town.wijchen	1
+MP|d1.d2 P|destination.place NP|d2	3
+MP|d1.d2 P|destination.place NP|suffix.mariahoeve	2
+MP|d1.d2 P|destination.place NP|suffix.muiderpoort	1
+MP|d1.d2 P|destination.place NP|town.aachen	5
+MP|d1.d2 P|destination.place NP|town.akkrum	4
+MP|d1.d2 P|destination.place NP|town.alkmaar	7
+MP|d1.d2 P|destination.place NP|town.almelo	3
+MP|d1.d2 P|destination.place NP|town.amersfoort	1
+MP|d1.d2 P|destination.place NP|town.amsterdam	8
+MP|d1.d2 P|destination.place NP|town.antwerpen	4
+MP|d1.d2 P|destination.place NP|town.appingedam	1
+MP|d1.d2 P|destination.place NP|town.assen	6
+MP|d1.d2 P|destination.place NP|town.baarn	9
+MP|d1.d2 P|destination.place NP|town.beilen	4
+MP|d1.d2 P|destination.place NP|town.bergen	3
+MP|d1.d2 P|destination.place NP|town.bilthoven	1
+MP|d1.d2 P|destination.place NP|town.bolsward	1
+MP|d1.d2 P|destination.place NP|town.borne	3
+MP|d1.d2 P|destination.place NP|town.boxmeer	1
+MP|d1.d2 P|destination.place NP|town.boxtel	1
+MP|d1.d2 P|destination.place NP|town.breda	1
+MP|d1.d2 P|destination.place NP|town.brussel	16
+MP|d1.d2 P|destination.place NP|town.cuyk	15
+MP|d1.d2 P|destination.place NP|town.d1_d2	11
+MP|d1.d2 P|destination.place NP|town.deurne	3
+MP|d1.d2 P|destination.place NP|town.duivendrecht	1
+MP|d1.d2 P|destination.place NP|town.eindhoven	2
+MP|d1.d2 P|destination.place NP|town.emmen	6
+MP|d1.d2 P|destination.place NP|town.enkhuizen	3
+MP|d1.d2 P|destination.place NP|town.enschede	3
+MP|d1.d2 P|destination.place NP|town.ermelo	1
+MP|d1.d2 P|destination.place NP|town.etten_leur	4
+MP|d1.d2 P|destination.place NP|town.groningen	6
+MP|d1.d2 P|destination.place NP|town.hardenberg	3
+MP|d1.d2 P|destination.place NP|town.heerhugowaard	2
+MP|d1.d2 P|destination.place NP|town.heerlen	2
+MP|d1.d2 P|destination.place NP|town.hengelo	2
+MP|d1.d2 P|destination.place NP|town.hertogenbosch	3
+MP|d1.d2 P|destination.place NP|town.leeuwarden	3
+MP|d1.d2 P|destination.place NP|town.leiden	2
+MP|d1.d2 P|destination.place NP|town.leidschendam	1
+MP|d1.d2 P|destination.place NP|town.lisse	5
+MP|d1.d2 P|destination.place NP|town.maastricht	6
+MP|d1.d2 P|destination.place NP|town.marienheem	2
+MP|d1.d2 P|destination.place NP|town.middelburg	2
+MP|d1.d2 P|destination.place NP|town.nijmegen	13
+MP|d1.d2 P|destination.place NP|town.oss	4
+MP|d1.d2 P|destination.place NP|town.rijen	4
+MP|d1.d2 P|destination.place NP|town.roodeschool	2
+MP|d1.d2 P|destination.place NP|town.roosendaal	1
+MP|d1.d2 P|destination.place NP|town.sittard	8
+MP|d1.d2 P|destination.place NP|town.soestdijk	2
+MP|d1.d2 P|destination.place NP|town.swalmen	3
+MP|d1.d2 P|destination.place NP|town.ter_apel	2
+MP|d1.d2 P|destination.place NP|town.tiel	3
+MP|d1.d2 P|destination.place NP|town.tilburg	3
+MP|d1.d2 P|destination.place NP|town.utrecht	6
+MP|d1.d2 P|destination.place NP|town.venlo	1
+MP|d1.d2 P|destination.place NP|town.vierlingsbeek	4
+MP|d1.d2 P|destination.place NP|town.vlissingen	14
+MP|d1.d2 P|destination.place NP|town.voorburg	2
+MP|d1.d2 P|destination.place NP|town.wijchen	4
+MP|d1.d2 P|destination.place NP|town.winterswijk	1
+MP|d1.d2 P|destination.place NP|town.woerden	4
+MP|d1.d2 P|destination.place NP|town.zutphen	1
+MP|d1.d2 P|destination.place NP|town.zwolle	7
+MP|d1.d2 P|destination.place NP|{d1;d2}	16
+MP|d1.d2 P|in NP|d2.d1	1
+MP|d1.d2 P|origin.place NP|d1	1
+MP|d1.d2 P|origin.place NP|d2	3
+MP|d1.d2 P|origin.place NP|station.d1_d2	1
+MP|d1.d2 P|origin.place NP|station.naarden_bussum	2
+MP|d1.d2 P|origin.place NP|suffix.heyendaal	2
+MP|d1.d2 P|origin.place NP|suffix.lelylaan	2
+MP|d1.d2 P|origin.place NP|town.aachen	2
+MP|d1.d2 P|origin.place NP|town.alkmaar	12
+MP|d1.d2 P|origin.place NP|town.amsterdam	7
+MP|d1.d2 P|origin.place NP|town.antwerpen	3
+MP|d1.d2 P|origin.place NP|town.appingedam	5
+MP|d1.d2 P|origin.place NP|town.arkel	4
+MP|d1.d2 P|origin.place NP|town.arnhem	3
+MP|d1.d2 P|origin.place NP|town.assen	3
+MP|d1.d2 P|origin.place NP|town.baarn	2
+MP|d1.d2 P|origin.place NP|town.beek	3
+MP|d1.d2 P|origin.place NP|town.bergambacht	3
+MP|d1.d2 P|origin.place NP|town.best	3
+MP|d1.d2 P|origin.place NP|town.borne	3
+MP|d1.d2 P|origin.place NP|town.breda	6
+MP|d1.d2 P|origin.place NP|town.bunde	6
+MP|d1.d2 P|origin.place NP|town.cuyk	5
+MP|d1.d2 P|origin.place NP|town.d1_d2	3
+MP|d1.d2 P|origin.place NP|town.delden	3
+MP|d1.d2 P|origin.place NP|town.delft	7
+MP|d1.d2 P|origin.place NP|town.duivendrecht	9
+MP|d1.d2 P|origin.place NP|town.eindhoven	2
+MP|d1.d2 P|origin.place NP|town.elst	8
+MP|d1.d2 P|origin.place NP|town.emmen	3
+MP|d1.d2 P|origin.place NP|town.enschede	6
+MP|d1.d2 P|origin.place NP|town.groningen	12
+MP|d1.d2 P|origin.place NP|town.hertogenbosch	1
+MP|d1.d2 P|origin.place NP|town.heusden	3
+MP|d1.d2 P|origin.place NP|town.hilversum	1
+MP|d1.d2 P|origin.place NP|town.hooghalen	1
+MP|d1.d2 P|origin.place NP|town.kerkrade	3
+MP|d1.d2 P|origin.place NP|town.maastricht	5
+MP|d1.d2 P|origin.place NP|town.meerssen	3
+MP|d1.d2 P|origin.place NP|town.naarden	2
+MP|d1.d2 P|origin.place NP|town.nijmegen	19
+MP|d1.d2 P|origin.place NP|town.oss	4
+MP|d1.d2 P|origin.place NP|town.ravenstein	1
+MP|d1.d2 P|origin.place NP|town.reuver	4
+MP|d1.d2 P|origin.place NP|town.rijssen	2
+MP|d1.d2 P|origin.place NP|town.roosendaal	5
+MP|d1.d2 P|origin.place NP|town.rotterdam	2
+MP|d1.d2 P|origin.place NP|town.schagen	1
+MP|d1.d2 P|origin.place NP|town.schiphol	8
+MP|d1.d2 P|origin.place NP|town.sittard	2
+MP|d1.d2 P|origin.place NP|town.sneek	1
+MP|d1.d2 P|origin.place NP|town.soestdijk	4
+MP|d1.d2 P|origin.place NP|town.utrecht	6
+MP|d1.d2 P|origin.place NP|town.venlo	1
+MP|d1.d2 P|origin.place NP|town.vleuten	3
+MP|d1.d2 P|origin.place NP|town.vlissingen	4
+MP|d1.d2 P|origin.place NP|town.voorburg	14
+MP|d1.d2 P|origin.place NP|town.voorschoten	5
+MP|d1.d2 P|origin.place NP|town.wierden	1
+MP|d1.d2 P|origin.place NP|town.wijchen	10
+MP|d1.d2 P|origin.place NP|town.winterswijk	1
+MP|d1.d2 P|origin.place NP|town.woerden	9
+MP|d1.d2 P|origin.place NP|town.zaandam	4
+MP|d1.d2 P|origin.place NP|town.zetten	1
+MP|d1.d2 P|origin.place NP|town.zoetermeer	1
+MP|d1.d2 P|origin.place NP|town.zwolle	5
+MP|d1.d2 P|origin.place NP|zetten_andelst	2
+MP|d1.d2 P|origin.place NP|{d1;d2}	17
+MP|d1.d2 P|place NP|drenthe	2
+MP|d1.d2 P|place NP|town.appingedam	1
+MP|d1.d2 P|place NP|town.emmen	1
+MP|d1.d2 P|place NP|town.utrecht	1
+MP|d1.d2 P|place NP|town.winterswijk	1
+MP|d1.d2 P|place NP|{d1;d2}	1
+MP|d1;d2 MP|d1.d2 P|destination.place	2
+MP|d2 ADV MP|d1	1
+MP|d2 ADV MP|d1.d2	3
+MP|d2 ADV MP|d2	1
+MP|d2 ADV MP|{d1;d2}	7
+MP|d2 MP MP|d1.d2	1
+MP|d2 P NP|d2	3
+MP|d2 P|at NP|town.voorburg	1
+MP|d2.d1 MP|d1.d2 ADV|user.wants	1
+MP|d2.d1 MP|{d1;d2} P|at	1
+MP|day_after_tomorrow "overmorgen"	14
+MP|evening "savonds"	8
+MP|morning "smorgens"	5
+MP|morning "sochtends"	8
+MP|morning "vroeg"	1
+MP|now ADV ADV ADV	5
+MP|place.dref "er"	1
+MP|return_trip "terug"	4
+MP|today "vandaag"	6
+MP|tomorrow "morgen"	29
+MP|{after.clock_hour.d2;before.clock_hour.d4} P NUM|10 CON NUM|11	1
+MP|{after.d2;before.d4} P NP|d2.d1 CON NP|d2.d1	1
+MP|{d1;[d2d3]} MP|[d1d2] CON|! MP|tomorrow	1
+MP|{d1;d2} MP|afternoon MP|d1.d2	2
+MP|{d1;d2} MP|d1 MP|afternoon	1
+MP|{d1;d2} MP|d1 MP|d1	1
+MP|{d1;d2} MP|d1.d2 MP|afternoon	4
+MP|{d1;d2} MP|d1.d2 MP|d1.d2	246
+MP|{d1;d2} MP|d1.d2 MP|d2	1
+MP|{d1;d2} MP|d1.d2 MP|evening	7
+MP|{d1;d2} MP|d1.d2 MP|morning	6
+MP|{d1;d2} MP|d1.d2 MP|tomorrow	1
+MP|{d1;d2} MP|d1.d2 MP|{d1;d2}	2
+MP|{d1;d2} MP|d1.d2 MP|{today;d2}	1
+MP|{d1;d2} MP|d1.d2 MP|{today;morning}	1
+MP|{d1;d2} MP|d1.d2 N|date.{day.24+d1;month.december}	1
+MP|{d1;d2} MP|d1.d2 P|destination.place	1
+MP|{d1;d2} MP|d2 MP|d1.d2	2
+MP|{d1;d2} MP|day_after_tomorrow MP|d1.d2	2
+MP|{d1;d2} MP|day_after_tomorrow MP|{d1;d2}	1
+MP|{d1;d2} MP|day_after_tomorrow N|evening	1
+MP|{d1;d2} MP|day_after_tomorrow P|at	2
+MP|{d1;d2} MP|morning MP|d1.d2	2
+MP|{d1;d2} MP|place.dref MP|d1.d2	1
+MP|{d1;d2} MP|today MP|d1.d2	1
+MP|{d1;d2} MP|today MP|{d1;d2}	1
+MP|{d1;d2} MP|tomorrow MP|d1.d2	4
+MP|{d1;d2} MP|tomorrow MP|morning	1
+MP|{d1;d2} MP|tomorrow MP|{d1;d2}	4
+MP|{d1;d2} MP|tomorrow N|afternoon	2
+MP|{d1;d2} MP|tomorrow N|morning	1
+MP|{d1;d2} MP|tomorrow P|origin.place	1
+MP|{d1;d2} MP|tomorrow S|d2.d1	1
+MP|{d1;d2} MP|{d1;d2} MP|d1.d2	2
+MP|{d1;d2} MP|{d1;d2} MP|{d1;d2}	1
+MP|{d1;d2} MP|{today;afternoon} MP|d1.d2	1
+MP|{d1;d2} MP|{today;evening} MP|d1.d2	2
+MP|{d1;d2} MP|{today;morning} MP|{d1;d2}	1
+MP|{d1;d2} MP|{tomorrow;afternoon} MP|d1.d2	3
+MP|{d1;d2} MP|{tomorrow;afternoon} N|d1	1
+MP|{d1;d2} MP|{tomorrow;evening} MP|d1.d2	1
+MP|{d1;d2} MP|{tomorrow;evening} P|at	1
+MP|{d1;d2} MP|{tomorrow;morning} MP|d1.d2	1
+MP|{d1;d2} NP|d2.d1 MP|morning	5
+MP|{d1;d2} NP|{d1;d2} MP|d1.d2	2
+MP|{d1;d2} NP|{day.d1;d2} MP|return_trip	1
+MP|{d1;d2} N|d2 MP|d1.d2	1
+MP|{d1;d2} N|d2 MP|{d1;d2}	1
+MP|{d1;d2} N|day_of_week.friday MP|d1.d2	2
+MP|{d1;d2} N|day_of_week.friday MP|{d1;d2}	1
+MP|{d1;d2} N|day_of_week.sunday MP|{d1;d2}	1
+MP|{d1;d2} N|day_of_week.wednesday MP|{d1;d2}	1
+MP|{d1;d2} N|{d1;d2} MP|{d1;d2}	1
+MP|{d1;d3} MP|{d1;d2} CON MP|{d1;[d2d3]}	1
+MP|{d1;destination.place.d2} MP|d1.d2 NP|d2	1
+MP|{origin.place.d1;d2} NP|suffix.heyendaal MP|d1.d2	1
+MP|{origin.place.d1;d2} NP|town.aachen MP|d1.d2	1
+MP|{origin.place.d1;d2} NP|town.beek MP|d1.d2	1
+MP|{origin.place.d1;d2} NP|town.leeuwarden MP|d1.d2	1
+MP|{origin.place.d1;d2} NP|town.maastricht MP|d1.d2	1
+MP|{origin.place.d1;d2} NP|town.vlissingen MP|d1.d2	1
+MP|{origin.place.d1;d2} NP|town.zwolle MP|d1.d2	1
+MP|{origin.place.d1;d2} NP|{d1;d2} MP|d1.d2	1
+MP|{today;afternoon} "vanmiddag"	4
+MP|{today;d2} P N|afternoon	1
+MP|{today;evening} "vanavond"	3
+MP|{today;morning} "vanochtend"	2
+MP|{tomorrow;afternoon} "morgenmiddag"	6
+MP|{tomorrow;evening} "morgenavond"	3
+MP|{tomorrow;morning} "morgenochtend"	2
+MP|{tomorrow;morning} "morgenvroeg"	1
+N "hoofdstad"	1
+N "naar"	1
+N "station"	11
+N "tijd"	1
+N "zee"	1
+N ADJ N	1
+NP "eentje"	1
+NP DET N	2
+NP|[d1d2] DET|# N|d1	5
+NP|christmas "kerstmis"	2
+NP|clock_hour.d1 NUM|9 N	1
+NP|d1 ADV|more NUM|1	1
+NP|d1 NP|[d1d2] ADV	1
+NP|d1 NP|suffix.cs N	2
+NP|d1 NP|town.castricum MP	1
+NP|d1.d2 NP|d2 MP|d2	1
+NP|d2 ADV NP|d1	1
+NP|d2 ADV NP|d2	2
+NP|d2 ADV NP|d2.d1	6
+NP|d2 ADV NP|{d1;clock_hour.d2}	1
+NP|d2 DET ADJ|last	2
+NP|d2 DET N|afternoon	1
+NP|d2 DET N|connection	3
+NP|d2 DET N|d1	1
+NP|d2 DET N|d2.d1	3
+NP|d2 DET N|evening	1
+NP|d2 DET N|return_trip	5
+NP|d2 DET N|weekend	1
+NP|d2 DET N|{d1;d2}	1
+NP|d2 ERRORDET NP|town.heusden	1
+NP|d2 ERRORNP NP|town.soestdijk	1
+NP|d2 INT NP|d2.d1	1
+NP|d2 N NP|d2	1
+NP|d2 N NP|suffix.heyendaal	1
+NP|d2 N NP|town.baarn	1
+NP|d2 N NP|town.best	1
+NP|d2 N NP|town.d1_d2	1
+NP|d2 N NP|town.de_vink	1
+NP|d2 N NP|town.emmen	1
+NP|d2 N NP|town.soestdijk	1
+NP|d2 N NP|town.voorschoten	1
+NP|d2 NP ADJ|earlier	1
+NP|d2 NP MP|d1.d2	1
+NP|d2 NP|d2 ADJ|earlier	1
+NP|d2 NP|town.leiden NP|town.d1_d2	1
+NP|d2.d1 NUM|10 N|clock_hour	16
+NP|d2.d1 NUM|10 N|minute	1
+NP|d2.d1 NUM|11 N|clock_hour	2
+NP|d2.d1 NUM|12 N|clock_hour	3
+NP|d2.d1 NUM|14 N|hour	2
+NP|d2.d1 NUM|17 N|hour	1
+NP|d2.d1 NUM|2 N|clock_hour	9
+NP|d2.d1 NUM|20 N|hour	1
+NP|d2.d1 NUM|23 N|hour	1
+NP|d2.d1 NUM|3 N|clock_hour	5
+NP|d2.d1 NUM|3 N|days	1
+NP|d2.d1 NUM|4 N|clock_hour	4
+NP|d2.d1 NUM|5 N|clock_hour	1
+NP|d2.d1 NUM|6 N|clock_hour	2
+NP|d2.d1 NUM|7 N|clock_hour	1
+NP|d2.d1 NUM|8 N|clock_hour	10
+NP|d2.d1 NUM|9 N|clock_hour	12
+NP|d2.d4 DET N|clock_hour CON NUM|10	1
+NP|d2.d4 DET N|clock_hour CON NUM|11	1
+NP|drenthe "drenthe"	2
+NP|station.d1_d2 PPN|gilze PPN|rijen	1
+NP|station.naarden_bussum "naardenbussum"	2
+NP|suffix.buijtenwegh "buytenwegh"	1
+NP|suffix.cs "centraal"	10
+NP|suffix.d1_d2 PPN|de PPN|klomp	4
+NP|suffix.haven "haven"	1
+NP|suffix.heyendaal "heyendaal"	5
+NP|suffix.hs "hs"	1
+NP|suffix.hs PPN|hollands PPN|spoor	1
+NP|suffix.laan_van_noi PPN PPN PPN	2
+NP|suffix.laan_van_noi PPN PPN|oost PPN	1
+NP|suffix.laan_van_noi PPN|nieuw PPN|oost PPN	1
+NP|suffix.lelylaan "lelylaan"	4
+NP|suffix.mariahoeve "mariahoeve"	6
+NP|suffix.muiderpoort "muiderpoort"	1
+NP|suffix.noord "noord"	4
+NP|suffix.oost "oost"	4
+NP|suffix.west "west"	1
+NP|suffix.zuid "zuid"	2
+NP|town.aachen "aken"	8
+NP|town.akkrum "akkrum"	4
+NP|town.alkmaar "alkmaar"	19
+NP|town.almelo "almelo"	3
+NP|town.amersfoort "amersfoort"	1
+NP|town.amsterdam "amsterdam"	22
+NP|town.antwerpen "antwerpen"	7
+NP|town.appingedam "appingedam"	7
+NP|town.arkel "arkel"	4
+NP|town.arnhem "arnhem"	3
+NP|town.assen "assen"	9
+NP|town.baarn "baarn"	15
+NP|town.beek "beek"	4
+NP|town.beilen "beilen"	4
+NP|town.bergambacht "bergambacht"	3
+NP|town.bergen "bergen"	4
+NP|town.best "best"	4
+NP|town.bilthoven "bilthoven"	1
+NP|town.bolsward "bolsward"	1
+NP|town.borne "borne"	6
+NP|town.boxmeer "boxmeer"	1
+NP|town.boxtel "boxtel"	1
+NP|town.breda "breda"	7
+NP|town.brussel "brussel"	23
+NP|town.bunde "bunde"	7
+NP|town.castricum "castricum"	1
+NP|town.cuyk "cuyk"	20
+NP|town.d1_d2 PPN|de PPN|vink	7
+NP|town.d1_d2 PPN|den PPN|haag	17
+NP|town.d1_d2 PPN|den PPN|helder	2
+NP|town.d1_d2 PPN|nieuw PPN|vennep	2
+NP|town.d1_d2_d3 PPN|hoek PPN|van PPN|holland	2
+NP|town.de_vink "vink"	1
+NP|town.delden "delden"	3
+NP|town.delft "delft"	7
+NP|town.deurne "deurne"	3
+NP|town.duivendrecht "duivendrecht"	11
+NP|town.eindhoven "eindhoven"	6
+NP|town.elst "elst"	8
+NP|town.emmen "emmen"	11
+NP|town.enkhuizen "enkhuizen"	3
+NP|town.enschede "enschede"	10
+NP|town.ermelo "ermelo"	1
+NP|town.etten_leur "ettenleur"	4
+NP|town.groningen "groningen"	18
+NP|town.hardenberg "hardenberg"	3
+NP|town.heerhugowaard "heerhugowaard"	2
+NP|town.heerlen "heerlen"	2
+NP|town.hengelo "hengelo"	2
+NP|town.hertogenbosch PPN|den PPN|bosch	4
+NP|town.heusden "heusden"	4
+NP|town.hilversum "hilversum"	1
+NP|town.hooghalen "hooghalen"	1
+NP|town.kerkrade "kerkrade"	3
+NP|town.leeuwarden "leeuwarden"	4
+NP|town.leiden "leiden"	3
+NP|town.leidschendam "leidschendam"	1
+NP|town.lisse "lisse"	5
+NP|town.maastricht "maastricht"	13
+NP|town.marienheem "marienheem"	2
+NP|town.meerssen "meerssen"	3
+NP|town.middelburg "middelburg"	2
+NP|town.naarden "naarden"	2
+NP|town.nijmegen "nijmegen"	33
+NP|town.oss "oss"	8
+NP|town.ravenstein "ravenstein"	1
+NP|town.reuver "reuver"	4
+NP|town.rijen "rijen"	4
+NP|town.rijssen "rijssen"	2
+NP|town.roodeschool "roodeschool"	2
+NP|town.roosendaal "roosendaal"	6
+NP|town.rotterdam "rotterdam"	3
+NP|town.schagen "schagen"	1
+NP|town.schiphol "schiphol"	8
+NP|town.sittard "sittard"	10
+NP|town.sneek "sneek"	1
+NP|town.soest "soest"	1
+NP|town.soestdijk "soestdijk"	8
+NP|town.swalmen "swalmen"	3
+NP|town.ter_apel "terapel"	2
+NP|town.tiel "tiel"	3
+NP|town.tilburg "tilburg"	3
+NP|town.utrecht "utrecht"	15
+NP|town.veenendaal "veenendaal"	3
+NP|town.venlo "venlo"	2
+NP|town.vierlingsbeek "vierlingsbeek"	4
+NP|town.vleuten "vleuten"	3
+NP|town.vlissingen "vlissingen"	20
+NP|town.voorburg "voorburg"	17
+NP|town.voorschoten "voorschoten"	6
+NP|town.wierden "wierden"	2
+NP|town.wijchen "wiechen"	15
+NP|town.winterswijk "winterswijk"	3
+NP|town.woerden "woerden"	13
+NP|town.zaandam "zaandam"	6
+NP|town.zetten "zetten"	1
+NP|town.zoetermeer "zoetermeer"	6
+NP|town.zutphen "zutphen"	1
+NP|town.zwolle "zwolle"	13
+NP|zetten_andelst "zettenandelst"	2
+NP|{clock_hour.d3;minute.d2d1} NUM|15 P|+ NUM|10	1
+NP|{clock_hour.d3;minute.d2d1} NUM|15 P|+ NUM|11	1
+NP|{clock_hour.d3;minute.d2d1} NUM|15 P|- NUM|8	2
+NP|{d1;clock_hour.d2} ADJ|minute.-30 NUM|11	3
+NP|{d1;clock_hour.d2} ADJ|minute.-30 NUM|12	1
+NP|{d1;clock_hour.d2} ADJ|minute.-30 NUM|4	1
+NP|{d1;clock_hour.d2} ADJ|minute.-30 NUM|7	1
+NP|{d1;clock_hour.d2} ADJ|minute.-30 NUM|9	4
+NP|{d1;d2} NP|d2 MP|{d1;d2}	1
+NP|{d1;d2} NP|town.amsterdam NP|suffix.cs	5
+NP|{d1;d2} NP|town.amsterdam NP|suffix.lelylaan	1
+NP|{d1;d2} NP|town.brussel NP|suffix.cs	2
+NP|{d1;d2} NP|town.brussel NP|suffix.noord	4
+NP|{d1;d2} NP|town.d1_d2 NP|d1	2
+NP|{d1;d2} NP|town.d1_d2 NP|suffix.hs	2
+NP|{d1;d2} NP|town.d1_d2 NP|suffix.laan_van_noi	3
+NP|{d1;d2} NP|town.d1_d2 NP|suffix.mariahoeve	4
+NP|{d1;d2} NP|town.d1_d2 NP|suffix.zuid	1
+NP|{d1;d2} NP|town.d1_d2_d3 NP|suffix.haven	1
+NP|{d1;d2} NP|town.d1_d2_d3 NP|suffix.zuid	1
+NP|{d1;d2} NP|town.nijmegen NP|suffix.heyendaal	1
+NP|{d1;d2} NP|town.rotterdam NP|suffix.cs	1
+NP|{d1;d2} NP|town.veenendaal NP|suffix.d1_d2	3
+NP|{d1;d2} NP|town.zoetermeer NP|suffix.buijtenwegh	1
+NP|{d1;d2} NP|town.zoetermeer NP|suffix.oost	4
+NP|{d1;d2} NP|{d1;d2} NP|suffix.laan_van_noi	1
+NP|{d1;d2} N|day_of_week.friday NP|{day.d1;d2}	1
+NP|{d1;d2} N|day_of_week.monday NP|{day.d1;d2}	2
+NP|{d1;d2} N|day_of_week.saturday NP|{day.d1;d2}	1
+NP|{d1;d2} N|day_of_week.sunday N|afternoon	3
+NP|{d1;d2} N|day_of_week.sunday N|evening	2
+NP|{d1;d2} N|day_of_week.tuesday NP|{day.d1;d2}	1
+NP|{d1;d2} PPN|town.tilburg NP|suffix.west	1
+NP|{d1;day.d2} N|day_of_week.monday NUM|8	1
+NP|{d2.d1;minute.d3} NUM|11 N|clock_hour NUM|15	2
+NP|{d2.d1;minute.d3} NUM|13 N|hour NUM|50	1
+NP|{d2.d1;minute.d3} NUM|17 N|hour NUM|35	1
+NP|{d2.d1;minute.d3} NUM|3 N|clock_hour NUM|20	2
+NP|{d2.d1;minute.d3} NUM|d1d2d3 N|hour NUM|15	1
+NP|{day.d1;d2} NUM|10 N|month.december	2
+NP|{day.d1;d2} NUM|12 N|month.january	1
+NP|{day.d1;d2} NUM|15 N|month.december	1
+NP|{day.d1;d2} NUM|16 N|month.december	1
+NP|{day.d1;d2} NUM|18 N|month.december	1
+NP|{day.d1;d2} NUM|4 N|month.june	2
+NP|{day.d1;d2} NUM|5 N|month.december	3
+NP|{day.d1;d2} NUM|6 N|month.december	1
+NP|{day_of_week.thursday;evening} "donderdagavond"	1
+NUM|1 "een"	1
+NUM|10 "tien"	22
+NUM|11 "elf"	10
+NUM|12 "twaalf"	5
+NUM|13 "dertien"	1
+NUM|14 "veertien"	2
+NUM|15 "kwart"	4
+NUM|15 "vijftien"	4
+NUM|16 "zestien"	1
+NUM|17 "zeventien"	2
+NUM|18 "achttien"	1
+NUM|2 "twee"	10
+NUM|20 "twintig"	4
+NUM|23 "drieentwintig"	1
+NUM|3 "drie"	9
+NUM|35 "vijfendertig"	1
+NUM|4 "vier"	7
+NUM|5 "vijf"	4
+NUM|50 "vijftig"	1
+NUM|6 "zes"	3
+NUM|7 "zeven"	2
+NUM|8 "acht"	13
+NUM|9 "negen"	17
+NUM|d1d2d3 NUM|3 CON|+ NUM|20	1
+N|afternoon "middag"	7
+N|christmas "kerstdag"	9
+N|christmas "kerstmis"	5
+N|clock_hour "uur"	72
+N|connection "reis"	3
+N|connection "trein"	2
+N|connection "verbinding"	8
+N|d1 ADJ|more N|connection	6
+N|d1 N|day_of_week.tuesday INT	1
+N|d2 ADJ N|day_of_week.friday	2
+N|d2 ADJ N|day_of_week.saturday	1
+N|d2 ADJ N|day_of_week.wednesday	1
+N|d2 ADV N|date.{day.24+d1;month.december}	1
+N|d2.d1 ADJ|next N|week	3
+N|d2.d1 ADJ|return_trip N|connection	3
+N|date.{day.24+d1;month.december} ADJ|1 N|christmas	9
+N|date.{day.5;month.december} "sinterklaas"	2
+N|day_of_week.friday "vrijdag"	8
+N|day_of_week.monday "maandag"	3
+N|day_of_week.saturday "zaterdag"	4
+N|day_of_week.sunday "zondag"	10
+N|day_of_week.thursday "donderdag"	1
+N|day_of_week.tuesday "dinsdag"	8
+N|day_of_week.wednesday "woensdag"	4
+N|days "dagen"	1
+N|evening "avond"	4
+N|hour "uur"	8
+N|minute "minuten"	1
+N|month.december "december"	9
+N|month.january "januari"	1
+N|month.june "juni"	2
+N|month.may "mei"	1
+N|morning "ochtend"	1
+N|return_trip "retourreis"	1
+N|return_trip "terugreis"	4
+N|week "week"	3
+N|weekend "weekend"	1
+N|{d1;d2} ADJ|last N|connection	1
+N|{d1;d2} N|d2.d1 N|day_of_week.tuesday	3
+P "aan"	1
+P "in"	1
+P "met"	1
+P "tussen"	2
+P "van"	2
+P "voor"	1
+PART "aan"	1
+PART "te"	1
+PER "je"	2
+PER "u"	19
+PER|user "ik"	205
+PPN "indie"	4
+PPN "noord"	3
+PPN "oost"	2
+PPN|bosch "bosch"	4
+PPN|de "de"	11
+PPN|den "den"	23
+PPN|gilze "gilze"	1
+PPN|haag "haag"	17
+PPN|helder "helder"	2
+PPN|hoek "hoek"	2
+PPN|holland "holland"	2
+PPN|hollands "hollands"	1
+PPN|klomp "klomp"	4
+PPN|nieuw "nieuw"	3
+PPN|oost "oost"	2
+PPN|rijen "rijen"	1
+PPN|spoor "spoor"	1
+PPN|town.tilburg "tilburg"	1
+PPN|van "van"	2
+PPN|vennep "vennep"	2
+PPN|vink "vink"	7
+PRO "het"	2
+PRO|dref "dat"	50
+PRO|dref "dit"	1
+PRO|dref "het"	1
+PTP "bedankt"	11
+PTP "gezegd"	1
+PTP NP PTP	1
+P|+ "over"	2
+P|- "voor"	2
+P|after "na"	1
+P|at "in"	2
+P|at "met"	8
+P|at "om"	66
+P|at "op"	16
+P|at "rond"	16
+P|at "tegen"	1
+P|d2 ERRORP P|destination.place	1
+P|d2 ERRORP P|origin.place	3
+P|destination.place "naar"	285
+P|in "over"	1
+P|origin.place "uit"	2
+P|origin.place "van"	253
+P|origin.place "vanaf"	5
+P|origin.place "vanuit"	36
+P|place "in"	7
+QS ADV SO	1
+S CON S	1
+S PER|user VP	1
+S PRO V	1
+S PRO|dref VP	1
+S PRO|dref VP|d2	2
+SO SO ADV	1
+SO SO INT	2
+SO SO PTP	1
+SO V PER|user	3
+SO V PRO|dref	1
+SO|d1.d2 SO|d2.d1 INFP|d2	1
+SO|d1.d2 SO|d2.d1 MP|[d1d2]	1
+SO|d1.d2 SO|d2.d1 PRO|dref	1
+SO|d2 SO|d2.d1 ADV|#	1
+SO|d2.d1 V|wants PER|user	5
+S|[d2d1] PRO|dref VP|d1	1
+S|[d2d1] PRO|dref VP|d2	18
+S|[d2d1] PRO|dref V|+	23
+S|d1.d2 PER|user INFP|d2	1
+S|d1.d2 PER|user MP|[d1d2]	1
+S|d1.d2 PER|user MP|d1.d2	1
+S|d1.d2 PER|user VP|d1.d2	187
+S|d1.d2 PER|user VP|d2	1
+S|d1.d2 PER|user V|wants	1
+S|d2 ERRORS S|d1.d2	1
+S|d2 INT S|d1.d2	4
+S|d2 NP|christmas S|d1.d2	1
+S|d2 PER VP|d2	1
+S|d2 PER|user INFP|d2.d1	1
+S|d2 PER|user VP|d2	1
+S|d2.d1 PRO|dref VP|d2	1
+S|{d1;[d2d3]} S|[d2d1] CON|! S|d1.d2	1
+S|{d1;d3} S|d1.d2 CON S|d1.d2	1
+S|{d1;d3} S|d1.d2 CON TS|d2.d1	1
+TOP ADV|[=no]	2
+TOP ADV|[=yes]	3
+TOP ADV|[d1dref]	1
+TOP ADV|now	1
+TOP A|[d1d2]	23
+TOP A|d1	49
+TOP A|d1.d2	2
+TOP A|d1;[d2d3]	1
+TOP A|d1;d2	62
+TOP A|d1;d3	2
+TOP A|d2	3
+TOP A|origin.place.d1;d2	2
+TOP A|origin.place.d1;destination.place.d2	1
+TOP IMPS|d2	3
+TOP INF|travel.destination	1
+TOP MP|d1	1
+TOP MP|d1.d2	64
+TOP MP|d1;d2	2
+TOP MP|d2	2
+TOP MP|d2.d1	2
+TOP MP|day_after_tomorrow	8
+TOP MP|now	4
+TOP MP|return_trip	3
+TOP MP|today	4
+TOP MP|tomorrow	11
+TOP MP|{after.clock_hour.d2;before.clock_hour.d4}	1
+TOP MP|{after.d2;before.d4}	1
+TOP MP|{d1;d2}	163
+TOP MP|{d1;d3}	1
+TOP MP|{origin.place.d1;d2}	5
+TOP MP|{today;afternoon}	2
+TOP MP|{today;evening}	1
+TOP MP|{tomorrow;afternoon}	1
+TOP MP|{tomorrow;evening}	1
+TOP MP|{tomorrow;morning}	2
+TOP NP|d2	3
+TOP NP|d2.d1	5
+TOP NP|suffix.d1_d2	1
+TOP NP|town.baarn	3
+TOP NP|town.brussel	1
+TOP NP|town.bunde	1
+TOP NP|town.eindhoven	2
+TOP NP|town.utrecht	2
+TOP NP|town.vlissingen	1
+TOP NP|town.wierden	1
+TOP NP|town.zaandam	2
+TOP NP|{clock_hour.d3;minute.d2d1}	2
+TOP NP|{d1;clock_hour.d2}	1
+TOP NP|{d1;d2}	8
+TOP NP|{d2.d1;minute.d3}	2
+TOP NP|{day.d1;d2}	1
+TOP NP|{day_of_week.thursday;evening}	1
+TOP N|d2	2
+TOP N|date.{day.24+d1;month.december}	1
+TOP N|day_of_week.friday	2
+TOP N|day_of_week.saturday	2
+TOP N|day_of_week.sunday	3
+TOP N|day_of_week.thursday	1
+TOP N|day_of_week.tuesday	1
+TOP N|month.may	1
+TOP N|{d1;d2}	2
+TOP S|[d2d1]	7
+TOP S|d1.d2	151
+TOP S|d2	6
+TOP S|{d1;d3}	2
+TOP TS|d1	1
+TOP TS|d2	1
+TOP TS|{d1;d2}	1
+TOP TV|[=no]	90
+TOP TV|[=yes]	76
+TOP TV|d1	6
+TOP V|{error.not_understood}	1
+TS PRO|dref SO	2
+TS|[d2d1] PRO|dref SO|d2	1
+TS|d1 MP|d1.d2 SO	1
+TS|d1 NP|{day.d1;d2} QS	1
+TS|d2 ADV SO|d1.d2	1
+TS|d2.d1 MP|tomorrow SO|d1.d2	1
+TS|d2.d1 PRO|dref SO|d2.d1	1
+TS|{d1;d2} MP|{tomorrow;afternoon} SO|d1.d2	1
+TV|! "nee"	24
+TV|[=no] "fout"	2
+TV|[=no] "nee"	149
+TV|[=no] "needanku"	1
+TV|[=yes] "ja"	119
+TV|[=yes] "jadatklopt"	1
+TV|[=yes] "jawel"	4
+TV|[=yes] "prima"	1
+TV|d1 TV|! TV|[=yes]	1
+TV|d1 TV|[=no] INT	5
+TV|d1 TV|[=no] TV|[=yes]	1
+V "dank"	20
+V "doe"	7
+V "heb"	2
+V "hoeft"	12
+V "is"	10
+V "kan"	2
+V "laat"	2
+V "ligt"	1
+V "moet"	1
+V "zei"	2
+VP V ADV	2
+VP V P ADV	1
+VP V PER	20
+VP V PRO	1
+VP VP ADV	11
+VP|[d2dref] V|+ ADV|#	1
+VP|d1 V|+ ADV	1
+VP|d1.d2 V|d2 INFP|d2.{d1;d3}	1
+VP|d1.d2 V|wants INFP|d1	1
+VP|d1.d2 V|wants INFP|d1.d2	7
+VP|d1.d2 V|wants INFP|d2.d1	54
+VP|d1.d2 V|wants MP|[d1d2]	8
+VP|d1.d2 V|wants MP|d1.d2	14
+VP|d1.d2 V|wants MP|d2	5
+VP|d1.d2 V|wants MP|{d1;d2}	85
+VP|d1.d2 V|wants MP|{d1;destination.place.d2}	1
+VP|d1.d2 V|wants MP|{origin.place.d1;d2}	3
+VP|d1.d2 V|wants NP|[d1d2]	3
+VP|d1.d2 V|wants NP|d1.d2	1
+VP|d1.d2 V|wants NP|d2	4
+VP|d1.d2 V|wants N|d2	1
+VP|d2 V ADV|#	11
+VP|d2 V ADV|d1	6
+VP|d2 V INFP|[d2d3]	1
+VP|d2 V INFP|d2.d1	1
+VP|d2 V MP|d2	1
+VP|d2 V NP|d1	1
+VP|d2 V NP|d2	1
+VP|d2 V N|day_of_week.tuesday	1
+VP|d2 V|+ ADV|#	1
+V|+ "klopt"	26
+V|d2 ERRORV V|wants	1
+V|wants "ga"	1
+V|wants "moet"	6
+V|wants "wil"	188
+V|{error.not_understood} "stop"	1
