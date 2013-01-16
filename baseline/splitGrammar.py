@@ -25,7 +25,35 @@ import cPickle as pickle
 
 
 def main():
+    old=open(sys.argv[1]).readlines()
+    newgram=open(sys.argv[2],"w+" )
+    lexicon=open(sys.argv[3],"w+")
+    lexiconDic={}
+    for line in old:
+        if "\"" in line:#lexicon item
+            splitted=line.split("\t")
+            terminal=splitted[0].split()[1][1:-1]
+            tag=splitted[0].split()[0]
+            frequency=splitted[1][:-1]
+            if terminal in lexiconDic:
+                update=lexiconDic[terminal]
+                update.append([tag,frequency])
+            else:
+                lexiconDic[terminal]=[[tag,frequency]]
+        else:#grammar item
+            splitted=line.split("\t")
+            newgram.write(splitted[1][:-1]+" "+splitted[0]+"\n")
 
+
+    for terminal in lexiconDic:
+        tags=lexiconDic[terminal]
+        stringer=terminal+"\t"
+        for element in tags:
+            stringer=stringer+" "+element[0]+" "+element[1]
+
+        lexicon.write(stringer+"\n")
+    newgram.close
+    lexicon.close
 
 
 #-------------------------------
