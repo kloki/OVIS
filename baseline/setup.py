@@ -23,8 +23,9 @@ import cPickle as pickle
 
 
 def main():
-    trees=open(sys.argv[1]).readlines()
-    sentences=open(sys.argv[2]).readlines()
+    trees=open("../corpora/conformedTreesCurly").readlines()
+    sentences=open("../corpora/sentences").readlines()
+    semantics=open("../corpora/updateSemantics").readlines()
     assert len(trees)==len(sentences)
     print str(len(trees))+" sentences" 
 
@@ -33,32 +34,39 @@ def main():
         if sentences[i]=="\n":
             trees.pop(i)
             sentences.pop(i)
-    print "remove misrecording"
+            semantics.pop(i)
+    print "removed misrecordings"
     print str(len(trees))+" sentences left" 
 
     #shuffle
     p = numpy.random.permutation(len(trees))
     shuffTrees=[]
     shuffSentences=[]
+    shuffSemantics=[]
     for i in p:
         shuffTrees.append(trees[i])
         shuffSentences.append(sentences[i])
-    
+        shuffSemantics.append(semantics[i)
 
     #create test set
     trainTrees=open("trainTrees","w+")
     testTrees=open("testTrees","w+")
     trainSentences=open("trainSentences","w+")
     testSentences=open("testSentencesDum","w+")
+    trainSemantics=open("trainSemantics","w+")
+    testSemantics=open("testSemantics","w+")
+                
     
     for i in xrange(len(trees)):
         if i <=(len(trees)-500):
             trainTrees.write(shuffTrees[i])
             trainSentences.write(shuffSentences[i])
+            trainSemantics.write(shuffSemantics[i])
         else:
             testTrees.write(shuffTrees[i])
             testSentences.write(shuffSentences[i])
-            
+            testSemantics.write(shuffSemantics[i])
+                              
     print "building Grammar, This can take a while..."  
     os.system("java -jar PCFG_extractor.jar trainTrees combinedGrammar")
     os.system("./splitGrammar.py combinedGrammar grammar lexicon")
@@ -71,8 +79,30 @@ def main():
     os.system("rm testSentencesDum")
     
     #run bitpar
+    print "running bitpar"
     os.system(" bitpar grammar lexicon testSentences bitParResults -p -s TOP -u unknown -v")
     
+
+
+    #first sanatize bitparResults
+    results=open("bitParResults").read()
+    results=results.replace("\\=","=")
+    results=results.replace("\\[","[")
+    results=results.replace("\\]","]")
+    results=results.replace("\\{","(")
+    results=results.replace("\\}",")")
+    
+    newresults=open("results","w+")
+    newresults.write(results)
+    newresults.close()
+    
+
+    #extract semantics
+    print "extracting semantics"
+    os.system("../scripts/tree2updateSem.py -f results -p > extractedSemantics")
+    
+    print "evaluation"
+    os.system("../scripts/ovisEva.py -f extractedSemantics -g testSemantics")
 #-------------------------------
 if __name__ == "__main__":
     main()
