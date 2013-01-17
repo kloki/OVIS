@@ -52,7 +52,7 @@ def main():
     testSentences=open("testSentencesDum","w+")
     
     for i in xrange(len(trees)):
-        if i <=9500:
+        if i <=(len(trees)-500):
             trainTrees.write(shuffTrees[i])
             trainSentences.write(shuffSentences[i])
         else:
@@ -69,6 +69,9 @@ def main():
     #formatting the sentences for bitpar
     os.system("./bitParSentence.py testSentencesDum > testSentences")
     os.system("rm testSentencesDum")
+    
+    #run bitpar
+    os.system(" bitpar grammar lexicon testSentences bitParResults -p -s TOP -u unknown -v")
     
 #-------------------------------
 if __name__ == "__main__":
