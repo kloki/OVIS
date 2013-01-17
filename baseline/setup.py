@@ -23,9 +23,9 @@ import cPickle as pickle
 
 
 def main():
-    trees=open("../corpora/conformedTreesCurly").readlines()
-    sentences=open("../corpora/sentences").readlines()
-    semantics=open("../corpora/updateSemantics").readlines()
+    trees=open("../corpera/conformedTreesCurly").readlines()
+    sentences=open("../corpera/sentences").readlines()
+    semantics=open("../corpera/updateSemantics").readlines()
     assert len(trees)==len(sentences)
     print str(len(trees))+" sentences" 
 
@@ -46,7 +46,7 @@ def main():
     for i in p:
         shuffTrees.append(trees[i])
         shuffSentences.append(sentences[i])
-        shuffSemantics.append(semantics[i)
+        shuffSemantics.append(semantics[i])
 
     #create test set
     trainTrees=open("trainTrees","w+")
@@ -58,7 +58,7 @@ def main():
                 
     
     for i in xrange(len(trees)):
-        if i <=(len(trees)-500):
+        if i <(len(trees)-500):
             trainTrees.write(shuffTrees[i])
             trainSentences.write(shuffSentences[i])
             trainSemantics.write(shuffSemantics[i])
@@ -85,15 +85,21 @@ def main():
 
 
     #first sanatize bitparResults
-    results=open("bitParResults").read()
-    results=results.replace("\\=","=")
-    results=results.replace("\\[","[")
-    results=results.replace("\\]","]")
-    results=results.replace("\\{","(")
-    results=results.replace("\\}",")")
-    
+    results=open("bitParResults").readlines()
     newresults=open("results","w+")
-    newresults.write(results)
+    for i in results:
+        if "No parse for" in i:
+            i="(TOP (EMPTY))" 
+        else:
+            i=i.replace("\\=","=")
+            i=i.replace("\\[","[")
+            i=i.replace("\\]","]")
+            i=i.replace("\\{","(")
+            i=i.replace("\\}",")")
+            i=i.replace(")(",") (")
+        newresults.write(i)
+    
+    
     newresults.close()
     
 
