@@ -1,14 +1,14 @@
-42 ADV ADV ADV
+40 ADV ADV ADV
 1 ADV ADV ADV|#
 3 ADV INT ADV
-2 ADV|[=no] ADV ADV|#
+3 ADV|[=no] ADV ADV|#
 2 ADV|[d1d2] ADV|# ADV|more
-28 ADV|[d1dref] ADV|# ADV
+29 ADV|[d1dref] ADV|# ADV
 1 ADV|[d1dref] ADV|d1 ADV
 1 ADV|[d2d1] ADV|now ADV|#
 4 ADV|connection.time ADV ADV
-52 ADV|d1 ADV|# ADV
-19 ADV|d1 ADV|# ADV|+
+51 ADV|d1 ADV|# ADV
+18 ADV|d1 ADV|# ADV|+
 3 ADV|d1 ADV|+ ADV
 3 ADV|d1 ADV|[#browse] ADV
 1 ADV|d1 ADV|[#browse] ADV|+
@@ -63,27 +63,27 @@
 2 A|[d1d2] TV|! INFP|d2.d1
 3 A|[d1d2] TV|! INF|travel.destination
 1 A|[d1d2] TV|! MP|afternoon
-3 A|[d1d2] TV|! MP|d1
-29 A|[d1d2] TV|! MP|d1.d2
+2 A|[d1d2] TV|! MP|d1
+31 A|[d1d2] TV|! MP|d1.d2
 1 A|[d1d2] TV|! MP|day_after_tomorrow
 1 A|[d1d2] TV|! MP|earlier
-8 A|[d1d2] TV|! MP|evening
+9 A|[d1d2] TV|! MP|evening
 2 A|[d1d2] TV|! MP|tomorrow
-38 A|[d1d2] TV|! MP|{d1;d2}
+39 A|[d1d2] TV|! MP|{d1;d2}
 1 A|[d1d2] TV|! MP|{d1;d3}
 2 A|[d1d2] TV|! NP|d2
 1 A|[d1d2] TV|! NP|d2.d1
 1 A|[d1d2] TV|! NP|town.haarlem
 1 A|[d1d2] TV|! NP|town.voorburg
 5 A|[d1d2] TV|! NP|{d1;d2}
-1 A|[d1d2] TV|! NP|{d4.d1;minute.d3}
 2 A|[d1d2] TV|! NP|{day.d1;d2}
-1 A|[d1d2] TV|! N|d2.d1
+1 A|[d1d2] TV|! NP|{origin.place.d1;destination.place.d2}
 2 A|[d1d2] TV|! N|date.{day.24+d1;month.december}
 131 A|[d1d2] TV|! S|d1.d2
-5 A|[d1d2] TV|! S|d2
+6 A|[d1d2] TV|! S|d2
 2 A|[d1d2] TV|! TS|d2.d1
 2 A|[d1d2] TV|! TS|{d1;d2}
+1 A|[d1d2] TV|! VP|d1.d2
 1 A|[d1d2] TV|d2 MP|d1.d2
 1 A|[d1d2] TV|d2 NP|{d4.d1;minute.d3}
 1 A|[d1d2] TV|d2 NP|{hour.d1;minute.d3}
@@ -116,36 +116,35 @@
 1 A|d1 TV|[=no] MP|[d2d1]
 2 A|d1 TV|[=no] N
 1 A|d1 TV|[=no] NP
-22 A|d1 TV|[=no] PTP
+23 A|d1 TV|[=no] PTP
 1 A|d1 TV|[=no] PTP S
 5 A|d1 TV|[=no] S
 1 A|d1 TV|[=no] SO
 1 A|d1 TV|[=no] S|d1.d2 VP
 2 A|d1 TV|[=no] S|d2
 1 A|d1 TV|[=no] S|d2 N
-3 A|d1 TV|[=no] S|d2 VP
+4 A|d1 TV|[=no] S|d2 VP
 2 A|d1 TV|[=no] TS
 1 A|d1 TV|[=no] TV|[=no]
 1 A|d1 TV|[=no] V
-356 A|d1 TV|[=no] VP
+360 A|d1 TV|[=no] VP
 2 A|d1 TV|[=no] VP MP
 1 A|d1 TV|[=no] VP MP|[d2d1]
 1 A|d1 TV|[=no] VP NP
 2 A|d1 TV|[=no] VP S
-2 A|d1 TV|[=no] VP S|d1.d2
-5 A|d1 TV|[=no] VP S|d2
+1 A|d1 TV|[=no] VP S|d1.d2
+6 A|d1 TV|[=no] VP S|d2
 1 A|d1 TV|[=no] VP S|{d1;d3}
-3 A|d1 TV|[=no] VP VP
-1 A|d1 TV|[=no] VP|[=no] S|d2 TV|[=yes] VP
+4 A|d1 TV|[=no] VP VP
 1 A|d1 TV|[=no] VP|[d2dref]
-109 A|d1 TV|[=yes] ADV
+111 A|d1 TV|[=yes] ADV
 1 A|d1 TV|[=yes] ADV|+
 1 A|d1 TV|[=yes] CON|! NP
-6 A|d1 TV|[=yes] IMPS
+7 A|d1 TV|[=yes] IMPS
 1 A|d1 TV|[=yes] MP|d1.d2
 1 A|d1 TV|[=yes] MP|{d1;d2}
 1 A|d1 TV|[=yes] QS
-4 A|d1 TV|[=yes] S
+2 A|d1 TV|[=yes] S
 2 A|d1 TV|[=yes] S|[d2d1]
 1 A|d1 TV|[=yes] S|d1.d2
 3 A|d1 TV|[=yes] TS
@@ -158,7 +157,7 @@
 2 A|d1 TV|d1 S|[d2d1]
 4 A|d1 TV|d1 S|d1.d2
 2 A|d1 TV|d1 S|d2
-42 A|d1 TV|d1 VP
+43 A|d1 TV|d1 VP
 1 A|d1 TV|d2 S|d2
 1 A|d1 TV|d2 VP
 1 A|d1 TV|d2 VP|[d2dref]
@@ -168,6 +167,7 @@
 2 A|d1.d2 PER|user MP|{d1;d2}
 1 A|d1;[!d2] MP|[d1d2] NP|town.hoorn
 1 A|d1;[!d2] MP|[d1d2] NP|town.rhenen
+1 A|d1;[!d2] S|[d2d1] MP|{d1;d2}
 1 A|d1;[!d2] S|d2 S|d2
 1 A|d1;[d2d3] MP|d1.d2 TV|! S|d1.d2
 1 A|d1;[d2d3] TV|[=no] CON|! NP|d2
@@ -183,6 +183,7 @@
 1 A|d1;d2 MP|[d1d2] S|d1.d2
 1 A|d1;d2 MP|[d1d2] TS|d2.d1
 1 A|d1;d2 MP|d1.d2 NP|d2
+1 A|d1;d2 MP|d2 NP|{clock_hour.d3;minute.d2d1}
 1 A|d1;d2 MP|morning TV|[=yes]
 1 A|d1;d2 MP|today NP|{d1;d2}
 1 A|d1;d2 MP|tomorrow TV|[=no]
@@ -204,8 +205,8 @@
 1 A|d1;d2 QS|d2 QS|{d2;d4}
 1 A|d1;d2 S|[d2d1] MP|{d1;d2}
 6 A|d1;d2 S|[d2d1] S|d1.d2
-2 A|d1;d2 S|[d2d1] S|d2
-5 A|d1;d2 S|[d2d1] TV|[=yes]
+3 A|d1;d2 S|[d2d1] S|d2
+4 A|d1;d2 S|[d2d1] TV|[=yes]
 1 A|d1;d2 S|d1.d2 MP|{d1;[d2d3]}
 49 A|d1;d2 S|d1.d2 S|d1.d2
 1 A|d1;d2 S|d1.d2 S|d2
@@ -225,24 +226,24 @@
 2 A|d1;d2 TV|[=no] ADV|d2
 2 A|d1;d2 TV|[=no] IMPS|d2
 1 A|d1;d2 TV|[=no] INFP|[d1d2]
-3 A|d1;d2 TV|[=no] MP|[d1d2]
+2 A|d1;d2 TV|[=no] MP|[d1d2]
 1 A|d1;d2 TV|[=no] MP|{d1;[!d2]}
-8 A|d1;d2 TV|[=no] MP|{d1;[d2d3]}
+9 A|d1;d2 TV|[=no] MP|{d1;[d2d3]}
 2 A|d1;d2 TV|[=no] MP|{d1;d2}
 1 A|d1;d2 TV|[=no] NP|{d1;d2}
 1 A|d1;d2 TV|[=no] N|[d1d2]
 1 A|d1;d2 TV|[=no] PTP|[#repeat] ADV PTP
 1 A|d1;d2 TV|[=no] P|at
-73 A|d1;d2 TV|[=no] S|[d2d1]
+71 A|d1;d2 TV|[=no] S|[d2d1]
 1 A|d1;d2 TV|[=no] S|[d2d1] S
 7 A|d1;d2 TV|[=no] S|[d2d1] VP
-21 A|d1;d2 TV|[=no] S|d1.d2
-1 A|d1;d2 TV|[=no] S|d1.d2 VP
+20 A|d1;d2 TV|[=no] S|d1.d2
+2 A|d1;d2 TV|[=no] S|d1.d2 VP
 11 A|d1;d2 TV|[=no] S|d2
 1 A|d1;d2 TV|[=no] S|d2 S
 2 A|d1;d2 TV|[=no] S|d2 VP
 1 A|d1;d2 TV|[=no] S|{d1;d3}
-15 A|d1;d2 TV|[=no] TS|[d2d1]
+16 A|d1;d2 TV|[=no] TS|[d2d1]
 1 A|d1;d2 TV|[=no] TS|[d2d1] S
 1 A|d1;d2 TV|[=no] TS|d2
 2 A|d1;d2 TV|[=no] TS|{d1;d2}
@@ -253,8 +254,8 @@
 10 A|d1;d2 TV|[=yes] ADV|[=yes]
 1 A|d1;d2 TV|[=yes] IMPS|[=yes]
 2 A|d1;d2 TV|[=yes] IMPS|[d1d2]
-4 A|d1;d2 TV|[=yes] IMPS|d1
-11 A|d1;d2 TV|[=yes] MP|d1.d2
+5 A|d1;d2 TV|[=yes] IMPS|d1
+12 A|d1;d2 TV|[=yes] MP|d1.d2
 1 A|d1;d2 TV|[=yes] MP|d1.d2 TV|[=no]
 1 A|d1;d2 TV|[=yes] MP|d2
 1 A|d1;d2 TV|[=yes] MP|morning
@@ -265,18 +266,19 @@
 10 A|d1;d2 TV|[=yes] NP|d2
 1 A|d1;d2 TV|[=yes] NP|d2.d1
 1 A|d1;d2 TV|[=yes] NP|{after.d1;before.d3} TV|[=yes]
-2 A|d1;d2 TV|[=yes] NP|{clock_hour.d3;minute.d2d1}
+1 A|d1;d2 TV|[=yes] NP|{clock_hour.d3;minute.d2d1}
 3 A|d1;d2 TV|[=yes] NP|{d1;d2}
+1 A|d1;d2 TV|[=yes] NP|{day.d1;d2}
 1 A|d1;d2 TV|[=yes] PER|user
 1 A|d1;d2 TV|[=yes] P|at
 1 A|d1;d2 TV|[=yes] P|origin.place
 121 A|d1;d2 TV|[=yes] S|[d2d1]
-46 A|d1;d2 TV|[=yes] S|d1.d2
+45 A|d1;d2 TV|[=yes] S|d1.d2
 2 A|d1;d2 TV|[=yes] S|d2
 1 A|d1;d2 TV|[=yes] S|d3
-2 A|d1;d2 TV|[=yes] S|{d1;d3}
+3 A|d1;d2 TV|[=yes] S|{d1;d3}
 1 A|d1;d2 TV|[=yes] TS|d1
-32 A|d1;d2 TV|[=yes] TS|d2.d1
+31 A|d1;d2 TV|[=yes] TS|d2.d1
 1 A|d1;d2 TV|[=yes] TS|{d1;d2}
 1 A|d1;d2 TV|[=yes] TS|{d1;d3}
 1 A|d1;d2 TV|[=yes] VP|[d2dref]
@@ -285,7 +287,7 @@
 1 A|d1;d2 TV|d1 ADV|[d1dref] VP
 1 A|d1;d2 TV|d1 MP|d1.d2
 11 A|d1;d2 TV|d1 S|[d2d1]
-7 A|d1;d2 TV|d1 S|d2
+6 A|d1;d2 TV|d1 S|d2
 5 A|d1;d2 TV|d1 S|d2 VP
 1 A|d1;d2 TV|d1 TS|[d2d1]
 1 A|d1;d2 TV|d1 VP|[d2dref]
@@ -318,30 +320,28 @@
 1 A|d1;d2;d3 TV|[=yes] S|d2.d1 NP|{day.d1;d2}
 1 A|d1;d2;d3 TV|[=yes] TS|d2.d1 MP|d1
 1 A|d1;d2;d3 TV|[=yes] TS|d2.d1 TV|[=yes]
+1 A|d1;d2;d3 TV|d1 ADV|[d1dref] PTP|[#repeat]
 1 A|d1;d2;d3 TV|d1 S|[d2d1] S|d1.d2
-1 A|d1;d2;d3 TV|d1 S|[d2d1] S|d2
+2 A|d1;d2;d3 TV|d1 S|[d2d1] S|d2
 1 A|d1;d2;d3 TV|d1 VP|d2 S|d2 VP
 1 A|d1;d2;d4 TV|[=no] VP|[d2dref] VP S|d2
 1 A|d1;d3 TV|[=no] CON S|[d2d1]
 1 A|d1;d3 TV|[=no] VP PTP|[#repeat]
 1 A|d1;d3 TV|[=no] VP S|[d2d1]
-1 A|d1;d3 TV|[=no] VP S|d1.d2
 4 A|d1;d3 TV|[=no] VP S|d2
-1 A|d1;d3 TV|[=no] VP S|d2 TV|[=yes] VP
 1 A|d1;d3 TV|[=no] VP TV|[=no]
 2 A|d1;d3 TV|[=yes] ADV S|d1.d2
 1 A|d1;d3 TV|[=yes] CON MP|d2
 1 A|d1;d3 TV|[=yes] CON MP|{d1;d2}
 1 A|d1;d3 TV|[=yes] CON P|at
+1 A|d1;d3 TV|[=yes] ERRORPRO IMPS|[d1d2]
 1 A|d1;d3 TV|[=yes] S S|d2.d1
-1 A|d1;d3 TV|[=yes] S TV|[=yes]
-1 A|d1;d3 TV|[=yes] TS S|d1.d2
-2 A|d1;d3 TV|d1 VP S|d2
+1 A|d1;d3 TV|d1 VP S|d2
 1 A|d1;d3;d4 TV|[=no] CON S|[d2d1] S|d1.d2
 1 A|d1;origin.place.d2;destination.place.d3 TV|[=yes] NP|town.franeker NP|town.harlingen
 1 A|d2 ADJ S|d1.d2
 1 A|d2 ADV QS|d2
-8 A|d2 ADV TV|[=yes]
+9 A|d2 ADV TV|[=yes]
 1 A|d2 ADV TV|[=yes] ADV
 1 A|d2 AS TV|[=yes] ADV
 1 A|d2 DET|# TV|[=no] VP
@@ -351,10 +351,8 @@
 1 A|d2 S S|d1.d2
 1 A|d2 TV|[=yes] NP|[+d1]
 1 A|d2 TV|[=yes] TV|d1
-1 A|d2 TV|d1 S|{d1;[d2d3]}
 1 A|d2 VP TV|[=no]
 1 A|d2;[d1d3] TV|! MP|{d1;d2} S|d1.d2
-1 A|d2;[d1d3] TV|! S|[d2d1] INFP|d2.d1
 3 A|d2;[d1d3] TV|! S|[d2d1] S|d1.d2
 3 A|d2;[d1d3] TV|! S|d1.d2 S|d1.d2
 2 A|d2;[d1d3] TV|! TS|[d2d1] S|d1.d2
@@ -381,12 +379,12 @@
 1 A|origin.place.d1;destination.place.d2 NP|town.assen NP|town.groningen
 1 A|origin.place.d1;destination.place.d2 NP|town.assen NP|town.leeuwarden
 1 A|origin.place.d1;destination.place.d2 NP|town.barendrecht NP|town.rotterdam
+1 A|origin.place.d1;destination.place.d2 NP|town.beverwijk NP|town.hoorn
 1 A|origin.place.d1;destination.place.d2 NP|town.bodegraven NP|town.zoetermeer
-2 A|origin.place.d1;destination.place.d2 NP|town.borne NP|town.enschede
+1 A|origin.place.d1;destination.place.d2 NP|town.borne NP|town.enschede
 2 A|origin.place.d1;destination.place.d2 NP|town.boxtel NP|town.d1_d2
 2 A|origin.place.d1;destination.place.d2 NP|town.d1_d2 NP|town.ermelo
 1 A|origin.place.d1;destination.place.d2 NP|town.d1_d2 NP|town.groningen
-1 A|origin.place.d1;destination.place.d2 NP|town.d1_d2 NP|town.leiden
 1 A|origin.place.d1;destination.place.d2 NP|town.d1_d2_d3_d4 NP|town.leiden
 1 A|origin.place.d1;destination.place.d2 NP|town.d1_d2_d3_d4 NP|town.nijmegen
 1 A|origin.place.d1;destination.place.d2 NP|town.d1_d2_d3_d4 NP|town.zutphen
@@ -404,13 +402,13 @@
 1 A|origin.place.d1;destination.place.d2 NP|town.harlingen NP|town.vlissingen
 1 A|origin.place.d1;destination.place.d2 NP|town.heerenveen NP|town.utrecht
 1 A|origin.place.d1;destination.place.d2 NP|town.heerlen NP|town.maastricht
-3 A|origin.place.d1;destination.place.d2 NP|town.hengelo NP|town.enschede
+2 A|origin.place.d1;destination.place.d2 NP|town.hengelo NP|town.enschede
 1 A|origin.place.d1;destination.place.d2 NP|town.hilversum NP|town.utrecht
 2 A|origin.place.d1;destination.place.d2 NP|town.hoofddorp NP|town.heerlen
 1 A|origin.place.d1;destination.place.d2 NP|town.hoofddorp NP|town.utrecht
 1 A|origin.place.d1;destination.place.d2 NP|town.hoofddorp NP|town.varsseveld
 1 A|origin.place.d1;destination.place.d2 NP|town.hoogezand NP|town.leiden
-3 A|origin.place.d1;destination.place.d2 NP|town.hoorn NP|town.amsterdam
+2 A|origin.place.d1;destination.place.d2 NP|town.hoorn NP|town.amsterdam
 1 A|origin.place.d1;destination.place.d2 NP|town.landgraaf NP|town.eindhoven
 1 A|origin.place.d1;destination.place.d2 NP|town.landgraaf NP|{d1;d2}
 1 A|origin.place.d1;destination.place.d2 NP|town.leeuwarden NP|town.groningen
@@ -418,13 +416,12 @@
 1 A|origin.place.d1;destination.place.d2 NP|town.leiden NP|{d1;d2}
 1 A|origin.place.d1;destination.place.d2 NP|town.maarn NP|town.d1_d2
 1 A|origin.place.d1;destination.place.d2 NP|town.maarn NP|{d1;d2}
-1 A|origin.place.d1;destination.place.d2 NP|town.maastricht NP|town.arnhem
 1 A|origin.place.d1;destination.place.d2 NP|town.maastricht NP|town.d1_d2
 1 A|origin.place.d1;destination.place.d2 NP|town.maastricht NP|town.eindhoven
 1 A|origin.place.d1;destination.place.d2 NP|town.maastricht NP|town.groningen
 2 A|origin.place.d1;destination.place.d2 NP|town.nieuweschans NP|town.harlingen
 2 A|origin.place.d1;destination.place.d2 NP|town.nijmegen NP|{d1;d2}
-1 A|origin.place.d1;destination.place.d2 NP|town.roodeschool NP|town.vlissingen
+2 A|origin.place.d1;destination.place.d2 NP|town.roodeschool NP|town.vlissingen
 1 A|origin.place.d1;destination.place.d2 NP|town.roosendaal NP|town.breda
 1 A|origin.place.d1;destination.place.d2 NP|town.rotterdam NP|town.amsterdam
 1 A|origin.place.d1;destination.place.d2 NP|town.rotterdam NP|town.d1_d2
@@ -433,7 +430,7 @@
 1 A|origin.place.d1;destination.place.d2 NP|town.schagen NP|town.alkmaar
 1 A|origin.place.d1;destination.place.d2 NP|town.schagen NP|town.d1_d2
 1 A|origin.place.d1;destination.place.d2 NP|town.schiphol NP|suffix.sloterdijk
-3 A|origin.place.d1;destination.place.d2 NP|town.sittard NP|town.hertogenbosch
+2 A|origin.place.d1;destination.place.d2 NP|town.sittard NP|town.hertogenbosch
 6 A|origin.place.d1;destination.place.d2 NP|town.sittard NP|town.utrecht
 1 A|origin.place.d1;destination.place.d2 NP|town.sliedrecht NP|town.almelo
 1 A|origin.place.d1;destination.place.d2 NP|town.sliedrecht NP|town.enschede
@@ -446,13 +443,13 @@
 1 A|origin.place.d1;destination.place.d2 NP|town.zaandam NP|{d1;d2}
 1 A|origin.place.d1;destination.place.d2 NP|town.zoetermeer NP|town.assen
 1 A|origin.place.d1;destination.place.d2 NP|town.zoetermeer NP|town.emmen
-2 A|origin.place.d1;destination.place.d2 NP|town.zutphen NP|town.amsterdam
+1 A|origin.place.d1;destination.place.d2 NP|town.zutphen NP|town.amsterdam
 1 A|origin.place.d1;destination.place.d2 NP|zaltbommel NP|town.utrecht
 1 A|origin.place.d1;destination.place.d2 NP|{d1;d2} NP|suffix.overvecht
 1 A|origin.place.d1;destination.place.d2 NP|{d1;d2} NP|town.borne
 1 A|origin.place.d1;destination.place.d2 NP|{d1;d2} NP|town.maastricht
 1 A|origin.place.d1;destination.place.d2 NP|{d1;d2} NP|town.roodeschool
-9 A|origin.place.d1;destination.place.d2 NP|{d1;d2} NP|{d1;d2}
+10 A|origin.place.d1;destination.place.d2 NP|{d1;d2} NP|{d1;d2}
 1 A|{after.d1;before.d2} NP|{d2.d1;minute.d3} NP|{d2.d1;minute.d3}
 1 A|{d1;d2} INFP|d2.d1 NP|d1.d2
 1 A|{origin.place.d1;destination.place.d2} NP|town.franeker NP|town.leeuwarden ADV
@@ -463,8 +460,7 @@
 1 ERRORINF INF|travel
 1 ERRORMP INFP|d2.d1
 2 ERRORMP MP|d1
-2 ERRORMP MP|d1.d2
-1 ERRORMP MP|{d1;d2}
+3 ERRORMP MP|d1.d2
 1 ERRORMP P
 1 ERRORNP NP|d2
 1 ERRORNP NP|d2.d1
@@ -472,7 +468,7 @@
 1 ERRORNUM NUM|2
 2 ERRORP DET
 1 ERRORP N|clock_hour
-4 ERRORP N|hour
+3 ERRORP N|hour
 1 ERRORP P
 7 ERRORP P|at
 9 ERRORP P|destination.place
@@ -482,26 +478,26 @@
 1 ERRORPER PER|user
 1 ERRORPPN PPN|den
 1 ERRORPRO DET
+1 ERRORPRO PRO|dref
 7 ERRORS S|d1.d2
-1 ERRORV V|wants
-10 IMPS V ADV
+9 IMPS V ADV
 3 IMPS V PER ADV
 7 IMPS|[=yes] V PER PRO|dref
-1 IMPS|[d1d2] V|+ PRO|dref ADV
+3 IMPS|[d1d2] V|+ PRO|dref ADV
 1 IMPS|[d1d2] V|+ PRO|dref ERRORADV
 5 IMPS|d1 IMPS|[=yes] ADV
-1 IMPS|d1 IMPS|d1 ADV
+2 IMPS|d1 IMPS|d1 ADV
 1 IMPS|d1 IMPS|d1 NP
 1 IMPS|d1 IMPS|d1.d3 ADV
 1 IMPS|d1 IMPS|d1.d3 NP
+1 IMPS|d1 V|repeat PER
 1 IMPS|d1 V|repeat PER NP|d2
 2 IMPS|d1.d3 V|repeat PER PRO|dref
 1 IMPS|d2 IMPS MP|d1.d2
-3 IMPS|d2 IMPS MP|{d1;d2}
+2 IMPS|d2 IMPS MP|{d1;d2}
 1 IMPS|d2 IMPS NP|d2.d1
-1 IMPS|d2 IMPS NP|town.amsterdam
 1 IMPS|d2 IMPS NP|town.geerdijk
-4 IMPS|d2 INT IMPS|d2
+3 IMPS|d2 INT IMPS|d2
 3 IMPS|d2 V ADV|d2
 3 INFP ADV INF
 3 INFP ADV INFP
@@ -511,9 +507,10 @@
 2 INFP MP INF
 1 INFP MP INFP
 1 INFP NP INFP
+1 INFP PART INF
 1 INFP PART INF|info
 2 INFP PRO INFP
-2 INFP|[d1d2] ADV|# INFP|d1.d2
+3 INFP|[d1d2] ADV|# INFP|d1.d2
 2 INFP|[d1d2] ADV|# INFP|d2
 1 INFP|[d1d2] ADV|# INF|repeat
 3 INFP|[d1d2] ADV|# INF|travel
@@ -521,18 +518,22 @@
 1 INFP|[d2d3] N|connection ADV|# INFP|d2
 4 INFP|[d2d3] PRO|dref ADV|# INFP|d2
 1 INFP|d1 ADV|# INF
+1 INFP|d1 ADV|# INFP
 1 INFP|d1 ADV|# INF|info
 1 INFP|d1 ADV|[d1d2] INFP|d2
 1 INFP|d1 ADV|[d1d2] INF|travel
 1 INFP|d1 INFP|d2 ADV
 3 INFP|d1 INFP|d2.d1 ADV
+1 INFP|d1 INF|info ADV
 1 INFP|d1 INF|info CON
+1 INFP|d1 INF|repeat ADV
 1 INFP|d1 MP|d2 INF|info
 1 INFP|d1 NP|[d1d2] INF
 1 INFP|d1 NP|[d1d2] INFP
-3 INFP|d1 NP|[d1d2] INFP|d2
+2 INFP|d1 NP|[d1d2] INFP|d2
 1 INFP|d1 NP|[d1d2] INFP|d2.d1
-4 INFP|d1 NP|[d1d2] INF|info
+3 INFP|d1 NP|[d1d2] INF|info
+1 INFP|d1 NP|d1 INF|info
 2 INFP|d1 NP|d2 INF
 5 INFP|d1 NP|d2 INF|info
 2 INFP|d1 NP|more INF
@@ -544,28 +545,28 @@
 1 INFP|d1.d2 INF|info ADV|connection.time S
 1 INFP|d1.d2 INF|info MP|{d1;d2}
 3 INFP|d1.d2 INF|travel MP|d1
-27 INFP|d1.d2 INF|travel MP|d1.d2
+28 INFP|d1.d2 INF|travel MP|d1.d2
 2 INFP|d1.d2 INF|travel MP|d2
-97 INFP|d1.d2 INF|travel MP|{d1;d2}
+95 INFP|d1.d2 INF|travel MP|{d1;d2}
 1 INFP|d1.d2 INF|travel MP|{d1;d3}
 1 INFP|d1.d2 INF|travel NP|{d1;d2}
 1 INFP|d1.d2 INF|travel P|origin.place
 7 INFP|d1.d2 INF|travel.destination MP|d1.d2
 10 INFP|d1.d2 INF|travel.destination MP|{d1;d2}
-29 INFP|d1.d2 INF|travel.origin MP|d1.d2
+28 INFP|d1.d2 INF|travel.origin MP|d1.d2
 1 INFP|d1.d2 INF|travel.origin MP|morning
 14 INFP|d1.d2 INF|travel.origin MP|{d1;d2}
 3 INFP|d1.d2 INF|travel.origin P|origin.place
-1 INFP|d1.d2 INF|wants INFP|d1.d2
+2 INFP|d1.d2 INF|wants INFP|d1.d2
 3 INFP|d1.d2 INF|wants INF|info
 6 INFP|d1.d2 INF|wants INF|travel
 1 INFP|d1.d2 INF|wants MP|{d1;d2}
 2 INFP|d1.d2.d3 INF|info CON|connection AS|d2
 5 INFP|d2 ADV INFP|d1
-26 INFP|d2 ADV INFP|d1.d2
+27 INFP|d2 ADV INFP|d1.d2
 2 INFP|d2 ADV INFP|d1.d2.d3
-3 INFP|d2 ADV INFP|d2
-19 INFP|d2 ADV INFP|d2.d1
+2 INFP|d2 ADV INFP|d2
+20 INFP|d2 ADV INFP|d2.d1
 1 INFP|d2 ADV INFP|d2.d1.d3
 4 INFP|d2 ADV INF|info
 2 INFP|d2 ADV INF|repeat
@@ -573,7 +574,6 @@
 1 INFP|d2 ADV INF|wants
 1 INFP|d2 INF INF|travel
 1 INFP|d2 INF NP|town.roermond
-1 INFP|d2 INF NP|{d1;d2}
 1 INFP|d2 INT INFP|d2.{d1;d3}
 1 INFP|d2 INT INFP|{d1.d2;d3}
 1 INFP|d2 N INF|repeat
@@ -582,8 +582,8 @@
 5 INFP|d2 NP INF|repeat
 1 INFP|d2 NP|d2 INFP|d1.d2
 3 INFP|d2 NP|d2 INFP|d2
-6 INFP|d2 PART INF|info
-14 INFP|d2 PART INF|repeat
+4 INFP|d2 PART INF|info
+15 INFP|d2 PART INF|repeat
 1 INFP|d2 PART INF|travel
 1 INFP|d2 PART INF|travel.destination
 1 INFP|d2 PRO INFP|d1
@@ -591,19 +591,19 @@
 2 INFP|d2 PRO INFP|d2
 1 INFP|d2 PRO|dref INF|repeat
 1 INFP|d2.d1 ADV|d1 INFP|d2
-29 INFP|d2.d1 MP|[d1d2] INF|travel
-8 INFP|d2.d1 MP|[d1d2] INF|travel.origin
+31 INFP|d2.d1 MP|[d1d2] INF|travel
+9 INFP|d2.d1 MP|[d1d2] INF|travel.origin
 1 INFP|d2.d1 MP|[d2d1] INF|travel.origin
 1 INFP|d2.d1 MP|d1 INF|travel.origin
 1 INFP|d2.d1 MP|d1.clock_hour.d2 INF|travel.origin
 1 INFP|d2.d1 MP|d1.d2 INFP|d2
 1 INFP|d2.d1 MP|d1.d2 INF|d2
 2 INFP|d2.d1 MP|d1.d2 INF|to_be
-59 INFP|d2.d1 MP|d1.d2 INF|travel
-63 INFP|d2.d1 MP|d1.d2 INF|travel.destination
-100 INFP|d2.d1 MP|d1.d2 INF|travel.origin
+56 INFP|d2.d1 MP|d1.d2 INF|travel
+64 INFP|d2.d1 MP|d1.d2 INF|travel.destination
+99 INFP|d2.d1 MP|d1.d2 INF|travel.origin
 2 INFP|d2.d1 MP|d2 INFP|d1.d2
-26 INFP|d2.d1 MP|d2 INF|travel
+24 INFP|d2.d1 MP|d2 INF|travel
 7 INFP|d2.d1 MP|d2 INF|travel.destination
 12 INFP|d2.d1 MP|d2 INF|travel.origin
 1 INFP|d2.d1 MP|d2 INF|wants
@@ -621,9 +621,9 @@
 3 INFP|d2.d1 MP|{after.d2;before.d4} INF|travel.origin
 1 INFP|d2.d1 MP|{d1;d2} INFP|d1.d2
 24 INFP|d2.d1 MP|{d1;d2} INF|to_be
-141 INFP|d2.d1 MP|{d1;d2} INF|travel
-46 INFP|d2.d1 MP|{d1;d2} INF|travel.destination
-67 INFP|d2.d1 MP|{d1;d2} INF|travel.origin
+144 INFP|d2.d1 MP|{d1;d2} INF|travel
+45 INFP|d2.d1 MP|{d1;d2} INF|travel.destination
+66 INFP|d2.d1 MP|{d1;d2} INF|travel.origin
 1 INFP|d2.d1 MP|{today;evening} INF|travel
 1 INFP|d2.d1 NP|[d1d2] INF|travel
 1 INFP|d2.d1 NP|d2 INFP|d1.d2
@@ -652,13 +652,14 @@
 4 INFP|d2.{d1;d3} MP|d1.d2 INF|travel MP|d1.d2
 11 INFP|d2.{d1;d3} MP|d1.d2 INF|travel.destination MP|d1.d2
 1 INFP|d2.{d1;d3} MP|d1.d2 INF|travel.destination MP|d2
-1 INFP|d2.{d1;d3} MP|d1.d2 INF|travel.destination MP|{d1;d2}
+2 INFP|d2.{d1;d3} MP|d1.d2 INF|travel.destination MP|{d1;d2}
 1 INFP|d2.{d1;d3} MP|d1.d2 INF|travel.origin MP|afternoon
 2 INFP|d2.{d1;d3} MP|d1.d2 INF|travel.origin MP|d1.d2
 1 INFP|d2.{d1;d3} MP|d1.d2 INF|travel.origin MP|morning
 1 INFP|d2.{d1;d3} MP|d1.d2 INF|travel.origin NP|[d1d2]
 2 INFP|d2.{d1;d3} MP|d2 INF|travel MP|d1.d2
 1 INFP|d2.{d1;d3} MP|d2 INF|travel.destination MP|d1.d2
+1 INFP|d2.{d1;d3} MP|d2 INF|travel.origin MP|{d1;d2}
 1 INFP|d2.{d1;d3} MP|day_after_tomorrow INF|travel.origin MP|{d1;d2}
 1 INFP|d2.{d1;d3} MP|place.dref INF|travel.destination MP|d1.d2
 1 INFP|d2.{d1;d3} MP|today INF|travel MP|d1.d2
@@ -669,7 +670,6 @@
 1 INFP|d2.{d1;d3} MP|{d1;d2} INF|to_be P|origin.place
 2 INFP|d2.{d1;d3} MP|{d1;d2} INF|travel MP|d1.d2
 2 INFP|d2.{d1;d3} MP|{d1;d2} INF|travel MP|{d1;d2}
-1 INFP|d2.{d1;d3} MP|{d1;d2} INF|travel.destination MP|d1.d2
 1 INFP|d2.{d1;d3} MP|{d1;d2} INF|travel.origin MP|d1.d2
 2 INFP|d2.{d1;d3} MP|{d1;d2} INF|travel.origin MP|{d1;d2}
 1 INFP|d2.{d1;d3} MP|{today;evening} INF|travel.origin MP|d1.d2
@@ -688,7 +688,7 @@
 2 MP ADV ADJ
 1 MP ADV MP
 1 MP ADV NP|d1 P
-3 MP ADV P
+2 MP ADV P
 1 MP ADV|now MP
 1 MP MP ADV
 7 MP MP ADV|#
@@ -701,13 +701,14 @@
 5 MP P PER
 10 MP P|at NP
 1 MP P|at N|moment
+2 MP P|destination.place NP
 1 MP P|place NP
 1 MP P|via NP|d2
 2 MP P|via NP|town.eindhoven
 1 MP P|via NP|town.utrecht
 1 MP|[d1d2] ADV|! MP|d1.d2
 1 MP|[d1d2] ADV|! MP|{d1;d2}
-102 MP|[d1d2] ADV|# MP|d1.d2
+104 MP|[d1d2] ADV|# MP|d1.d2
 2 MP|[d1d2] ADV|# MP|day_after_tomorrow
 1 MP|[d1d2] ADV|# MP|time
 3 MP|[d1d2] ADV|# MP|today
@@ -721,8 +722,10 @@
 1 MP|after.d3 P P N|d1.d3
 1 MP|d1 ADV|d1 INT
 1 MP|d1 ADV|d2 ADJ
-5 MP|d1 MP|d1.d2 ADV
+1 MP|d1 MP|d1.clock_hour.d2 P|destination.place
+4 MP|d1 MP|d1.d2 ADV
 1 MP|d1 MP|d1.d2 ERRORP
+2 MP|d1 MP|d1.d2 MP
 2 MP|d1 MP|d1.d2 S
 1 MP|d1 MP|d2 ADV
 1 MP|d1 MP|d2 MP
@@ -733,24 +736,28 @@
 1 MP|d1 MP|{d1;d2} ERRORP
 1 MP|d1 MP|{d1;d2} MP
 1 MP|d1 MP|{today;afternoon} ADV
+1 MP|d1 MP|{tomorrow;morning} ADV
 1 MP|d1 NP|[#browse] P
 1 MP|d1 NP|town.groningen P|destination.place
-4 MP|d1 P|destination.place N
+5 MP|d1 P|destination.place N
 1 MP|d1 P|destination.place NP
 1 MP|d1 P|destination.place PER
-3 MP|d1 P|origin.place N
+4 MP|d1 P|origin.place N
 1 MP|d1.clock_hour.d2 P|after NUM|11
 1 MP|d1.clock_hour.d2 P|at NUM|10
+1 MP|d1.clock_hour.d2 P|at NUM|2
 2 MP|d1.clock_hour.d2 P|at NUM|3
 2 MP|d1.clock_hour.d2 P|at NUM|8
-2 MP|d1.clock_hour.d2 P|at NUM|9
+3 MP|d1.clock_hour.d2 P|at NUM|9
 1 MP|d1.clock_hour.d2 P|before NUM|9
 2 MP|d1.d2 MP|d2 MP|d1.d2
 1 MP|d1.d2 N|connection MP|d1.d2
 1 MP|d1.d2 P|after MP|{d1;d2}
 1 MP|d1.d2 P|after NP|d1
 2 MP|d1.d2 P|after NP|d2
-35 MP|d1.d2 P|after NP|d2.d1
+37 MP|d1.d2 P|after NP|d2.d1
+1 MP|d1.d2 P|after NP|{clock_hour.d1;minute.d3}
+1 MP|d1.d2 P|after NP|{d1;clock_hour.d2}
 1 MP|d1.d2 P|after NP|{d2.d1;minute.d3}
 1 MP|d1.d2 P|after NP|{d3.d1;minute.d2}
 1 MP|d1.d2 P|after NUM|clock_hour.2
@@ -758,47 +765,47 @@
 2 MP|d1.d2 P|at NP|christmas
 1 MP|d1.d2 P|at NP|clock_hour.d1
 11 MP|d1.d2 P|at NP|d1
-1 MP|d1.d2 P|at NP|d1.d2
-68 MP|d1.d2 P|at NP|d2
-762 MP|d1.d2 P|at NP|d2.d1
-12 MP|d1.d2 P|at NP|d2.d4
+69 MP|d1.d2 P|at NP|d2
+771 MP|d1.d2 P|at NP|d2.d1
+13 MP|d1.d2 P|at NP|d2.d4
 2 MP|d1.d2 P|at NP|d3.d2
 1 MP|d1.d2 P|at NP|date.{day.31;month.december}
-17 MP|d1.d2 P|at NP|{clock_hour.d3;minute.d2d1}
-3 MP|d1.d2 P|at NP|{clock_hour.d4;d2.d1}
-48 MP|d1.d2 P|at NP|{d1;clock_hour.d2}
-103 MP|d1.d2 P|at NP|{d1;d2}
+1 MP|d1.d2 P|at NP|day.d2
+1 MP|d1.d2 P|at NP|{clock_hour.d1;minute.d2}
+18 MP|d1.d2 P|at NP|{clock_hour.d3;minute.d2d1}
+2 MP|d1.d2 P|at NP|{clock_hour.d4;d2.d1}
+47 MP|d1.d2 P|at NP|{d1;clock_hour.d2}
+106 MP|d1.d2 P|at NP|{d1;d2}
 1 MP|d1.d2 P|at NP|{d1;d3}
-2 MP|d1.d2 P|at NP|{d1;day.d2}
+3 MP|d1.d2 P|at NP|{d1;day.d2}
 1 MP|d1.d2 P|at NP|{d2.d1;minute.30}
 46 MP|d1.d2 P|at NP|{d2.d1;minute.d3}
 15 MP|d1.d2 P|at NP|{d3.d1;minute.d2}
 1 MP|d1.d2 P|at NP|{d3d2d1;clock_hour.d4}
-5 MP|d1.d2 P|at NP|{d4.d1;minute.d3}
+6 MP|d1.d2 P|at NP|{d4.d1;minute.d3}
 1 MP|d1.d2 P|at NP|{d5.d1;minute.d4}
 1 MP|d1.d2 P|at NP|{d5.d2;minute.d4}
 1 MP|d1.d2 P|at NP|{d6.d2;minute.d5}
 1 MP|d1.d2 P|at NP|{day.1;month.january}
-98 MP|d1.d2 P|at NP|{day.d1;d2}
+99 MP|d1.d2 P|at NP|{day.d1;d2}
 2 MP|d1.d2 P|at NP|{day_of_week.friday;part_of_day.morning}
 1 MP|d1.d2 P|at NP|{day_of_week.wednesday;part_of_day.morning}
 3 MP|d1.d2 P|at NP|{hour.d1;minute.d3}
-2 MP|d1.d2 P|at NP|{hour.d2;minute.d4}
-2 MP|d1.d2 P|at NP|{morning;saturday}
-4 MP|d1.d2 P|at N|christmas
+1 MP|d1.d2 P|at NP|{hour.d2;minute.d4}
+1 MP|d1.d2 P|at NP|{morning;saturday}
+5 MP|d1.d2 P|at N|christmas
 1 MP|d1.d2 P|at N|d2
 7 MP|d1.d2 P|at N|date.{day.24+d1;month.december}
 2 MP|d1.d2 P|at N|date.{day.5;month.december}
-8 MP|d1.d2 P|at N|day_of_week.friday
-7 MP|d1.d2 P|at N|day_of_week.monday
+9 MP|d1.d2 P|at N|day_of_week.friday
+8 MP|d1.d2 P|at N|day_of_week.monday
 8 MP|d1.d2 P|at N|day_of_week.saturday
-10 MP|d1.d2 P|at N|day_of_week.sunday
+8 MP|d1.d2 P|at N|day_of_week.sunday
 7 MP|d1.d2 P|at N|day_of_week.thursday
-11 MP|d1.d2 P|at N|day_of_week.tuesday
+10 MP|d1.d2 P|at N|day_of_week.tuesday
 6 MP|d1.d2 P|at N|day_of_week.wednesday
 1 MP|d1.d2 P|at N|time
 1 MP|d1.d2 P|at N|{d1;d2}
-1 MP|d1.d2 P|before NP|d2
 5 MP|d1.d2 P|before NP|d2.d1
 1 MP|d1.d2 P|before NP|{d1;clock_hour.d2}
 1 MP|d1.d2 P|before NP|{day.d1;d2}
@@ -814,7 +821,7 @@
 1 MP|d1.d2 P|d2 NP|town.enschede
 1 MP|d1.d2 P|d2 NP|town.leeuwarden
 1 MP|d1.d2 P|d2 NP|town.maastricht
-4 MP|d1.d2 P|d2 NP|town.oorschot
+3 MP|d1.d2 P|d2 NP|town.oorschot
 2 MP|d1.d2 P|d2 NP|town.utrecht
 1 MP|d1.d2 P|d2 NP|town.wijchen
 2 MP|d1.d2 P|d2 NP|{d1;d2}
@@ -823,10 +830,9 @@
 2 MP|d1.d2 P|destination.place NP|bad_bentheim
 1 MP|d1.d2 P|destination.place NP|berkel
 5 MP|d1.d2 P|destination.place NP|d1
-87 MP|d1.d2 P|destination.place NP|d2
+84 MP|d1.d2 P|destination.place NP|d2
 1 MP|d1.d2 P|destination.place NP|driebergenrijsenburg
 3 MP|d1.d2 P|destination.place NP|muiden
-1 MP|d1.d2 P|destination.place NP|schiphol
 1 MP|d1.d2 P|destination.place NP|station.d1_d2
 2 MP|d1.d2 P|destination.place NP|station.d1_d2_d3
 1 MP|d1.d2 P|destination.place NP|station.d1d2
@@ -834,7 +840,7 @@
 4 MP|d1.d2 P|destination.place NP|station.driebergen_zeist
 1 MP|d1.d2 P|destination.place NP|station.ede_wageningen
 2 MP|d1.d2 P|destination.place NP|station.hardinxveld_giessendam
-2 MP|d1.d2 P|destination.place NP|station.heemstede_aerdenhout
+1 MP|d1.d2 P|destination.place NP|station.heemstede_aerdenhout
 2 MP|d1.d2 P|destination.place NP|station.horst_sevenum
 1 MP|d1.d2 P|destination.place NP|station.kruiningen_ijerseke
 2 MP|d1.d2 P|destination.place NP|station.leidschendam_voorburg
@@ -846,22 +852,22 @@
 2 MP|d1.d2 P|destination.place NP|suffix.sloterdijk
 2 MP|d1.d2 P|destination.place NP|suffix.souburg
 1 MP|d1.d2 P|destination.place NP|suffix.zuid_wtc
-6 MP|d1.d2 P|destination.place NP|town.aachen
+7 MP|d1.d2 P|destination.place NP|town.aachen
 1 MP|d1.d2 P|destination.place NP|town.aalten
 2 MP|d1.d2 P|destination.place NP|town.abcoude
 6 MP|d1.d2 P|destination.place NP|town.akkrum
 19 MP|d1.d2 P|destination.place NP|town.alkmaar
-21 MP|d1.d2 P|destination.place NP|town.almelo
+19 MP|d1.d2 P|destination.place NP|town.almelo
 3 MP|d1.d2 P|destination.place NP|town.almere
 4 MP|d1.d2 P|destination.place NP|town.alphen_aan_den_rijn
 1 MP|d1.d2 P|destination.place NP|town.america
-30 MP|d1.d2 P|destination.place NP|town.amersfoort
-63 MP|d1.d2 P|destination.place NP|town.amsterdam
-4 MP|d1.d2 P|destination.place NP|town.antwerpen
-10 MP|d1.d2 P|destination.place NP|town.apeldoorn
+32 MP|d1.d2 P|destination.place NP|town.amersfoort
+65 MP|d1.d2 P|destination.place NP|town.amsterdam
+6 MP|d1.d2 P|destination.place NP|town.antwerpen
+11 MP|d1.d2 P|destination.place NP|town.apeldoorn
 2 MP|d1.d2 P|destination.place NP|town.appingedam
-18 MP|d1.d2 P|destination.place NP|town.arnhem
-25 MP|d1.d2 P|destination.place NP|town.assen
+17 MP|d1.d2 P|destination.place NP|town.arnhem
+24 MP|d1.d2 P|destination.place NP|town.assen
 10 MP|d1.d2 P|destination.place NP|town.baarn
 1 MP|d1.d2 P|destination.place NP|town.barendrecht
 3 MP|d1.d2 P|destination.place NP|town.bedum
@@ -873,24 +879,26 @@
 8 MP|d1.d2 P|destination.place NP|town.bodegraven
 1 MP|d1.d2 P|destination.place NP|town.bolsward
 8 MP|d1.d2 P|destination.place NP|town.borne
+1 MP|d1.d2 P|destination.place NP|town.boxmeer
 4 MP|d1.d2 P|destination.place NP|town.boxtel
-27 MP|d1.d2 P|destination.place NP|town.breda
+25 MP|d1.d2 P|destination.place NP|town.breda
 1 MP|d1.d2 P|destination.place NP|town.breukelen
 3 MP|d1.d2 P|destination.place NP|town.brummen
+1 MP|d1.d2 P|destination.place NP|town.brunssum
 21 MP|d1.d2 P|destination.place NP|town.brussel
-1 MP|d1.d2 P|destination.place NP|town.buitenpost
+2 MP|d1.d2 P|destination.place NP|town.buitenpost
 7 MP|d1.d2 P|destination.place NP|town.bunde
-2 MP|d1.d2 P|destination.place NP|town.bussum
+3 MP|d1.d2 P|destination.place NP|town.bussum
 6 MP|d1.d2 P|destination.place NP|town.castricum
 6 MP|d1.d2 P|destination.place NP|town.culemborg
 17 MP|d1.d2 P|destination.place NP|town.cuyk
-93 MP|d1.d2 P|destination.place NP|town.d1_d2
+91 MP|d1.d2 P|destination.place NP|town.d1_d2
 7 MP|d1.d2 P|destination.place NP|town.d1_d2_d3
 2 MP|d1.d2 P|destination.place NP|town.d1_d2_d3_d4
 4 MP|d1.d2 P|destination.place NP|town.daarlerveen
-17 MP|d1.d2 P|destination.place NP|town.delft
+16 MP|d1.d2 P|destination.place NP|town.delft
 4 MP|d1.d2 P|destination.place NP|town.delfzijl
-1 MP|d1.d2 P|destination.place NP|town.den_haag
+2 MP|d1.d2 P|destination.place NP|town.den_haag
 6 MP|d1.d2 P|destination.place NP|town.deurne
 7 MP|d1.d2 P|destination.place NP|town.deventer
 1 MP|d1.d2 P|destination.place NP|town.didam
@@ -900,78 +908,78 @@
 5 MP|d1.d2 P|destination.place NP|town.dordrecht
 2 MP|d1.d2 P|destination.place NP|town.driebergen
 5 MP|d1.d2 P|destination.place NP|town.duivendrecht
-10 MP|d1.d2 P|destination.place NP|town.ede
+8 MP|d1.d2 P|destination.place NP|town.ede
 2 MP|d1.d2 P|destination.place NP|town.eijgelshoven
 7 MP|d1.d2 P|destination.place NP|town.eijsden
-44 MP|d1.d2 P|destination.place NP|town.eindhoven
+41 MP|d1.d2 P|destination.place NP|town.eindhoven
 1 MP|d1.d2 P|destination.place NP|town.elst
-19 MP|d1.d2 P|destination.place NP|town.emmen
+18 MP|d1.d2 P|destination.place NP|town.emmen
 4 MP|d1.d2 P|destination.place NP|town.enkhuizen
 17 MP|d1.d2 P|destination.place NP|town.enschede
 3 MP|d1.d2 P|destination.place NP|town.ermelo
-4 MP|d1.d2 P|destination.place NP|town.etten_leur
-6 MP|d1.d2 P|destination.place NP|town.franeker
-2 MP|d1.d2 P|destination.place NP|town.geldrop
-8 MP|d1.d2 P|destination.place NP|town.goes
+5 MP|d1.d2 P|destination.place NP|town.etten_leur
+4 MP|d1.d2 P|destination.place NP|town.franeker
+3 MP|d1.d2 P|destination.place NP|town.geldrop
+7 MP|d1.d2 P|destination.place NP|town.goes
 4 MP|d1.d2 P|destination.place NP|town.gorinchem
 8 MP|d1.d2 P|destination.place NP|town.gouda
-117 MP|d1.d2 P|destination.place NP|town.groningen
+119 MP|d1.d2 P|destination.place NP|town.groningen
 35 MP|d1.d2 P|destination.place NP|town.haarlem
 1 MP|d1.d2 P|destination.place NP|town.haarlem P
 1 MP|d1.d2 P|destination.place NP|town.haarlem PART
-3 MP|d1.d2 P|destination.place NP|town.hardenberg
+2 MP|d1.d2 P|destination.place NP|town.hardenberg
 6 MP|d1.d2 P|destination.place NP|town.harderwijk
-9 MP|d1.d2 P|destination.place NP|town.harlingen
+8 MP|d1.d2 P|destination.place NP|town.harlingen
 9 MP|d1.d2 P|destination.place NP|town.heerenveen
 2 MP|d1.d2 P|destination.place NP|town.heerhugowaard
 17 MP|d1.d2 P|destination.place NP|town.heerlen
 1 MP|d1.d2 P|destination.place NP|town.heiloo
 1 MP|d1.d2 P|destination.place NP|town.heino
-5 MP|d1.d2 P|destination.place NP|town.hellendoorn
+4 MP|d1.d2 P|destination.place NP|town.hellendoorn
 3 MP|d1.d2 P|destination.place NP|town.helmond
 8 MP|d1.d2 P|destination.place NP|town.hengelo
-28 MP|d1.d2 P|destination.place NP|town.hertogenbosch
+29 MP|d1.d2 P|destination.place NP|town.hertogenbosch
 11 MP|d1.d2 P|destination.place NP|town.hilversum
 1 MP|d1.d2 P|destination.place NP|town.hoofddorp
 3 MP|d1.d2 P|destination.place NP|town.hoogeveen
 2 MP|d1.d2 P|destination.place NP|town.hoogezand
-2 MP|d1.d2 P|destination.place NP|town.hooghalen
-7 MP|d1.d2 P|destination.place NP|town.hoorn
+3 MP|d1.d2 P|destination.place NP|town.hooghalen
+6 MP|d1.d2 P|destination.place NP|town.hoorn
 4 MP|d1.d2 P|destination.place NP|town.kampen
-5 MP|d1.d2 P|destination.place NP|town.kerkrade
-2 MP|d1.d2 P|destination.place NP|town.landgraaf
+4 MP|d1.d2 P|destination.place NP|town.kerkrade
+1 MP|d1.d2 P|destination.place NP|town.landgraaf
 2 MP|d1.d2 P|destination.place NP|town.leerdam
-59 MP|d1.d2 P|destination.place NP|town.leeuwarden
-37 MP|d1.d2 P|destination.place NP|town.leiden
+55 MP|d1.d2 P|destination.place NP|town.leeuwarden
+38 MP|d1.d2 P|destination.place NP|town.leiden
 1 MP|d1.d2 P|destination.place NP|town.leiden PART
 2 MP|d1.d2 P|destination.place NP|town.leidschendam
 2 MP|d1.d2 P|destination.place NP|town.lelystad
 5 MP|d1.d2 P|destination.place NP|town.lisse
 10 MP|d1.d2 P|destination.place NP|town.lochem
 5 MP|d1.d2 P|destination.place NP|town.lunteren
-5 MP|d1.d2 P|destination.place NP|town.maarn
+4 MP|d1.d2 P|destination.place NP|town.maarn
 6 MP|d1.d2 P|destination.place NP|town.maassluis
-88 MP|d1.d2 P|destination.place NP|town.maastricht
+89 MP|d1.d2 P|destination.place NP|town.maastricht
 1 MP|d1.d2 P|destination.place NP|town.maastricht PART
 2 MP|d1.d2 P|destination.place NP|town.marienheem
 1 MP|d1.d2 P|destination.place NP|town.medemblik
-8 MP|d1.d2 P|destination.place NP|town.meppel
+7 MP|d1.d2 P|destination.place NP|town.meppel
 8 MP|d1.d2 P|destination.place NP|town.middelburg
 2 MP|d1.d2 P|destination.place NP|town.mierlo_hout
 1 MP|d1.d2 P|destination.place NP|town.nieuweschans
 3 MP|d1.d2 P|destination.place NP|town.nijkerk
-50 MP|d1.d2 P|destination.place NP|town.nijmegen
+48 MP|d1.d2 P|destination.place NP|town.nijmegen
 4 MP|d1.d2 P|destination.place NP|town.nunspeet
 3 MP|d1.d2 P|destination.place NP|town.obdam
-4 MP|d1.d2 P|destination.place NP|town.oisterwijk
+3 MP|d1.d2 P|destination.place NP|town.oisterwijk
 1 MP|d1.d2 P|destination.place NP|town.olst
 11 MP|d1.d2 P|destination.place NP|town.ommen
 4 MP|d1.d2 P|destination.place NP|town.oorschot
 3 MP|d1.d2 P|destination.place NP|town.oosterhout
 17 MP|d1.d2 P|destination.place NP|town.oss
 3 MP|d1.d2 P|destination.place NP|town.overveen
-1 MP|d1.d2 P|destination.place NP|town.papendrecht
-5 MP|d1.d2 P|destination.place NP|town.paris
+2 MP|d1.d2 P|destination.place NP|town.papendrecht
+4 MP|d1.d2 P|destination.place NP|town.paris
 1 MP|d1.d2 P|destination.place NP|town.pijnacker
 1 MP|d1.d2 P|destination.place NP|town.purmerend
 4 MP|d1.d2 P|destination.place NP|town.putten
@@ -979,28 +987,29 @@
 4 MP|d1.d2 P|destination.place NP|town.rijen
 1 MP|d1.d2 P|destination.place NP|town.rijsbergen
 2 MP|d1.d2 P|destination.place NP|town.rijswijk
-15 MP|d1.d2 P|destination.place NP|town.roermond
+17 MP|d1.d2 P|destination.place NP|town.roermond
 5 MP|d1.d2 P|destination.place NP|town.roodeschool
-13 MP|d1.d2 P|destination.place NP|town.roosendaal
-28 MP|d1.d2 P|destination.place NP|town.rotterdam
+14 MP|d1.d2 P|destination.place NP|town.roosendaal
+27 MP|d1.d2 P|destination.place NP|town.rotterdam
 1 MP|d1.d2 P|destination.place NP|town.schagen
 3 MP|d1.d2 P|destination.place NP|town.scheveningen
 2 MP|d1.d2 P|destination.place NP|town.schiedam
 3 MP|d1.d2 P|destination.place NP|town.schijndel
-22 MP|d1.d2 P|destination.place NP|town.schiphol
-15 MP|d1.d2 P|destination.place NP|town.sittard
+20 MP|d1.d2 P|destination.place NP|town.schiphol
+16 MP|d1.d2 P|destination.place NP|town.sittard
 1 MP|d1.d2 P|destination.place NP|town.sneek
 2 MP|d1.d2 P|destination.place NP|town.soestdijk
-4 MP|d1.d2 P|destination.place NP|town.stavoren
+1 MP|d1.d2 P|destination.place NP|town.stadskanaal
+5 MP|d1.d2 P|destination.place NP|town.stavoren
 2 MP|d1.d2 P|destination.place NP|town.steenwijk
 3 MP|d1.d2 P|destination.place NP|town.swalmen
 2 MP|d1.d2 P|destination.place NP|town.t_harde
 3 MP|d1.d2 P|destination.place NP|town.ter_apel
-5 MP|d1.d2 P|destination.place NP|town.terneuzen
+4 MP|d1.d2 P|destination.place NP|town.terneuzen
 10 MP|d1.d2 P|destination.place NP|town.tiel
 14 MP|d1.d2 P|destination.place NP|town.tilburg
 2 MP|d1.d2 P|destination.place NP|town.uitgeest
-83 MP|d1.d2 P|destination.place NP|town.utrecht
+81 MP|d1.d2 P|destination.place NP|town.utrecht
 6 MP|d1.d2 P|destination.place NP|town.valkenburg
 2 MP|d1.d2 P|destination.place NP|town.varsseveld
 2 MP|d1.d2 P|destination.place NP|town.veendam
@@ -1009,37 +1018,38 @@
 29 MP|d1.d2 P|destination.place NP|town.venlo
 1 MP|d1.d2 P|destination.place NP|town.venlo PART
 4 MP|d1.d2 P|destination.place NP|town.venray
-5 MP|d1.d2 P|destination.place NP|town.vierlingsbeek
-31 MP|d1.d2 P|destination.place NP|town.vlissingen
-20 MP|d1.d2 P|destination.place NP|town.voorburg
+4 MP|d1.d2 P|destination.place NP|town.vierlingsbeek
+30 MP|d1.d2 P|destination.place NP|town.vlissingen
+19 MP|d1.d2 P|destination.place NP|town.voorburg
 4 MP|d1.d2 P|destination.place NP|town.vught
 5 MP|d1.d2 P|destination.place NP|town.vught PART
-1 MP|d1.d2 P|destination.place NP|town.wageningen
+2 MP|d1.d2 P|destination.place NP|town.wageningen
 1 MP|d1.d2 P|destination.place NP|town.wassenaar
-4 MP|d1.d2 P|destination.place NP|town.weert
+3 MP|d1.d2 P|destination.place NP|town.weert
 5 MP|d1.d2 P|destination.place NP|town.weesp
 4 MP|d1.d2 P|destination.place NP|town.wehl
 4 MP|d1.d2 P|destination.place NP|town.wijchen
 1 MP|d1.d2 P|destination.place NP|town.wijhe
 2 MP|d1.d2 P|destination.place NP|town.winsum
-11 MP|d1.d2 P|destination.place NP|town.woerden
+1 MP|d1.d2 P|destination.place NP|town.winterswijk
+13 MP|d1.d2 P|destination.place NP|town.woerden
 1 MP|d1.d2 P|destination.place NP|town.wolfheze
 1 MP|d1.d2 P|destination.place NP|town.wormer
-5 MP|d1.d2 P|destination.place NP|town.zaandam
+4 MP|d1.d2 P|destination.place NP|town.zaandam
 3 MP|d1.d2 P|destination.place NP|town.zaltbommel
-3 MP|d1.d2 P|destination.place NP|town.zandvoort
+4 MP|d1.d2 P|destination.place NP|town.zandvoort
 2 MP|d1.d2 P|destination.place NP|town.zeist
 4 MP|d1.d2 P|destination.place NP|town.zevenaar
 5 MP|d1.d2 P|destination.place NP|town.zierikzee
 11 MP|d1.d2 P|destination.place NP|town.zoetermeer
 1 MP|d1.d2 P|destination.place NP|town.zuidhorn
-11 MP|d1.d2 P|destination.place NP|town.zutphen
+9 MP|d1.d2 P|destination.place NP|town.zutphen
 59 MP|d1.d2 P|destination.place NP|town.zwolle
 4 MP|d1.d2 P|destination.place NP|zaltbommel
-187 MP|d1.d2 P|destination.place NP|{d1;d2}
+193 MP|d1.d2 P|destination.place NP|{d1;d2}
 1 MP|d1.d2 P|destination.place N|town.breda
 1 MP|d1.d2 P|destination.place N|town.schiphol
-5 MP|d1.d2 P|in NP|d2.d1
+4 MP|d1.d2 P|in NP|d2.d1
 1 MP|d1.d2 P|in NP|weeks.1
 1 MP|d1.d2 P|origin.moment NP|d1
 3 MP|d1.d2 P|origin.moment NP|d2
@@ -1048,138 +1058,136 @@
 1 MP|d1.d2 P|origin.moment NP|{d2.d1;minute.d3}
 3 MP|d1.d2 P|origin.place ADV|here
 1 MP|d1.d2 P|origin.place NP|breda_prinsenbeek
-13 MP|d1.d2 P|origin.place NP|d1
-87 MP|d1.d2 P|origin.place NP|d2
+14 MP|d1.d2 P|origin.place NP|d1
+86 MP|d1.d2 P|origin.place NP|d2
 1 MP|d1.d2 P|origin.place NP|horst
 1 MP|d1.d2 P|origin.place NP|hulst
 5 MP|d1.d2 P|origin.place NP|station.d1_d2
-3 MP|d1.d2 P|origin.place NP|station.d1d2
+4 MP|d1.d2 P|origin.place NP|station.d1d2
 1 MP|d1.d2 P|origin.place NP|station.driebergen_zeist
 2 MP|d1.d2 P|origin.place NP|station.ede_wageningen
 2 MP|d1.d2 P|origin.place NP|station.hardinxveld_giessendam
 3 MP|d1.d2 P|origin.place NP|station.heemstede_aerdenhout
 1 MP|d1.d2 P|origin.place NP|station.horst_sevenum
-3 MP|d1.d2 P|origin.place NP|station.koog_bloemwijk
-3 MP|d1.d2 P|origin.place NP|station.koog_zaandijk
+2 MP|d1.d2 P|origin.place NP|station.koog_bloemwijk
+2 MP|d1.d2 P|origin.place NP|station.koog_zaandijk
 3 MP|d1.d2 P|origin.place NP|station.leidschendam_voorburg
-3 MP|d1.d2 P|origin.place NP|station.naarden_bussum
+2 MP|d1.d2 P|origin.place NP|station.naarden_bussum
 1 MP|d1.d2 P|origin.place NP|suffix.bijlmer
 1 MP|d1.d2 P|origin.place NP|suffix.d1_d2
 3 MP|d1.d2 P|origin.place NP|suffix.d1_d2_noi
 4 MP|d1.d2 P|origin.place NP|suffix.heyendaal
-2 MP|d1.d2 P|origin.place NP|suffix.lelylaan
+1 MP|d1.d2 P|origin.place NP|suffix.lelylaan
 9 MP|d1.d2 P|origin.place NP|suffix.mariahoeve
 1 MP|d1.d2 P|origin.place NP|suffix.seghwaert
 3 MP|d1.d2 P|origin.place NP|suffix.sloterdijk
 1 MP|d1.d2 P|origin.place NP|suffix.sportpark
 2 MP|d1.d2 P|origin.place NP|town.aachen
 7 MP|d1.d2 P|origin.place NP|town.abcoude
-36 MP|d1.d2 P|origin.place NP|town.alkmaar
-8 MP|d1.d2 P|origin.place NP|town.almelo
-5 MP|d1.d2 P|origin.place NP|town.almere
-22 MP|d1.d2 P|origin.place NP|town.amersfoort
-59 MP|d1.d2 P|origin.place NP|town.amsterdam
+35 MP|d1.d2 P|origin.place NP|town.alkmaar
+9 MP|d1.d2 P|origin.place NP|town.almelo
+6 MP|d1.d2 P|origin.place NP|town.almere
+24 MP|d1.d2 P|origin.place NP|town.amersfoort
+56 MP|d1.d2 P|origin.place NP|town.amsterdam
+1 MP|d1.d2 P|origin.place NP|town.anna_paulowna
 3 MP|d1.d2 P|origin.place NP|town.antwerpen
 2 MP|d1.d2 P|origin.place NP|town.apeldoorn
 1 MP|d1.d2 P|origin.place NP|town.appelscha
 7 MP|d1.d2 P|origin.place NP|town.appingedam
 4 MP|d1.d2 P|origin.place NP|town.arkel
-1 MP|d1.d2 P|origin.place NP|town.arnemuiden
-32 MP|d1.d2 P|origin.place NP|town.arnhem
+33 MP|d1.d2 P|origin.place NP|town.arnhem
 1 MP|d1.d2 P|origin.place NP|town.arnhem P
-38 MP|d1.d2 P|origin.place NP|town.assen
+39 MP|d1.d2 P|origin.place NP|town.assen
 7 MP|d1.d2 P|origin.place NP|town.baarn
 1 MP|d1.d2 P|origin.place NP|town.barendrecht
 2 MP|d1.d2 P|origin.place NP|town.bedum
 4 MP|d1.d2 P|origin.place NP|town.beek
 4 MP|d1.d2 P|origin.place NP|town.beek_elsloo
-7 MP|d1.d2 P|origin.place NP|town.beilen
+8 MP|d1.d2 P|origin.place NP|town.beilen
 3 MP|d1.d2 P|origin.place NP|town.bergambacht
 3 MP|d1.d2 P|origin.place NP|town.best
 2 MP|d1.d2 P|origin.place NP|town.beverwijk
 2 MP|d1.d2 P|origin.place NP|town.bilthoven
 2 MP|d1.d2 P|origin.place NP|town.bodegraven
-10 MP|d1.d2 P|origin.place NP|town.borne
+9 MP|d1.d2 P|origin.place NP|town.borne
 1 MP|d1.d2 P|origin.place NP|town.boskoop
-1 MP|d1.d2 P|origin.place NP|town.boxtel
-15 MP|d1.d2 P|origin.place NP|town.breda
+2 MP|d1.d2 P|origin.place NP|town.boxtel
+14 MP|d1.d2 P|origin.place NP|town.breda
 5 MP|d1.d2 P|origin.place NP|town.breukelen
 3 MP|d1.d2 P|origin.place NP|town.brussel
-12 MP|d1.d2 P|origin.place NP|town.bunde
-1 MP|d1.d2 P|origin.place NP|town.bussum
+9 MP|d1.d2 P|origin.place NP|town.bunde
+2 MP|d1.d2 P|origin.place NP|town.bussum
 2 MP|d1.d2 P|origin.place NP|town.castricum
 3 MP|d1.d2 P|origin.place NP|town.chevremont
 8 MP|d1.d2 P|origin.place NP|town.cuyk
 2 MP|d1.d2 P|origin.place NP|town.d1_aan_d3_d4
-83 MP|d1.d2 P|origin.place NP|town.d1_d2
+80 MP|d1.d2 P|origin.place NP|town.d1_d2
 8 MP|d1.d2 P|origin.place NP|town.d1_d2_d3
-17 MP|d1.d2 P|origin.place NP|town.d1_d2_d3_d4
+16 MP|d1.d2 P|origin.place NP|town.d1_d2_d3_d4
 1 MP|d1.d2 P|origin.place NP|town.dalen
-3 MP|d1.d2 P|origin.place NP|town.delden
-39 MP|d1.d2 P|origin.place NP|town.delft
+4 MP|d1.d2 P|origin.place NP|town.delden
+40 MP|d1.d2 P|origin.place NP|town.delft
 1 MP|d1.d2 P|origin.place NP|town.delft P
-7 MP|d1.d2 P|origin.place NP|town.delfzijl
+5 MP|d1.d2 P|origin.place NP|town.delfzijl
 1 MP|d1.d2 P|origin.place NP|town.den_haag
-6 MP|d1.d2 P|origin.place NP|town.deventer
+5 MP|d1.d2 P|origin.place NP|town.deventer
 3 MP|d1.d2 P|origin.place NP|town.didam
 2 MP|d1.d2 P|origin.place NP|town.diemen
 1 MP|d1.d2 P|origin.place NP|town.doetinchem
 2 MP|d1.d2 P|origin.place NP|town.dordrecht
 4 MP|d1.d2 P|origin.place NP|town.driemanspolder
 1 MP|d1.d2 P|origin.place NP|town.duiven
-15 MP|d1.d2 P|origin.place NP|town.duivendrecht
+14 MP|d1.d2 P|origin.place NP|town.duivendrecht
 1 MP|d1.d2 P|origin.place NP|town.ede
 3 MP|d1.d2 P|origin.place NP|town.eijsden
 12 MP|d1.d2 P|origin.place NP|town.eindhoven
-9 MP|d1.d2 P|origin.place NP|town.elst
-3 MP|d1.d2 P|origin.place NP|town.emmeloord
+10 MP|d1.d2 P|origin.place NP|town.elst
+4 MP|d1.d2 P|origin.place NP|town.emmeloord
 6 MP|d1.d2 P|origin.place NP|town.emmen
-14 MP|d1.d2 P|origin.place NP|town.enschede
-12 MP|d1.d2 P|origin.place NP|town.franeker
+12 MP|d1.d2 P|origin.place NP|town.enschede
+9 MP|d1.d2 P|origin.place NP|town.franeker
 7 MP|d1.d2 P|origin.place NP|town.geerdijk
 1 MP|d1.d2 P|origin.place NP|town.gilze
-9 MP|d1.d2 P|origin.place NP|town.goes
-3 MP|d1.d2 P|origin.place NP|town.goor
-8 MP|d1.d2 P|origin.place NP|town.gorinchem
+11 MP|d1.d2 P|origin.place NP|town.goes
+4 MP|d1.d2 P|origin.place NP|town.goor
+9 MP|d1.d2 P|origin.place NP|town.gorinchem
 9 MP|d1.d2 P|origin.place NP|town.gouda
 3 MP|d1.d2 P|origin.place NP|town.grijpskerk
 1 MP|d1.d2 P|origin.place NP|town.grijpskerk P
-128 MP|d1.d2 P|origin.place NP|town.groningen
-47 MP|d1.d2 P|origin.place NP|town.haarlem
+124 MP|d1.d2 P|origin.place NP|town.groningen
+45 MP|d1.d2 P|origin.place NP|town.haarlem
 2 MP|d1.d2 P|origin.place NP|town.haarlem P
 2 MP|d1.d2 P|origin.place NP|town.hardegarijp
 7 MP|d1.d2 P|origin.place NP|town.harderwijk
 9 MP|d1.d2 P|origin.place NP|town.harlingen
 10 MP|d1.d2 P|origin.place NP|town.heerenveen
-1 MP|d1.d2 P|origin.place NP|town.heerhugowaard
-15 MP|d1.d2 P|origin.place NP|town.heerlen
+16 MP|d1.d2 P|origin.place NP|town.heerlen
 1 MP|d1.d2 P|origin.place NP|town.heerlen P
 2 MP|d1.d2 P|origin.place NP|town.heiloo
 1 MP|d1.d2 P|origin.place NP|town.helmond
 6 MP|d1.d2 P|origin.place NP|town.hengelo
-25 MP|d1.d2 P|origin.place NP|town.hertogenbosch
+24 MP|d1.d2 P|origin.place NP|town.hertogenbosch
 3 MP|d1.d2 P|origin.place NP|town.heusden
-4 MP|d1.d2 P|origin.place NP|town.hilversum
+5 MP|d1.d2 P|origin.place NP|town.hilversum
 7 MP|d1.d2 P|origin.place NP|town.hoofddorp
 1 MP|d1.d2 P|origin.place NP|town.hoogeveen
 4 MP|d1.d2 P|origin.place NP|town.hoogezand
-1 MP|d1.d2 P|origin.place NP|town.hooghalen
 12 MP|d1.d2 P|origin.place NP|town.hoorn
-4 MP|d1.d2 P|origin.place NP|town.kampen
-3 MP|d1.d2 P|origin.place NP|town.kerkrade
+5 MP|d1.d2 P|origin.place NP|town.kampen
+2 MP|d1.d2 P|origin.place NP|town.kerkrade
 1 MP|d1.d2 P|origin.place NP|town.krommenie_assendelft
-4 MP|d1.d2 P|origin.place NP|town.landgraaf
-27 MP|d1.d2 P|origin.place NP|town.leeuwarden
-48 MP|d1.d2 P|origin.place NP|town.leiden
+3 MP|d1.d2 P|origin.place NP|town.landgraaf
+25 MP|d1.d2 P|origin.place NP|town.leeuwarden
+45 MP|d1.d2 P|origin.place NP|town.leiden
 1 MP|d1.d2 P|origin.place NP|town.leidschendam
 4 MP|d1.d2 P|origin.place NP|town.lelystad
 5 MP|d1.d2 P|origin.place NP|town.lochem
 1 MP|d1.d2 P|origin.place NP|town.lochem P
 1 MP|d1.d2 P|origin.place NP|town.loosduinen
-6 MP|d1.d2 P|origin.place NP|town.loppersum
+5 MP|d1.d2 P|origin.place NP|town.loppersum
 5 MP|d1.d2 P|origin.place NP|town.lunteren
 1 MP|d1.d2 P|origin.place NP|town.maarn
-7 MP|d1.d2 P|origin.place NP|town.maarssen
+8 MP|d1.d2 P|origin.place NP|town.maarssen
 2 MP|d1.d2 P|origin.place NP|town.maassluis
 1 MP|d1.d2 P|origin.place NP|town.maassluis P
 46 MP|d1.d2 P|origin.place NP|town.maastricht
@@ -1188,80 +1196,81 @@
 4 MP|d1.d2 P|origin.place NP|town.meppel
 4 MP|d1.d2 P|origin.place NP|town.middelburg
 2 MP|d1.d2 P|origin.place NP|town.naarden
-33 MP|d1.d2 P|origin.place NP|town.nijmegen
+38 MP|d1.d2 P|origin.place NP|town.nijmegen
 2 MP|d1.d2 P|origin.place NP|town.nuth
-2 MP|d1.d2 P|origin.place NP|town.obdam
+1 MP|d1.d2 P|origin.place NP|town.obdam
 2 MP|d1.d2 P|origin.place NP|town.oeteldonk
 1 MP|d1.d2 P|origin.place NP|town.oldenzaal
 1 MP|d1.d2 P|origin.place NP|town.olst
 2 MP|d1.d2 P|origin.place NP|town.ommen
 1 MP|d1.d2 P|origin.place NP|town.oosterhout
-14 MP|d1.d2 P|origin.place NP|town.oss
+15 MP|d1.d2 P|origin.place NP|town.oss
 1 MP|d1.d2 P|origin.place NP|town.papendrecht
-26 MP|d1.d2 P|origin.place NP|town.pijnacker
+25 MP|d1.d2 P|origin.place NP|town.pijnacker
+1 MP|d1.d2 P|origin.place NP|town.purmerend
 4 MP|d1.d2 P|origin.place NP|town.putten
 1 MP|d1.d2 P|origin.place NP|town.ravenstein
 4 MP|d1.d2 P|origin.place NP|town.reuver
 2 MP|d1.d2 P|origin.place NP|town.rhenen
-9 MP|d1.d2 P|origin.place NP|town.rijssen
-7 MP|d1.d2 P|origin.place NP|town.rijswijk
+12 MP|d1.d2 P|origin.place NP|town.rijssen
+6 MP|d1.d2 P|origin.place NP|town.rijswijk
 21 MP|d1.d2 P|origin.place NP|town.roermond
 2 MP|d1.d2 P|origin.place NP|town.roermond P
 1 MP|d1.d2 P|origin.place NP|town.roodeschool
-13 MP|d1.d2 P|origin.place NP|town.roosendaal
-2 MP|d1.d2 P|origin.place NP|town.rosmalen
-25 MP|d1.d2 P|origin.place NP|town.rotterdam
+14 MP|d1.d2 P|origin.place NP|town.roosendaal
+1 MP|d1.d2 P|origin.place NP|town.rosmalen
+27 MP|d1.d2 P|origin.place NP|town.rotterdam
 4 MP|d1.d2 P|origin.place NP|town.ruurlo
 4 MP|d1.d2 P|origin.place NP|town.schagen
-15 MP|d1.d2 P|origin.place NP|town.schiphol
+16 MP|d1.d2 P|origin.place NP|town.schiphol
 18 MP|d1.d2 P|origin.place NP|town.sittard
 2 MP|d1.d2 P|origin.place NP|town.sliedrecht
-4 MP|d1.d2 P|origin.place NP|town.sneek
+3 MP|d1.d2 P|origin.place NP|town.sneek
 4 MP|d1.d2 P|origin.place NP|town.soestdijk
 1 MP|d1.d2 P|origin.place NP|town.soestduinen
-7 MP|d1.d2 P|origin.place NP|town.stavoren
+8 MP|d1.d2 P|origin.place NP|town.stavoren
 3 MP|d1.d2 P|origin.place NP|town.steenwijk
 1 MP|d1.d2 P|origin.place NP|town.swalmen
-4 MP|d1.d2 P|origin.place NP|town.t_harde
+6 MP|d1.d2 P|origin.place NP|town.t_harde
 4 MP|d1.d2 P|origin.place NP|town.tegelen
 1 MP|d1.d2 P|origin.place NP|town.terneuzen
 2 MP|d1.d2 P|origin.place NP|town.tiel
-8 MP|d1.d2 P|origin.place NP|town.tilburg
+6 MP|d1.d2 P|origin.place NP|town.tilburg
 2 MP|d1.d2 P|origin.place NP|town.uitgeest
 4 MP|d1.d2 P|origin.place NP|town.usquert
-44 MP|d1.d2 P|origin.place NP|town.utrecht
+46 MP|d1.d2 P|origin.place NP|town.utrecht
 4 MP|d1.d2 P|origin.place NP|town.veenendaal
 3 MP|d1.d2 P|origin.place NP|town.veenwouden
 4 MP|d1.d2 P|origin.place NP|town.velp
-13 MP|d1.d2 P|origin.place NP|town.venlo
+12 MP|d1.d2 P|origin.place NP|town.venlo
 5 MP|d1.d2 P|origin.place NP|town.venray
 3 MP|d1.d2 P|origin.place NP|town.vierlingsbeek
 2 MP|d1.d2 P|origin.place NP|town.vleuten
-21 MP|d1.d2 P|origin.place NP|town.vlissingen
+22 MP|d1.d2 P|origin.place NP|town.vlissingen
 57 MP|d1.d2 P|origin.place NP|town.voorburg
 1 MP|d1.d2 P|origin.place NP|town.voorhout
-10 MP|d1.d2 P|origin.place NP|town.voorschoten
+13 MP|d1.d2 P|origin.place NP|town.voorschoten
 2 MP|d1.d2 P|origin.place NP|town.weert
 12 MP|d1.d2 P|origin.place NP|town.weesp
-1 MP|d1.d2 P|origin.place NP|town.wierden
+2 MP|d1.d2 P|origin.place NP|town.wierden
 18 MP|d1.d2 P|origin.place NP|town.wijchen
 1 MP|d1.d2 P|origin.place NP|town.wijhe
 5 MP|d1.d2 P|origin.place NP|town.winschoten
 3 MP|d1.d2 P|origin.place NP|town.winsum
 1 MP|d1.d2 P|origin.place NP|town.winterswijk
-24 MP|d1.d2 P|origin.place NP|town.woerden
+26 MP|d1.d2 P|origin.place NP|town.woerden
 6 MP|d1.d2 P|origin.place NP|town.zaandam
 1 MP|d1.d2 P|origin.place NP|town.zandvoort
 1 MP|d1.d2 P|origin.place NP|town.zetten
 3 MP|d1.d2 P|origin.place NP|town.zevenaar
 1 MP|d1.d2 P|origin.place NP|town.zierikzee
-14 MP|d1.d2 P|origin.place NP|town.zoetermeer
+13 MP|d1.d2 P|origin.place NP|town.zoetermeer
 1 MP|d1.d2 P|origin.place NP|town.zuidbroek
 2 MP|d1.d2 P|origin.place NP|town.zwijndrecht
-50 MP|d1.d2 P|origin.place NP|town.zwolle
+48 MP|d1.d2 P|origin.place NP|town.zwolle
 3 MP|d1.d2 P|origin.place NP|zaltbommel
 3 MP|d1.d2 P|origin.place NP|zetten_andelst
-262 MP|d1.d2 P|origin.place NP|{d1;d2}
+259 MP|d1.d2 P|origin.place NP|{d1;d2}
 2 MP|d1.d2 P|place NP|drenthe
 1 MP|d1.d2 P|place NP|station.kruiningen_ijerseke
 1 MP|d1.d2 P|place NP|town.alkmaar
@@ -1294,28 +1303,30 @@
 2 MP|d1.d2 P|place NP|town.zwolle
 1 MP|d1.d2 P|place NP|{d1;d2}
 1 MP|d1.day.d2 P|at NUM|24
+1 MP|d1.day.d2 P|at NUM|27
 1 MP|d1.day.d2 P|at NUM|8
 1 MP|d1.hour.d2 P|at NUM|14
 2 MP|d1;d2 MP|d1.d2 P|destination.place
 1 MP|d2 ADV ADV|last ADV
 2 MP|d2 ADV MP|[d1d2]
 1 MP|d2 ADV MP|d1
-33 MP|d2 ADV MP|d1.d2
-8 MP|d2 ADV MP|d2
+34 MP|d2 ADV MP|d1.d2
+7 MP|d2 ADV MP|d2
 1 MP|d2 ADV MP|earlier
 1 MP|d2 ADV MP|now
 1 MP|d2 ADV MP|return_trip
-93 MP|d2 ADV MP|{d1;d2}
+96 MP|d2 ADV MP|{d1;d2}
 2 MP|d2 ADV MP|{d1;destination.place.d2}
 1 MP|d2 ADV NP|d2
 1 MP|d2 ADV P|at
 1 MP|d2 ADV P|origin.place
 1 MP|d2 ADV|[=yes] MP|d1.d2
-1 MP|d2 ADV|[=yes] MP|d2
+1 MP|d2 ADV|[=yes] MP|{after.clock_hour.d2;before.d4}
 1 MP|d2 ADV|[=yes] MP|{d1;d2}
 1 MP|d2 ERRORMP MP|before.time.hour.18
 5 MP|d2 ERRORMP MP|d1.d2
-1 MP|d2 ERRORMP MP|{d1;d2}
+1 MP|d2 ERRORMP MP|d2
+1 MP|d2 INT MP|d2
 1 MP|d2 MP ADV|[=no]
 5 MP|d2 MP MP|d1.d2
 2 MP|d2 MP MP|d2
@@ -1323,42 +1334,42 @@
 1 MP|d2 NP MP|d1.clock_hour.d2
 1 MP|d2 NP MP|later
 1 MP|d2 NP MP|{d1;d2}
-1 MP|d2 P NP|d1
-21 MP|d2 P NP|d2
+2 MP|d2 P NP|d1
+20 MP|d2 P NP|d2
 1 MP|d2 P NP|d2.now
 1 MP|d2 P NP|town.amsterdam
 1 MP|d2 P NP|town.beilen
-1 MP|d2 P NP|town.leiden
 1 MP|d2 P NP|town.utrecht
 1 MP|d2 P NP|town.vlissingen
 1 MP|d2 P NP|{day.d1;d2}
 1 MP|d2 P N|wants
+1 MP|d2 P N|{d1;d2}
 1 MP|d2 P PRO|dref
-2 MP|d2 P|at NP|d2
+1 MP|d2 P|at NP|d2
 1 MP|d2 P|at NP|d2.now
-1 MP|d2 P|at NP|town.voorburg
 1 MP|d2 P|before NP|town.maarssen
 1 MP|d2 P|origin.place NP|d2
 1 MP|d2.d1 MP|[d1d2] N|travel.origin
 1 MP|d2.d1 MP|d1.d2 ADV|travel.origin
 1 MP|d2.d1 MP|d1.d2 ADV|user.wants
 2 MP|d2.d1 MP|{d1;d2} ADV|travel.origin
-2 MP|d2.d1 MP|{d1;d2} ADV|user.wants
+1 MP|d2.d1 MP|{d1;d2} ADV|user.wants
 1 MP|d2.d1 MP|{d1;d2} P|at
 1 MP|d3 MP|d1.d2 INT|! MP|d1.d2
 7 MP|first ADV MP|morning ADV
-14 MP|now ADV ADV ADV
+13 MP|now ADV ADV ADV
 1 MP|repeat ADV NP
 1 MP|time ADV MP
 1 MP|{after.clock_hour.d1;before.clock_hour.d3} NUM|4 CON NUM|6
 2 MP|{after.clock_hour.d2;before.clock_hour.d4} P NUM|10 CON NUM|11
-2 MP|{after.clock_hour.d2;before.clock_hour.d4} P NUM|12 CON NUM|2
+1 MP|{after.clock_hour.d2;before.clock_hour.d4} P NUM|12 CON NUM|2
 1 MP|{after.clock_hour.d2;before.d4} P NUM|1 CON NP|d2.d1
+1 MP|{after.clock_hour.d2;before.d4} P NUM|12 CON NP|d2.d1
 1 MP|{after.clock_hour.d2;before.d4} P NUM|6 CON NP|d2.d1
 1 MP|{after.clock_hour.d2;before.d4} P NUM|7 CON NP|{d1;clock_hour.d2}
 1 MP|{after.d2;before.d4} P MP|{d1;d2} CON MP|{d1;d2}
 1 MP|{after.d2;before.d4} P MP|{d1;d2} ERRORP|at MP|{d1;d2}
-2 MP|{after.d2;before.d4} P NP|d2.d1 CON NP|d2.d1
+3 MP|{after.d2;before.d4} P NP|d2.d1 CON NP|d2.d1
 1 MP|{after.d2;before.d4} P NP|d2.d1 CON NP|{clock_hour.d3;minute.d2d1}
 1 MP|{after.d2;before.d4} P NP|d2.d1 CON NP|{d1;clock_hour.d2}
 3 MP|{after.d2;before.d4} P NP|{d1;clock_hour.d2} CON NP|d2.d1
@@ -1366,9 +1377,9 @@
 1 MP|{clock_hour.d1;d2} NUM|7 MP|d1.d2
 1 MP|{clock_hour.d1;d2} NUM|7 MP|evening
 2 MP|{d1;[!d2]} MP|[d1d2] MP|d1.d2
-13 MP|{d1;[d2d3]} MP|[d1d2] CON|! MP|d1.d2
+14 MP|{d1;[d2d3]} MP|[d1d2] CON|! MP|d1.d2
 1 MP|{d1;[d2d3]} MP|[d1d2] CON|! MP|tomorrow
-8 MP|{d1;[d2d3]} MP|[d1d2] CON|! MP|{d1;d2}
+9 MP|{d1;[d2d3]} MP|[d1d2] CON|! MP|{d1;d2}
 1 MP|{d1;d2} ADV|{today;part_of_day.night} MP|d1.d2
 1 MP|{d1;d2} MP|[d1d2] MP|[d1d2]
 1 MP|{d1;d2} MP|[d1d2] MP|d1.d2
@@ -1376,24 +1387,26 @@
 1 MP|{d1;d2} MP|[d1d2] N|travel.origin
 1 MP|{d1;d2} MP|after.d3 MP|d1.d2
 6 MP|{d1;d2} MP|afternoon MP|d1.d2
+1 MP|{d1;d2} MP|d1 MP|afternoon
 1 MP|{d1;d2} MP|d1 MP|d1
+1 MP|{d1;d2} MP|d1 MP|d1.d2
 1 MP|{d1;d2} MP|d1 MP|today
 1 MP|{d1;d2} MP|d1.clock_hour.d2 P|destination.place
 1 MP|{d1;d2} MP|d1.d2 ADV|return_trip
-43 MP|{d1;d2} MP|d1.d2 MP|afternoon
-4 MP|{d1;d2} MP|d1.d2 MP|d1
-1772 MP|{d1;d2} MP|d1.d2 MP|d1.d2
+42 MP|{d1;d2} MP|d1.d2 MP|afternoon
+5 MP|{d1;d2} MP|d1.d2 MP|d1
+1754 MP|{d1;d2} MP|d1.d2 MP|d1.d2
 9 MP|{d1;d2} MP|d1.d2 MP|d2
 42 MP|{d1;d2} MP|d1.d2 MP|evening
-103 MP|{d1;d2} MP|d1.d2 MP|morning
+110 MP|{d1;d2} MP|d1.d2 MP|morning
 4 MP|{d1;d2} MP|d1.d2 MP|night
-4 MP|{d1;d2} MP|d1.d2 MP|today
+3 MP|{d1;d2} MP|d1.d2 MP|today
 5 MP|{d1;d2} MP|d1.d2 MP|tomorrow
 1 MP|{d1;d2} MP|d1.d2 MP|{after.clock_hour.d2;before.clock_hour.d4}
 1 MP|{d1;d2} MP|d1.d2 MP|{d1;[d2d3]}
-19 MP|{d1;d2} MP|d1.d2 MP|{d1;d2}
+21 MP|{d1;d2} MP|d1.d2 MP|{d1;d2}
 1 MP|{d1;d2} MP|d1.d2 MP|{origin.place.d1;d2}
-7 MP|{d1;d2} MP|d1.d2 MP|{today;afternoon}
+6 MP|{d1;d2} MP|d1.d2 MP|{today;afternoon}
 5 MP|{d1;d2} MP|d1.d2 MP|{today;d2}
 8 MP|{d1;d2} MP|d1.d2 MP|{today;evening}
 1 MP|{d1;d2} MP|d1.d2 MP|{today;morning}
@@ -1403,8 +1416,8 @@
 1 MP|{d1;d2} MP|d1.d2 NP|d1.d2
 1 MP|{d1;d2} MP|d1.d2 N|date.{day.24+d1;month.december}
 1 MP|{d1;d2} MP|d1.d2 N|{d1;d2}
-25 MP|{d1;d2} MP|d1.d2 P|destination.place
-7 MP|{d1;d2} MP|d2 MP|d1.d2
+22 MP|{d1;d2} MP|d1.d2 P|destination.place
+6 MP|{d1;d2} MP|d2 MP|d1.d2
 1 MP|{d1;d2} MP|d2 MP|d2
 3 MP|{d1;d2} MP|d2 MP|{d1;d2}
 1 MP|{d1;d2} MP|d2.d1 MP|d1.d2
@@ -1427,42 +1440,44 @@
 2 MP|{d1;d2} MP|place.dref MP|d1.d2
 1 MP|{d1;d2} MP|today ADV|now
 1 MP|{d1;d2} MP|today MP|d1.clock_hour.d2
-16 MP|{d1;d2} MP|today MP|d1.d2
+15 MP|{d1;d2} MP|today MP|d1.d2
 5 MP|{d1;d2} MP|today MP|{d1;d2}
 1 MP|{d1;d2} MP|today NP|{d1;d2}
 1 MP|{d1;d2} MP|today NP|{day.d1;d2}
 1 MP|{d1;d2} MP|today N|day_of_week.monday
 1 MP|{d1;d2} MP|today N|day_of_week.saturday
 1 MP|{d1;d2} MP|today N|day_of_week.thursday
-40 MP|{d1;d2} MP|tomorrow MP|d1.d2
+41 MP|{d1;d2} MP|tomorrow MP|d1.d2
 1 MP|{d1;d2} MP|tomorrow MP|d2
-5 MP|{d1;d2} MP|tomorrow MP|morning
-14 MP|{d1;d2} MP|tomorrow MP|{d1;d2}
+4 MP|{d1;d2} MP|tomorrow MP|morning
+12 MP|{d1;d2} MP|tomorrow MP|{d1;d2}
 1 MP|{d1;d2} MP|tomorrow NP|d2
 1 MP|{d1;d2} MP|tomorrow NP|{d1;clock_hour.d2}
 1 MP|{d1;d2} MP|tomorrow NP|{d1;d2}
 1 MP|{d1;d2} MP|tomorrow NP|{d1;day.d2}
 5 MP|{d1;d2} MP|tomorrow NP|{day.d1;d2}
-4 MP|{d1;d2} MP|tomorrow N|afternoon
+5 MP|{d1;d2} MP|tomorrow N|afternoon
 2 MP|{d1;d2} MP|tomorrow N|d2
 1 MP|{d1;d2} MP|tomorrow N|day_of_week.saturday
 1 MP|{d1;d2} MP|tomorrow N|day_of_week.thursday
 2 MP|{d1;d2} MP|tomorrow N|day_of_week.wednesday
 5 MP|{d1;d2} MP|tomorrow N|evening
-5 MP|{d1;d2} MP|tomorrow N|morning
+6 MP|{d1;d2} MP|tomorrow N|morning
 1 MP|{d1;d2} MP|tomorrow N|night
 2 MP|{d1;d2} MP|tomorrow P|origin.place
 1 MP|{d1;d2} MP|tomorrow S|d2.d1
+1 MP|{d1;d2} MP|yesterday MP|d1.d2
 1 MP|{d1;d2} MP|{after.clock_hour.d2;before.d4} MP|morning
 1 MP|{d1;d2} MP|{after.clock_hour.d2;before.d4} MP|{tomorrow;morning}
 2 MP|{d1;d2} MP|{after.d2;before.d4} MP|morning
 1 MP|{d1;d2} MP|{d1;[d2d3]} P|origin.place
 1 MP|{d1;d2} MP|{d1;d2} MP|[d1d2]
 32 MP|{d1;d2} MP|{d1;d2} MP|d1.d2
+1 MP|{d1;d2} MP|{d1;d2} MP|d1.day.d2
 2 MP|{d1;d2} MP|{d1;d2} MP|d2
 1 MP|{d1;d2} MP|{d1;d2} MP|morning
 2 MP|{d1;d2} MP|{d1;d2} MP|tomorrow
-31 MP|{d1;d2} MP|{d1;d2} MP|{d1;d2}
+29 MP|{d1;d2} MP|{d1;d2} MP|{d1;d2}
 2 MP|{d1;d2} MP|{d1;d2} NP|d2.d1
 2 MP|{d1;d2} MP|{d1;d2} NP|{day.d1;d2}
 1 MP|{d1;d2} MP|{d1;d2} N|d1.d2
@@ -1472,7 +1487,6 @@
 1 MP|{d1;d2} MP|{today;afternoon} NP|d2
 1 MP|{d1;d2} MP|{today;afternoon} NP|d2.d1
 19 MP|{d1;d2} MP|{today;evening} MP|d1.d2
-1 MP|{d1;d2} MP|{today;evening} MP|{d1;d2}
 2 MP|{d1;d2} MP|{today;evening} NP|d2.d1
 1 MP|{d1;d2} MP|{today;evening} P|at
 1 MP|{d1;d2} MP|{today;morning} MP|{d1;d2}
@@ -1483,36 +1497,39 @@
 1 MP|{d1;d2} MP|{tomorrow;evening} MP|{d1;d2}
 1 MP|{d1;d2} MP|{tomorrow;evening} P|at
 1 MP|{d1;d2} MP|{tomorrow;morning} MP|d1.clock_hour.d2
-20 MP|{d1;d2} MP|{tomorrow;morning} MP|d1.d2
+21 MP|{d1;d2} MP|{tomorrow;morning} MP|d1.d2
 1 MP|{d1;d2} MP|{tomorrow;morning} MP|{d1;d2}
-4 MP|{d1;d2} MP|{tomorrow;morning} NP|d2.d1
+3 MP|{d1;d2} MP|{tomorrow;morning} NP|d2.d1
 1 MP|{d1;d2} NP|d1 MP|{d1;d2}
 2 MP|{d1;d2} NP|d1.d2 MP|morning
 4 MP|{d1;d2} NP|d2 MP|d1.d2
 5 MP|{d1;d2} NP|d2 MP|morning
 3 MP|{d1;d2} NP|d2 MP|{d1;d2}
+1 MP|{d1;d2} NP|d2 NP|repeat
 6 MP|{d1;d2} NP|d2.d1 MP|afternoon
 6 MP|{d1;d2} NP|d2.d1 MP|d1.d2
-2 MP|{d1;d2} NP|d2.d1 MP|d2
+1 MP|{d1;d2} NP|d2.d1 MP|d2
 14 MP|{d1;d2} NP|d2.d1 MP|evening
-38 MP|{d1;d2} NP|d2.d1 MP|morning
+41 MP|{d1;d2} NP|d2.d1 MP|morning
 1 MP|{d1;d2} NP|d2.d1 MP|tomorrow
 1 MP|{d1;d2} NP|d2.d1 MP|{today;evening}
 1 MP|{d1;d2} NP|town.arnemuiden P|destination.place
 1 MP|{d1;d2} NP|town.delft MP|d1.d2
+1 MP|{d1;d2} NP|town.voorburg P|destination.place
+1 MP|{d1;d2} NP|{clock_hour.d3;minute.d2d1} MP|d2
+1 MP|{d1;d2} NP|{clock_hour.d3;minute.d2d1} MP|night
 1 MP|{d1;d2} NP|{d1;clock_hour.d2} MP|afternoon
 3 MP|{d1;d2} NP|{d1;clock_hour.d2} MP|morning
-14 MP|{d1;d2} NP|{d1;d2} MP|d1.d2
+13 MP|{d1;d2} NP|{d1;d2} MP|d1.d2
 5 MP|{d1;d2} NP|{d1;d2} MP|{d1;d2}
 1 MP|{d1;d2} NP|{d2.d1;minute.d3} MP|morning
-9 MP|{d1;d2} NP|{day.d1;d2} MP|d1.d2
+10 MP|{d1;d2} NP|{day.d1;d2} MP|d1.d2
 1 MP|{d1;d2} NP|{day.d1;d2} MP|return_trip
 6 MP|{d1;d2} NP|{day.d1;d2} MP|{d1;d2}
 1 MP|{d1;d2} NP|{day.d1;month.d2} MP|d1.d2
-1 MP|{d1;d2} NP|{day_of_week.saturday;part_of_day.morning} MP|d1.d2
 1 MP|{d1;d2} NP|{morning;saturday} MP|d1.d2
 4 MP|{d1;d2} N|d2 MP|d1.d2
-4 MP|{d1;d2} N|d2 MP|{d1;d2}
+3 MP|{d1;d2} N|d2 MP|{d1;d2}
 3 MP|{d1;d2} N|day_of_week.friday MP|d1.d2
 3 MP|{d1;d2} N|day_of_week.friday MP|{d1;d2}
 1 MP|{d1;d2} N|day_of_week.monday MP|d1.d2
@@ -1520,11 +1537,12 @@
 1 MP|{d1;d2} N|day_of_week.saturday MP|d1.d2
 1 MP|{d1;d2} N|day_of_week.saturday MP|tomorrow
 2 MP|{d1;d2} N|day_of_week.sunday MP|d1.d2
-4 MP|{d1;d2} N|day_of_week.sunday MP|{d1;d2}
+5 MP|{d1;d2} N|day_of_week.sunday MP|{d1;d2}
 2 MP|{d1;d2} N|day_of_week.thursday MP|d1.d2
 1 MP|{d1;d2} N|day_of_week.thursday MP|{d1;d2}
 1 MP|{d1;d2} N|day_of_week.tuesday MP|{d1;d2}
 1 MP|{d1;d2} N|day_of_week.wednesday MP|d1.d2
+2 MP|{d1;d2} N|day_of_week.wednesday MP|{d1;d2}
 2 MP|{d1;d2} N|{d1;d2} MP|d1.d2
 2 MP|{d1;d2} N|{d1;d2} MP|{d1;d2}
 1 MP|{d1;d2} P|d2 NP|town.zwolle
@@ -1548,8 +1566,7 @@
 1 MP|{origin.place.d1;d2} NP|suffix.d1_d2_noi MP|d1.d2
 1 MP|{origin.place.d1;d2} NP|suffix.delftsewallen MP|d1.d2
 1 MP|{origin.place.d1;d2} NP|suffix.heyendaal MP|d1.d2
-5 MP|{origin.place.d1;d2} NP|suffix.mariahoeve MP|d1.d2
-1 MP|{origin.place.d1;d2} NP|suffix.rai MP|d1.d2
+6 MP|{origin.place.d1;d2} NP|suffix.mariahoeve MP|d1.d2
 1 MP|{origin.place.d1;d2} NP|suffix.sportpark MP|d1.d2
 1 MP|{origin.place.d1;d2} NP|town.aachen MP|d1.d2
 2 MP|{origin.place.d1;d2} NP|town.alkmaar MP|d1.d2
@@ -1563,8 +1580,8 @@
 1 MP|{origin.place.d1;d2} NP|town.beek MP|d1.d2
 2 MP|{origin.place.d1;d2} NP|town.beek_elsloo MP|d1.d2
 2 MP|{origin.place.d1;d2} NP|town.boxtel MP|d1.d2
-2 MP|{origin.place.d1;d2} NP|town.breda MP|d1.d2
-7 MP|{origin.place.d1;d2} NP|town.d1_d2 MP|d1.d2
+3 MP|{origin.place.d1;d2} NP|town.breda MP|d1.d2
+8 MP|{origin.place.d1;d2} NP|town.d1_d2 MP|d1.d2
 1 MP|{origin.place.d1;d2} NP|town.d1_d2_d3 MP|d1.d2
 2 MP|{origin.place.d1;d2} NP|town.d1_d2_d3_d4 MP|d1.d2
 1 MP|{origin.place.d1;d2} NP|town.delft MP|d1.d2
@@ -1575,7 +1592,7 @@
 1 MP|{origin.place.d1;d2} NP|town.eindhoven MP|d1.d2
 2 MP|{origin.place.d1;d2} NP|town.franeker MP|d1.d2
 1 MP|{origin.place.d1;d2} NP|town.goes MP|d1.d2
-8 MP|{origin.place.d1;d2} NP|town.groningen MP|d1.d2
+9 MP|{origin.place.d1;d2} NP|town.groningen MP|d1.d2
 6 MP|{origin.place.d1;d2} NP|town.harderwijk MP|d1.d2
 1 MP|{origin.place.d1;d2} NP|town.harlingen MP|d1.d2
 2 MP|{origin.place.d1;d2} NP|town.hertogenbosch MP|d1.d2
@@ -1595,27 +1612,27 @@
 1 MP|{origin.place.d1;d2} NP|town.uitgeest P|destination.place
 3 MP|{origin.place.d1;d2} NP|town.utrecht MP|d1.d2
 1 MP|{origin.place.d1;d2} NP|town.venlo MP|d1.d2
-1 MP|{origin.place.d1;d2} NP|town.weert MP|d1.d2
-2 MP|{origin.place.d1;d2} NP|town.woerden MP|d1.d2
+1 MP|{origin.place.d1;d2} NP|town.vlissingen MP|d1.d2
+2 MP|{origin.place.d1;d2} NP|town.weert MP|d1.d2
+1 MP|{origin.place.d1;d2} NP|town.woerden MP|d1.d2
 1 MP|{origin.place.d1;d2} NP|town.woerden P|destination.place
 2 MP|{origin.place.d1;d2} NP|town.wormerveer MP|d1.d2
 5 MP|{origin.place.d1;d2} NP|town.zaandam MP|d1.d2
 1 MP|{origin.place.d1;d2} NP|town.zoetermeer MP|d1.d2
-3 MP|{origin.place.d1;d2} NP|town.zwolle MP|d1.d2
-1 MP|{origin.place.d1;d2} NP|vlaardingen MP|d1.d2
+4 MP|{origin.place.d1;d2} NP|town.zwolle MP|d1.d2
 1 MP|{origin.place.d1;d2} NP|zaltbommel MP|d1.d2
-34 MP|{origin.place.d1;d2} NP|{d1;d2} MP|d1.d2
+37 MP|{origin.place.d1;d2} NP|{d1;d2} MP|d1.d2
 6 MP|{today;d2} P N|afternoon
-17 N ADJ N
+13 N ADJ N
 3 N ADV N
 1 N DET N|connection
 1 N N MP|d1.d2
 2 N N N
-11 NP ADV NP
+12 NP ADV NP
 1 NP ADV NP|[d1d2]
 1 NP ADV NUM|1
 3 NP DET ADJ
-28 NP DET N
+27 NP DET N
 2 NP DET N N|minute
 6 NP DET N|connection
 5 NP DET N|info
@@ -1625,10 +1642,11 @@
 2 NP NP ADV
 1 NP NP ADV|#
 1 NP NP CON AS
+1 NP NUM N
 1 NP NUM|1 N|clock_hour
 1 NP NUM|1 N|connection
 1 NP PER N
-4 NP PPN PPN
+3 NP PPN PPN
 5 NP PRO N
 3 NP PRO N|moment
 3 NP PRO|dref N|moment
@@ -1636,12 +1654,11 @@
 1 NP|[+d1] PRO|dref ADJ
 1 NP|[d1d2] ADV|# NP|town.amsterdam
 1 NP|[d1d2] ADV|# NP|town.groningen
-2 NP|[d1d2] ADV|# NP|town.kampen
+1 NP|[d1d2] ADV|# NP|town.kampen
 1 NP|[d1d2] ADV|# NP|town.oss
 3 NP|[d1d2] ADV|# NP|{d1;d2}
 1 NP|[d1d2] ADV|# NP|{origin.place.d1;destination.place.d2}
 1 NP|[d1d2] ADV|d2 NP|{day.d1;d2}
-1 NP|[d1d2] DET|# ADJ|more
 2 NP|[d1d2] DET|# N|connection
 18 NP|[d1d2] DET|# N|d1
 1 NP|[d1d2] DET|# N|info
@@ -1649,12 +1666,12 @@
 1 NP|clock_hour.d1 NUM|9 N
 1 NP|d1 ADV|more NUM|1
 1 NP|d1 DET|# N
-5 NP|d1 NP|[d1d2] ADV
-1 NP|d1 NP|d2 ADV
-1 NP|d1 NP|d2 CON V
+6 NP|d1 NP|[d1d2] ADV
+2 NP|d1 NP|d2 ADV
+2 NP|d1 NP|d2 CON V
 5 NP|d1 NP|d2.d1 ADV
 1 NP|d1 NP|day.d2 MP
-70 NP|d1 NP|suffix.cs N
+71 NP|d1 NP|suffix.cs N
 1 NP|d1 NP|town.almelo N
 3 NP|d1 NP|town.almere N
 1 NP|d1 NP|town.amsterdam N
@@ -1663,11 +1680,10 @@
 1 NP|d1 NP|town.elst NP
 1 NP|d1 NP|town.goes N
 1 NP|d1 NP|town.grijpskerk NP|town.groningen
-1 NP|d1 NP|town.haarlem N
+2 NP|d1 NP|town.haarlem N
 1 NP|d1 NP|town.harlingen MP
 3 NP|d1 NP|town.hoorn NP
 1 NP|d1 NP|town.maastricht NP
-1 NP|d1 NP|town.rijswijk NP
 1 NP|d1 NP|town.valkenburg MP
 1 NP|d1 NP|town.voerendaal MP
 1 NP|d1 NP|town.weesp MP
@@ -1679,7 +1695,7 @@
 9 NP|d1 NP|{day.d1;d2} ADJ
 1 NP|d1 NP|{day.d1;d2} ADV
 2 NP|d1 N|day_of_week.monday P CON P N|day_of_week.friday
-3 NP|d1.d2 ADV|at NP|d2.d1
+2 NP|d1.d2 ADV|at NP|d2.d1
 1 NP|d1.d2 DET|user N|wants
 2 NP|d1.d2 NP|d2 MP|d1.d2
 1 NP|d1.d2 NP|d2 MP|d2
@@ -1697,11 +1713,11 @@
 1 NP|d2 ADV NP|d1
 3 NP|d2 ADV NP|d1.d2
 8 NP|d2 ADV NP|d2
-54 NP|d2 ADV NP|d2.d1
+55 NP|d2 ADV NP|d2.d1
 1 NP|d2 ADV NP|more
 1 NP|d2 ADV NP|{clock_hour.d3;minute.d2d1}
 7 NP|d2 ADV NP|{d1;clock_hour.d2}
-2 NP|d2 ADV NP|{d1;d2}
+1 NP|d2 ADV NP|{d1;d2}
 1 NP|d2 ADV NP|{d1;d3}
 3 NP|d2 ADV NP|{d3.d1;minute.d2}
 1 NP|d2 ADV NP|{day.d1;d2}
@@ -1714,13 +1730,13 @@
 1 NP|d2 DET NP|town.nijverdal
 1 NP|d2 DET NP|{day.d1;d2}
 1 NP|d2 DET N|!
-4 NP|d2 DET N|[d1d2]
-3 NP|d2 DET N|afternoon
+3 NP|d2 DET N|[d1d2]
+2 NP|d2 DET N|afternoon
 1 NP|d2 DET N|clock_hour
 1 NP|d2 DET N|clock_hour CON
 1 NP|d2 DET N|clock_hour.12
-47 NP|d2 DET N|connection
-16 NP|d2 DET N|d1
+49 NP|d2 DET N|connection
+15 NP|d2 DET N|d1
 3 NP|d2 DET N|d2
 4 NP|d2 DET N|d2.d1
 1 NP|d2 DET N|date
@@ -1734,10 +1750,11 @@
 2 NP|d2 DET N|moment
 1 NP|d2 DET N|moment.time
 8 NP|d2 DET N|morning
+1 NP|d2 DET N|origin.moment
 7 NP|d2 DET N|return_trip
 1 NP|d2 DET N|sprinter
 2 NP|d2 DET N|weekend
-21 NP|d2 DET N|{d1;d2}
+22 NP|d2 DET N|{d1;d2}
 3 NP|d2 DET N|{day.d1;d2}
 1 NP|d2 DET|t NP|d2
 1 NP|d2 DET|t NP|town.goor
@@ -1747,7 +1764,7 @@
 1 NP|d2 ERRORNP NP|town.soestdijk
 1 NP|d2 INT NP|d2.d1
 1 NP|d2 INT NP|{d1;d3}
-2 NP|d2 N NP|d1
+1 NP|d2 N NP|d1
 1 NP|d2 N NP|d2
 1 NP|d2 N NP|d3
 1 NP|d2 N NP|houten
@@ -1762,7 +1779,7 @@
 2 NP|d2 N NP|town.alkmaar
 2 NP|d2 N NP|town.amersfoort
 3 NP|d2 N NP|town.amsterdam
-1 NP|d2 N NP|town.arnhem
+2 NP|d2 N NP|town.arnhem
 1 NP|d2 N NP|town.assen
 2 NP|d2 N NP|town.baarn
 5 NP|d2 N NP|town.beek
@@ -1786,7 +1803,7 @@
 1 NP|d2 N NP|town.goes
 5 NP|d2 N NP|town.gorinchem
 1 NP|d2 N NP|town.gouda
-14 NP|d2 N NP|town.groningen
+16 NP|d2 N NP|town.groningen
 4 NP|d2 N NP|town.haarlem
 2 NP|d2 N NP|town.heerenveen
 2 NP|d2 N NP|town.heerlen
@@ -1796,7 +1813,7 @@
 4 NP|d2 N NP|town.leeuwarden
 4 NP|d2 N NP|town.leiden
 1 NP|d2 N NP|town.leidschendam
-2 NP|d2 N NP|town.maarn
+1 NP|d2 N NP|town.maarn
 1 NP|d2 N NP|town.maarssen
 3 NP|d2 N NP|town.maastricht
 1 NP|d2 N NP|town.meerssen
@@ -1804,17 +1821,17 @@
 1 NP|d2 N NP|town.oss
 4 NP|d2 N NP|town.pijnacker
 3 NP|d2 N NP|town.rijswijk
-3 NP|d2 N NP|town.roermond
+2 NP|d2 N NP|town.roermond
 1 NP|d2 N NP|town.roosendaal
 1 NP|d2 N NP|town.rotterdam
-7 NP|d2 N NP|town.schiphol
+6 NP|d2 N NP|town.schiphol
 5 NP|d2 N NP|town.sittard
 1 NP|d2 N NP|town.soestdijk
 1 NP|d2 N NP|town.t_harde
 1 NP|d2 N NP|town.tiel
 1 NP|d2 N NP|town.uitgeest
 2 NP|d2 N NP|town.utrecht
-4 NP|d2 N NP|town.venlo
+3 NP|d2 N NP|town.venlo
 3 NP|d2 N NP|town.vlissingen
 2 NP|d2 N NP|town.voorburg
 1 NP|d2 N NP|town.voorschoten
@@ -1824,59 +1841,59 @@
 1 NP|d2 N NP|town.zandvoort
 1 NP|d2 N NP|town.zevenbergen
 3 NP|d2 N NP|town.zwolle
-13 NP|d2 N NP|{d1;d2}
+12 NP|d2 N NP|{d1;d2}
 1 NP|d2 NP ADJ|earlier
 2 NP|d2 NP ADJ|later
 1 NP|d2 NP MP|d1.d2
-3 NP|d2 NP MP|d2
+2 NP|d2 NP MP|d2
 1 NP|d2 NP NP|{clock_hour.d4;d2.d3d1}
 2 NP|d2 NP|d2 ADJ|earlier
 1 NP|d2 NP|d2 NP|d2
-6 NP|d2 NP|town.amsterdam NP|town.schiphol
+7 NP|d2 NP|town.amsterdam NP|town.schiphol
 2 NP|d2 NP|town.leiden NP|town.d1_d2
 1 NP|d2 NUM|1 N|d1
 1 NP|d2 NUM|32 N|month.may
 1 NP|d2.d1 DET|dref N|connection
 1 NP|d2.d1 DET|dref N|day
-1 NP|d2.d1 NP|d2.d1 N|travel.origin
-52 NP|d2.d1 NUM|1 N|clock_hour
+58 NP|d2.d1 NUM|1 N|clock_hour
 1 NP|d2.d1 NUM|1 N|weeks
-234 NP|d2.d1 NUM|10 N|clock_hour
-74 NP|d2.d1 NUM|11 N|clock_hour
+237 NP|d2.d1 NUM|10 N|clock_hour
+2 NP|d2.d1 NUM|10 N|minute
+72 NP|d2.d1 NUM|11 N|clock_hour
 1 NP|d2.d1 NUM|11 N|minute
-58 NP|d2.d1 NUM|12 N|clock_hour
-7 NP|d2.d1 NUM|13 N|hour
-15 NP|d2.d1 NUM|14 N|hour
+59 NP|d2.d1 NUM|12 N|clock_hour
+6 NP|d2.d1 NUM|13 N|hour
+16 NP|d2.d1 NUM|14 N|hour
 11 NP|d2.d1 NUM|15 N|hour
 11 NP|d2.d1 NUM|16 N|hour
-9 NP|d2.d1 NUM|17 N|hour
-10 NP|d2.d1 NUM|18 N|hour
-17 NP|d2.d1 NUM|19 N|hour
-65 NP|d2.d1 NUM|2 N|clock_hour
+10 NP|d2.d1 NUM|17 N|hour
+11 NP|d2.d1 NUM|18 N|hour
+15 NP|d2.d1 NUM|19 N|hour
+63 NP|d2.d1 NUM|2 N|clock_hour
 1 NP|d2.d1 NUM|2 N|days
 1 NP|d2.d1 NUM|2 N|weeks
 9 NP|d2.d1 NUM|20 N|hour
 13 NP|d2.d1 NUM|21 N|hour
 1 NP|d2.d1 NUM|22 N|clock_hour
-1 NP|d2.d1 NUM|22 N|hour
+2 NP|d2.d1 NUM|22 N|hour
 7 NP|d2.d1 NUM|23 N|hour
 2 NP|d2.d1 NUM|24 N|hour
-62 NP|d2.d1 NUM|3 N|clock_hour
-2 NP|d2.d1 NUM|3 N|days
+60 NP|d2.d1 NUM|3 N|clock_hour
+1 NP|d2.d1 NUM|3 N|days
 1 NP|d2.d1 NUM|30 N|minute
-55 NP|d2.d1 NUM|4 N|clock_hour
-26 NP|d2.d1 NUM|5 N|clock_hour
-55 NP|d2.d1 NUM|6 N|clock_hour
-69 NP|d2.d1 NUM|7 N|clock_hour
-188 NP|d2.d1 NUM|8 N|clock_hour
-1 NP|d2.d1 NUM|8 N|hour
-185 NP|d2.d1 NUM|9 N|clock_hour
+56 NP|d2.d1 NUM|4 N|clock_hour
+23 NP|d2.d1 NUM|5 N|clock_hour
+54 NP|d2.d1 NUM|6 N|clock_hour
+70 NP|d2.d1 NUM|7 N|clock_hour
+194 NP|d2.d1 NUM|8 N|clock_hour
+2 NP|d2.d1 NUM|8 N|hour
+190 NP|d2.d1 NUM|9 N|clock_hour
 1 NP|d2.d1 NUM|d1d2d3 N|hour
 1 NP|d2.d1 NUM|d2 N|hour
 1 NP|d2.d1 N|9 N|clock_hour
 3 NP|d2.d4 DET N|clock_hour CON NUM|10
-2 NP|d2.d4 DET N|clock_hour CON NUM|11
-1 NP|d2.d4 DET N|clock_hour CON NUM|4
+3 NP|d2.d4 DET N|clock_hour CON NUM|11
+1 NP|d2.d4 DET N|clock_hour CON NUM|2
 1 NP|d2.d4 DET N|clock_hour CON NUM|6
 1 NP|d2.d4 DET N|clock_hour CON NUM|8
 4 NP|d2.d4 DET N|clock_hour CON NUM|9
@@ -1887,9 +1904,11 @@
 2 NP|d3.d2 NUM|0 NUM|9 N|hour
 1 NP|date.{day.31;month.december} PPN PPN PPN
 1 NP|day.d2 DET ADJ|20
+1 NP|day.d2 DET ADJ|23
 3 NP|day.d2 DET ADJ|24
 1 NP|day.d2 DET ADJ|26
 3 NP|more ADV NP
+1 NP|repeat ADV NP
 1 NP|station.d1_d2 NP|heemstede NP|aerdenhout
 1 NP|station.d1_d2 PPN|driebergen PPN|zeist
 3 NP|station.d1_d2 PPN|gilze PPN|rijen
@@ -1897,25 +1916,24 @@
 1 NP|station.d1_d2 PPN|leidschendam PPN|voorburg
 2 NP|station.d1_d2 PPN|zaandam PPN|kogerveld
 3 NP|station.d1_d2_d3 PPN|berkel PPN|en PPN|rodenrijs
-4 NP|station.d1d2 PPN|schiedam_rotterdam PPN|west
+5 NP|station.d1d2 PPN|schiedam_rotterdam PPN|west
 4 NP|station.d2_d1 PPN|voorburg PPN|leidschendam
 2 NP|station.d2_d1 PPN|zeist PPN|driebergen
 2 NP|suffix.d1 PPN|alexander PPN|polder
 1 NP|suffix.d1_d2 PPN|centrum PPN|west
-1 NP|suffix.d1_d2 PPN|de PPN|hoef
 1 NP|suffix.d1_d2 PPN|de PPN|huet
-6 NP|suffix.d1_d2 PPN|de PPN|klomp
+7 NP|suffix.d1_d2 PPN|de PPN|klomp
 2 NP|suffix.d1_d2 PPN|de PPN|leyens
-8 NP|suffix.d1_d2 PPN|de PPN|riet
+7 NP|suffix.d1_d2 PPN|de PPN|riet
 4 NP|suffix.d1_d2 PPN|de PPN|uithof
-7 NP|suffix.d1_d2 PPN|t PPN|loo
-2 NP|suffix.d1_d2 PPN|zuid PPN|wtc
+9 NP|suffix.d1_d2 PPN|t PPN|loo
+3 NP|suffix.d1_d2 PPN|zuid PPN|wtc
 4 NP|suffix.d1_d2_d3 PPN|laan PPN|van PPN|noi
 19 NP|suffix.d1_d2_noi PPN|laan PPN|van PPN PPN PPN
 4 NP|suffix.d2 PPN|cornelis PPN|lelylaan
 1 NP|suffix.hs PPN|holland PPN|spoor
 7 NP|suffix.hs PPN|hollands PPN|spoor
-1 NP|suffix.laan_van_noi PPN PPN PPN
+2 NP|suffix.laan_van_noi PPN PPN PPN
 1 NP|suffix.laan_van_noi PPN PPN|oost PPN
 1 NP|suffix.laan_van_noi PPN|nieuw PPN|oost PPN
 2 NP|suffix.zuid_wtc PPN|world PPN|trade PPN|center
@@ -1924,72 +1942,74 @@
 1 NP|town.d1_d2 PPN|beek PPN|elsloo
 1 NP|town.d1_d2 PPN|capelle PPN|schollevaar
 1 NP|town.d1_d2 PPN|d2 PPN|haag
-25 NP|town.d1_d2 PPN|de PPN|vink
-270 NP|town.d1_d2 PPN|den PPN|haag
-41 NP|town.d1_d2 PPN|den PPN|helder
+29 NP|town.d1_d2 PPN|de PPN|vink
+262 NP|town.d1_d2 PPN|den PPN|haag
+39 NP|town.d1_d2 PPN|den PPN|helder
 2 NP|town.d1_d2 PPN|den PPN|oever
 4 NP|town.d1_d2 PPN|hollandsche PPN|rading
 6 NP|town.d1_d2 PPN|lage PPN|zwaluwe
 1 NP|town.d1_d2 PPN|mierlo PPN|hout
 3 NP|town.d1_d2 PPN|nieuw PPN|amsterdam
 3 NP|town.d1_d2 PPN|nieuw PPN|vennep
-1 NP|town.d1_d2 PPN|sint PPN|oedelrode
+2 NP|town.d1_d2 PPN|sint PPN|oedelrode
 7 NP|town.d1_d2_d3 PPN|bergen PPN|op PPN|zoom
-16 NP|town.d1_d2_d3 PPN|hoek PPN|van PPN|holland
-27 NP|town.d1_d2_d3_d4 PPN|alphen PPN|aan PPN|den PPN|rijn
+15 NP|town.d1_d2_d3 PPN|hoek PPN|van PPN|holland
+26 NP|town.d1_d2_d3_d4 PPN|alphen PPN|aan PPN|den PPN|rijn
 3 NP|town.d1_d2_d3_d4 PPN|capelle PPN|aan PPN|den PPN|ijssel
 1 NP|town.driebergen PPN|3 PPN|bergen
-40 NP|town.hertogenbosch PPN|den PPN|bosch
+38 NP|town.hertogenbosch PPN|den PPN|bosch
 4 NP|year.d1d2 NUM|19 NUM|96
 1 NP|{after.d1;before.d3} NP|d2.d1 CON NP|d2.d1
 1 NP|{after.d1;before.d3} NP|{d2.d1;minute.d3} CON NP|{d2.d1;minute.d3}
+1 NP|{clock_hour.d1;minute.d2} NUM|10 NUM|34
 1 NP|{clock_hour.d1;minute.d2} NUM|23 NUM|45
+1 NP|{clock_hour.d1;minute.d3} NUM|11 N NUM|24
 1 NP|{clock_hour.d3;minute.d2d1} NUM|10 P|+ NUM|11
 3 NP|{clock_hour.d3;minute.d2d1} NUM|10 P|+ NUM|3
 1 NP|{clock_hour.d3;minute.d2d1} NUM|10 P|+ NUM|6
 1 NP|{clock_hour.d3;minute.d2d1} NUM|10 P|- NUM|8
 3 NP|{clock_hour.d3;minute.d2d1} NUM|15 P|+ NUM|10
-1 NP|{clock_hour.d3;minute.d2d1} NUM|15 P|+ NUM|11
+2 NP|{clock_hour.d3;minute.d2d1} NUM|15 P|+ NUM|11
 1 NP|{clock_hour.d3;minute.d2d1} NUM|15 P|+ NUM|12
 1 NP|{clock_hour.d3;minute.d2d1} NUM|15 P|+ NUM|4
-4 NP|{clock_hour.d3;minute.d2d1} NUM|15 P|+ NUM|6
+3 NP|{clock_hour.d3;minute.d2d1} NUM|15 P|+ NUM|6
 2 NP|{clock_hour.d3;minute.d2d1} NUM|15 P|+ NUM|7
-2 NP|{clock_hour.d3;minute.d2d1} NUM|15 P|+ NUM|8
-1 NP|{clock_hour.d3;minute.d2d1} NUM|15 P|+ NUM|9
+4 NP|{clock_hour.d3;minute.d2d1} NUM|15 P|+ NUM|8
+2 NP|{clock_hour.d3;minute.d2d1} NUM|15 P|+ NUM|9
 2 NP|{clock_hour.d3;minute.d2d1} NUM|15 P|- NUM|1
 1 NP|{clock_hour.d3;minute.d2d1} NUM|15 P|- NUM|10
 1 NP|{clock_hour.d3;minute.d2d1} NUM|15 P|- NUM|11
 1 NP|{clock_hour.d3;minute.d2d1} NUM|15 P|- NUM|2
+1 NP|{clock_hour.d3;minute.d2d1} NUM|15 P|- NUM|6
 2 NP|{clock_hour.d3;minute.d2d1} NUM|15 P|- NUM|8
 2 NP|{clock_hour.d3;minute.d2d1} NUM|15 P|- NUM|9
 1 NP|{clock_hour.d3;minute.d2d1} NUM|20 P|+ NUM|10
 1 NP|{clock_hour.d3;minute.d2d1} NUM|5 P|+ NUM|3
 1 NP|{clock_hour.d3;minute.d2d1} NUM|5 P|+ NUM|8
-1 NP|{clock_hour.d3;minute.d2d1} NUM|5 P|- NUM|1
+2 NP|{clock_hour.d3;minute.d2d1} NUM|5 P|- NUM|1
 1 NP|{clock_hour.d4;d2.d1} NUM|5 N|minute P|+ NUM|4
 1 NP|{clock_hour.d4;d2.d1} NUM|5 N|minute P|+ NUM|8
-1 NP|{clock_hour.d4;d2.d1} NUM|5 N|minute P|+ NUM|9
 1 NP|{clock_hour.d4;d2.d3d1} NUM|2 N|minute P|- NUM|9
 1 NP|{d1;[d2d3]} NP|[d1d2] CON|! NP|town.assen
-6 NP|{d1;clock_hour.d2} ADJ|minute.-30 NUM|1
-7 NP|{d1;clock_hour.d2} ADJ|minute.-30 NUM|10
+7 NP|{d1;clock_hour.d2} ADJ|minute.-30 NUM|1
+8 NP|{d1;clock_hour.d2} ADJ|minute.-30 NUM|10
 22 NP|{d1;clock_hour.d2} ADJ|minute.-30 NUM|11
 3 NP|{d1;clock_hour.d2} ADJ|minute.-30 NUM|12
 9 NP|{d1;clock_hour.d2} ADJ|minute.-30 NUM|2
 1 NP|{d1;clock_hour.d2} ADJ|minute.-30 NUM|3
-6 NP|{d1;clock_hour.d2} ADJ|minute.-30 NUM|4
-2 NP|{d1;clock_hour.d2} ADJ|minute.-30 NUM|5
+5 NP|{d1;clock_hour.d2} ADJ|minute.-30 NUM|4
+3 NP|{d1;clock_hour.d2} ADJ|minute.-30 NUM|5
 3 NP|{d1;clock_hour.d2} ADJ|minute.-30 NUM|6
 4 NP|{d1;clock_hour.d2} ADJ|minute.-30 NUM|7
-13 NP|{d1;clock_hour.d2} ADJ|minute.-30 NUM|8
-10 NP|{d1;clock_hour.d2} ADJ|minute.-30 NUM|9
+12 NP|{d1;clock_hour.d2} ADJ|minute.-30 NUM|8
+11 NP|{d1;clock_hour.d2} ADJ|minute.-30 NUM|9
 1 NP|{d1;d2} ADJ|more N|connection
 1 NP|{d1;d2} NP|d1 NP|town.amersfoort
-3 NP|{d1;d2} NP|d1 NP|town.d1_d2
+2 NP|{d1;d2} NP|d1 NP|town.d1_d2
 1 NP|{d1;d2} NP|d1 NP|town.rotterdam
 2 NP|{d1;d2} NP|d1 NP|town.schiedam
 1 NP|{d1;d2} NP|d1 NP|town.utrecht
-6 NP|{d1;d2} NP|d2 MP|d1.d2
+7 NP|{d1;d2} NP|d2 MP|d1.d2
 2 NP|{d1;d2} NP|d2 MP|d2
 1 NP|{d1;d2} NP|d2 MP|evening
 8 NP|{d1;d2} NP|d2 MP|{d1;d2}
@@ -1998,63 +2018,58 @@
 1 NP|{d1;d2} NP|d2 NP|suffix.zuid
 1 NP|{d1;d2} NP|d2.d1 NP|{d4.d1;minute.d3}
 1 NP|{d1;d2} NP|d2.d1 N|month.february
-3 NP|{d1;d2} NP|santpoort NP|suffix.noord
+4 NP|{d1;d2} NP|santpoort NP|suffix.noord
 1 NP|{d1;d2} NP|suffix.amstel NP|town.amsterdam
-1 NP|{d1;d2} NP|suffix.sloterdijk NP|town.amsterdam
 1 NP|{d1;d2} NP|suffix.zuid_wtc NP|town.amsterdam
 5 NP|{d1;d2} NP|town.alkmaar NP|suffix.noord
-8 NP|{d1;d2} NP|town.almelo NP|suffix.d1_d2
+7 NP|{d1;d2} NP|town.almelo NP|suffix.d1_d2
 1 NP|{d1;d2} NP|town.almere NP|d1
 11 NP|{d1;d2} NP|town.almere NP|suffix.buiten
 2 NP|{d1;d2} NP|town.almere NP|suffix.cs
-1 NP|{d1;d2} NP|town.almere NP|suffix.muziekwijk
+2 NP|{d1;d2} NP|town.almere NP|suffix.muziekwijk
 1 NP|{d1;d2} NP|town.almere N|suffix.stad
 1 NP|{d1;d2} NP|town.amersfoort NP|suffix.cs
-1 NP|{d1;d2} NP|town.amersfoort NP|suffix.d1_d2
-3 NP|{d1;d2} NP|town.amersfoort NP|suffix.schothorst
+1 NP|{d1;d2} NP|town.amersfoort NP|suffix.schothorst
 1 NP|{d1;d2} NP|town.amersfoort N|suffix.centrum
-10 NP|{d1;d2} NP|town.amsterdam NP|d1
+9 NP|{d1;d2} NP|town.amsterdam NP|d1
 8 NP|{d1;d2} NP|town.amsterdam NP|suffix.amstel
 10 NP|{d1;d2} NP|town.amsterdam NP|suffix.bijlmer
-46 NP|{d1;d2} NP|town.amsterdam NP|suffix.cs
-2 NP|{d1;d2} NP|town.amsterdam NP|suffix.d1_d2
+48 NP|{d1;d2} NP|town.amsterdam NP|suffix.cs
+3 NP|{d1;d2} NP|town.amsterdam NP|suffix.d1_d2
 4 NP|{d1;d2} NP|town.amsterdam NP|suffix.d2
-2 NP|{d1;d2} NP|town.amsterdam NP|suffix.de_vlugtlaan
+1 NP|{d1;d2} NP|town.amsterdam NP|suffix.de_vlugtlaan
 10 NP|{d1;d2} NP|town.amsterdam NP|suffix.lelylaan
 2 NP|{d1;d2} NP|town.amsterdam NP|suffix.muiderpoort
-10 NP|{d1;d2} NP|town.amsterdam NP|suffix.rai
+14 NP|{d1;d2} NP|town.amsterdam NP|suffix.rai
 17 NP|{d1;d2} NP|town.amsterdam NP|suffix.sloterdijk
 1 NP|{d1;d2} NP|town.amsterdam NP|suffix.slotervaart
 9 NP|{d1;d2} NP|town.amsterdam NP|suffix.zuid_wtc
 2 NP|{d1;d2} NP|town.bovenkarspel NP|flora
-1 NP|{d1;d2} NP|town.breda NP|suffix.prinsenbeek
+2 NP|{d1;d2} NP|town.breda NP|suffix.prinsenbeek
 2 NP|{d1;d2} NP|town.brussel NP|suffix.cs
 9 NP|{d1;d2} NP|town.brussel NP|suffix.noord
 1 NP|{d1;d2} NP|town.bussum NP|d1
-5 NP|{d1;d2} NP|town.bussum NP|suffix.zuid
+3 NP|{d1;d2} NP|town.bussum NP|suffix.zuid
 22 NP|{d1;d2} NP|town.d1_d2 NP|d1
-59 NP|{d1;d2} NP|town.d1_d2 NP|suffix.cs
+58 NP|{d1;d2} NP|town.d1_d2 NP|suffix.cs
 4 NP|{d1;d2} NP|town.d1_d2 NP|suffix.d1_d2_d3
 12 NP|{d1;d2} NP|town.d1_d2 NP|suffix.d1_d2_noi
 1 NP|{d1;d2} NP|town.d1_d2 NP|suffix.houtwijk
 9 NP|{d1;d2} NP|town.d1_d2 NP|suffix.hs
-2 NP|{d1;d2} NP|town.d1_d2 NP|suffix.laan_van_noi
-29 NP|{d1;d2} NP|town.d1_d2 NP|suffix.mariahoeve
+3 NP|{d1;d2} NP|town.d1_d2 NP|suffix.laan_van_noi
+30 NP|{d1;d2} NP|town.d1_d2 NP|suffix.mariahoeve
 1 NP|{d1;d2} NP|town.d1_d2 NP|suffix.zuid
 1 NP|{d1;d2} NP|town.d1_d2 N|suffix.centrum
 1 NP|{d1;d2} NP|town.d1_d2_d3 NP|suffix.haven
-1 NP|{d1;d2} NP|town.d1_d2_d3 NP|suffix.zuid
 1 NP|{d1;d2} NP|town.delft NP|d1
 2 NP|{d1;d2} NP|town.delft NP|suffix.zuid
-1 NP|{d1;d2} NP|town.delfzijl NP|suffix.cs
 2 NP|{d1;d2} NP|town.deventer NP|suffix.colmschate
 7 NP|{d1;d2} NP|town.diemen NP|suffix.zuid
 1 NP|{d1;d2} NP|town.doetinchem NP|suffix.d1_d2
 2 NP|{d1;d2} NP|town.dordrecht NP|suffix.cs
 1 NP|{d1;d2} NP|town.dordrecht NP|suffix.zuid
-1 NP|{d1;d2} NP|town.duesseldorf S|d2.d1
-4 NP|{d1;d2} NP|town.eindhoven NP|suffix.cs
-1 NP|{d1;d2} NP|town.emmen NP|suffix.bargeres
+3 NP|{d1;d2} NP|town.eindhoven NP|suffix.cs
+2 NP|{d1;d2} NP|town.emmen NP|suffix.bargeres
 1 NP|{d1;d2} NP|town.enschede NP|d1
 2 NP|{d1;d2} NP|town.enschede NP|suffix.cs
 1 NP|{d1;d2} NP|town.geleen NP|suffix.oost
@@ -2064,8 +2079,7 @@
 1 NP|{d1;d2} NP|town.haarlem NP|suffix.cs
 1 NP|{d1;d2} NP|town.helmond NP|d1
 1 NP|{d1;d2} NP|town.hengelo NP|d1
-2 NP|{d1;d2} NP|town.hengelo NP|suffix.oost
-1 NP|{d1;d2} NP|town.hertogenbosch NP|suffix.cs
+3 NP|{d1;d2} NP|town.hengelo NP|suffix.oost
 2 NP|{d1;d2} NP|town.hertogenbosch NP|town.hertogenbosch
 2 NP|{d1;d2} NP|town.hilversum NP|suffix.cs
 1 NP|{d1;d2} NP|town.hilversum NP|suffix.nob
@@ -2077,7 +2091,7 @@
 1 NP|{d1;d2} NP|town.leeuwarden NP|d1
 1 NP|{d1;d2} NP|town.leeuwarden NP|suffix.camminghaburen
 5 NP|{d1;d2} NP|town.leiden NP|suffix.cs
-5 NP|{d1;d2} NP|town.leiden NP|suffix.lammenschans
+6 NP|{d1;d2} NP|town.leiden NP|suffix.lammenschans
 1 NP|{d1;d2} NP|town.maassluis NP|suffix.west
 3 NP|{d1;d2} NP|town.maastricht NP|suffix.cs
 1 NP|{d1;d2} NP|town.maastricht NP|suffix.randwijck
@@ -2091,30 +2105,30 @@
 1 NP|{d1;d2} NP|town.rhenen NP|suffix.cs
 1 NP|{d1;d2} NP|town.roermond NP|suffix.cs
 1 NP|{d1;d2} NP|town.roosendaal NP|d1
-10 NP|{d1;d2} NP|town.rotterdam NP|d1
+11 NP|{d1;d2} NP|town.rotterdam NP|d1
 14 NP|{d1;d2} NP|town.rotterdam NP|suffix.alexander
 2 NP|{d1;d2} NP|town.rotterdam NP|suffix.bergweg
 6 NP|{d1;d2} NP|town.rotterdam NP|suffix.blaak
-18 NP|{d1;d2} NP|town.rotterdam NP|suffix.cs
+19 NP|{d1;d2} NP|town.rotterdam NP|suffix.cs
 2 NP|{d1;d2} NP|town.rotterdam NP|suffix.d1
-3 NP|{d1;d2} NP|town.rotterdam NP|suffix.hofplein
+4 NP|{d1;d2} NP|town.rotterdam NP|suffix.hofplein
 3 NP|{d1;d2} NP|town.rotterdam NP|suffix.lombardijen
 1 NP|{d1;d2} NP|town.rotterdam NP|suffix.zuid
 1 NP|{d1;d2} NP|town.schiedam NP|d1
 1 NP|{d1;d2} NP|town.sittard NP|suffix.cs
 1 NP|{d1;d2} NP|town.soest NP|suffix.zuid
 3 NP|{d1;d2} NP|town.tilburg NP|suffix.west
-3 NP|{d1;d2} NP|town.utrecht NP|d1
+5 NP|{d1;d2} NP|town.utrecht NP|d1
 1 NP|{d1;d2} NP|town.utrecht NP|suffix.centraal
-13 NP|{d1;d2} NP|town.utrecht NP|suffix.cs
+14 NP|{d1;d2} NP|town.utrecht NP|suffix.cs
 1 NP|{d1;d2} NP|town.utrecht NP|suffix.d1_d2
 1 NP|{d1;d2} NP|town.utrecht NP|suffix.lunetten
-4 NP|{d1;d2} NP|town.utrecht NP|suffix.overvecht
-5 NP|{d1;d2} NP|town.veenendaal NP|suffix.d1_d2
+5 NP|{d1;d2} NP|town.utrecht NP|suffix.overvecht
+6 NP|{d1;d2} NP|town.veenendaal NP|suffix.d1_d2
 4 NP|{d1;d2} NP|town.veenendaal N|suffix.centrum
 1 NP|{d1;d2} NP|town.vlaardingen NP|suffix.west
 1 NP|{d1;d2} NP|town.voorburg NP|d2
-7 NP|{d1;d2} NP|town.voorburg NP|suffix.d1_d2
+9 NP|{d1;d2} NP|town.voorburg NP|suffix.d1_d2
 1 NP|{d1;d2} NP|town.zaandam NP|suffix.cs
 3 NP|{d1;d2} NP|town.zoetermeer NP|suffix.buijtenwegh
 3 NP|{d1;d2} NP|town.zoetermeer NP|suffix.d1_d2
@@ -2125,7 +2139,6 @@
 1 NP|{d1;d2} NP|{d1;d2} NP|suffix.laan_van_noi
 1 NP|{d1;d2} NP|{d1;d2} NP|year.d1d2
 1 NP|{d1;d2} NP|{d1;d2} NP|{day.d1;d2}
-2 NP|{d1;d2} NP|{d1;d2} NUM|year.1996
 1 NP|{d1;d2} NP|{d1;d2} N|month.february
 1 NP|{d1;d2} NP|{d2.d1;minute.d3} N|afternoon
 20 NP|{d1;d2} NP|{day.d1;d2} NUM|year.1996
@@ -2133,7 +2146,6 @@
 1 NP|{d1;d2} NP|{day.d1;d2} N|day_of_week.saturday
 1 NP|{d1;d2} NP|{day.d1;d2} N|day_of_week.sunday
 1 NP|{d1;d2} NP|{day.d1;month.d2} NP|year.d1d2
-1 NP|{d1;d2} NP|{day.d1;month.d2} NP|{day.d1;d2}
 1 NP|{d1;d2} NP|{day_of_week.monday;part_of_day.morning} NP|d2.d1
 1 NP|{d1;d2} NP|{day_of_week.monday;part_of_day.morning} NP|{day.d1;d2}
 1 NP|{d1;d2} NP|{day_of_week.saturday;part_of_day.morning} NP|d2.d1
@@ -2142,41 +2154,42 @@
 1 NP|{d1;d2} N|day_of_week.friday NP|d2.d1
 1 NP|{d1;d2} N|day_of_week.friday NP|{d1;clock_hour.d2}
 1 NP|{d1;d2} N|day_of_week.friday NP|{d1;d2}
-17 NP|{d1;d2} N|day_of_week.friday NP|{day.d1;d2}
+15 NP|{d1;d2} N|day_of_week.friday NP|{day.d1;d2}
 1 NP|{d1;d2} N|day_of_week.friday N|afternoon
 2 NP|{d1;d2} N|day_of_week.friday N|evening
-4 NP|{d1;d2} N|day_of_week.friday N|morning
+5 NP|{d1;d2} N|day_of_week.friday N|morning
 1 NP|{d1;d2} N|day_of_week.monday NP|d2.d1
 1 NP|{d1;d2} N|day_of_week.monday NP|{d1;d2}
-35 NP|{d1;d2} N|day_of_week.monday NP|{day.d1;d2}
+33 NP|{d1;d2} N|day_of_week.monday NP|{day.d1;d2}
 3 NP|{d1;d2} N|day_of_week.monday N|evening
 8 NP|{d1;d2} N|day_of_week.monday N|morning
 1 NP|{d1;d2} N|day_of_week.saturday NP|d2.d1
 1 NP|{d1;d2} N|day_of_week.saturday NP|{d1;d2}
-30 NP|{d1;d2} N|day_of_week.saturday NP|{day.d1;d2}
+28 NP|{d1;d2} N|day_of_week.saturday NP|{day.d1;d2}
 6 NP|{d1;d2} N|day_of_week.saturday N|morning
 2 NP|{d1;d2} N|day_of_week.sunday NP|d2.d1
-1 NP|{d1;d2} N|day_of_week.sunday NP|{d1;d2}
+2 NP|{d1;d2} N|day_of_week.sunday NP|{d1;d2}
 27 NP|{d1;d2} N|day_of_week.sunday NP|{day.d1;d2}
 3 NP|{d1;d2} N|day_of_week.sunday N|afternoon
 2 NP|{d1;d2} N|day_of_week.sunday N|evening
 4 NP|{d1;d2} N|day_of_week.sunday N|morning
 1 NP|{d1;d2} N|day_of_week.thursday NP|d2
-31 NP|{d1;d2} N|day_of_week.thursday NP|{day.d1;d2}
+30 NP|{d1;d2} N|day_of_week.thursday NP|{day.d1;d2}
 2 NP|{d1;d2} N|day_of_week.thursday N|morning
 2 NP|{d1;d2} N|day_of_week.tuesday NP|d1
 1 NP|{d1;d2} N|day_of_week.tuesday NP|d2
 2 NP|{d1;d2} N|day_of_week.tuesday NP|d2.d1
 1 NP|{d1;d2} N|day_of_week.tuesday NP|{d1;d2}
-31 NP|{d1;d2} N|day_of_week.tuesday NP|{day.d1;d2}
+30 NP|{d1;d2} N|day_of_week.tuesday NP|{day.d1;d2}
 1 NP|{d1;d2} N|day_of_week.tuesday NP|{day.d1;month.d2}
 2 NP|{d1;d2} N|day_of_week.tuesday N|morning
 1 NP|{d1;d2} N|day_of_week.wednesday NP|d2.d1
 1 NP|{d1;d2} N|day_of_week.wednesday NP|day.d2
-17 NP|{d1;d2} N|day_of_week.wednesday NP|{day.d1;d2}
+19 NP|{d1;d2} N|day_of_week.wednesday NP|{day.d1;d2}
 1 NP|{d1;d2} N|day_of_week.wednesday N|afternoon
 1 NP|{d1;d2} N|day_of_week.wednesday N|evening
 1 NP|{d1;d2} N|day_of_week.wednesday N|morning
+1 NP|{d1;d2} N|morning NP|d2.d1
 1 NP|{d1;d2} N|morning NP|{d1;d2}
 1 NP|{d1;d2} PPN|town.tilburg NP|suffix.west
 1 NP|{d1;d3} NP|d2 CON AS|d1.d2
@@ -2184,6 +2197,7 @@
 1 NP|{d1;d3} NP|d2.d1 CON MP|d2
 1 NP|{d1;d3} NP|d2.d1 CON NP|d2.d1
 1 NP|{d1;d3} NP|d2.d1 P|+ NP|d2.d1
+1 NP|{d1;day.d2} N|day_of_week.monday NUM|26
 1 NP|{d1;day.d2} N|day_of_week.monday NUM|8
 1 NP|{d1;day.d2} N|day_of_week.thursday NUM|29
 1 NP|{d1;day.d2} N|day_of_week.tuesday NUM|4
@@ -2196,41 +2210,41 @@
 2 NP|{d2.d1;minute.d3} NUM|10 N|clock_hour NUM|30
 2 NP|{d2.d1;minute.d3} NUM|10 N|clock_hour NUM|34
 7 NP|{d2.d1;minute.d3} NUM|10 N|clock_hour NUM|40
-2 NP|{d2.d1;minute.d3} NUM|10 N|clock_hour NUM|45
+3 NP|{d2.d1;minute.d3} NUM|10 N|clock_hour NUM|45
 2 NP|{d2.d1;minute.d3} NUM|11 N|clock_hour NUM|15
 4 NP|{d2.d1;minute.d3} NUM|11 N|clock_hour NUM|30
 1 NP|{d2.d1;minute.d3} NUM|11 N|clock_hour NUM|50
 1 NP|{d2.d1;minute.d3} NUM|11 N|hour NUM|30
-1 NP|{d2.d1;minute.d3} NUM|12 N|clock_hour NUM|15
 2 NP|{d2.d1;minute.d3} NUM|12 N|clock_hour NUM|30
+1 NP|{d2.d1;minute.d3} NUM|12 N|clock_hour NUM|45
 1 NP|{d2.d1;minute.d3} NUM|13 N|hour NUM|30
-1 NP|{d2.d1;minute.d3} NUM|13 N|hour NUM|50
 1 NP|{d2.d1;minute.d3} NUM|14 N|hour NUM|30
 3 NP|{d2.d1;minute.d3} NUM|15 N|hour NUM|30
 1 NP|{d2.d1;minute.d3} NUM|16 N|hour NUM|30
 1 NP|{d2.d1;minute.d3} NUM|16 N|hour NUM|5
-5 NP|{d2.d1;minute.d3} NUM|17 N|hour NUM|30
-1 NP|{d2.d1;minute.d3} NUM|17 N|hour NUM|35
-1 NP|{d2.d1;minute.d3} NUM|17 N|hour NUM|5
+4 NP|{d2.d1;minute.d3} NUM|17 N|hour NUM|30
+2 NP|{d2.d1;minute.d3} NUM|17 N|hour NUM|5
 1 NP|{d2.d1;minute.d3} NUM|18 N|clock_hour NUM|30
 1 NP|{d2.d1;minute.d3} NUM|18 N|hour NUM|15
 1 NP|{d2.d1;minute.d3} NUM|18 N|hour NUM|30
 1 NP|{d2.d1;minute.d3} NUM|18 N|hour NUM|45
 1 NP|{d2.d1;minute.d3} NUM|18 N|hour NUM|5
-2 NP|{d2.d1;minute.d3} NUM|19 N|hour NUM|30
+3 NP|{d2.d1;minute.d3} NUM|19 N|hour NUM|30
 1 NP|{d2.d1;minute.d3} NUM|20 N|hour NUM|15
 1 NP|{d2.d1;minute.d3} NUM|20 N|hour NUM|30
 1 NP|{d2.d1;minute.d3} NUM|22 N|hour NUM|38
+1 NP|{d2.d1;minute.d3} NUM|23 N|hour NUM|11
 1 NP|{d2.d1;minute.d3} NUM|23 N|hour NUM|15
 2 NP|{d2.d1;minute.d3} NUM|3 N|clock_hour NUM|20
 1 NP|{d2.d1;minute.d3} NUM|3 N|clock_hour NUM|6
+1 NP|{d2.d1;minute.d3} NUM|5 N|clock_hour NUM|30
 5 NP|{d2.d1;minute.d3} NUM|6 N|clock_hour NUM|30
 1 NP|{d2.d1;minute.d3} NUM|6 N|clock_hour NUM|43
 3 NP|{d2.d1;minute.d3} NUM|6 N|clock_hour NUM|45
 1 NP|{d2.d1;minute.d3} NUM|6 N|hour NUM|15
 1 NP|{d2.d1;minute.d3} NUM|7 N|clock_hour NUM|11
 1 NP|{d2.d1;minute.d3} NUM|7 N|clock_hour NUM|15
-9 NP|{d2.d1;minute.d3} NUM|7 N|clock_hour NUM|30
+8 NP|{d2.d1;minute.d3} NUM|7 N|clock_hour NUM|30
 2 NP|{d2.d1;minute.d3} NUM|7 N|clock_hour NUM|37
 1 NP|{d2.d1;minute.d3} NUM|7 N|clock_hour NUM|45
 2 NP|{d2.d1;minute.d3} NUM|8 N|clock_hour NUM|15
@@ -2244,7 +2258,6 @@
 6 NP|{d2.d1;minute.d3} NUM|9 N|clock_hour NUM|30
 1 NP|{d2.d1;minute.d3} NUM|9 N|hour NUM|30
 1 NP|{d3.d1;minute.d2} NUM|1 NUM|3 N|clock_hour
-1 NP|{d3.d1;minute.d2} NUM|13 NUM|0 N|hour
 1 NP|{d3.d1;minute.d2} NUM|13 NUM|10 N|hour
 6 NP|{d3.d1;minute.d2} NUM|14 NUM|0 N|hour
 4 NP|{d3.d1;minute.d2} NUM|15 NUM|0 N|hour
@@ -2266,8 +2279,8 @@
 2 NP|{day.d1;d2} NUM|1 N|month.april
 1 NP|{day.d1;d2} NUM|1 N|month.august
 11 NP|{day.d1;d2} NUM|1 N|month.february
-15 NP|{day.d1;d2} NUM|1 N|month.january
-7 NP|{day.d1;d2} NUM|1 N|month.june
+14 NP|{day.d1;d2} NUM|1 N|month.january
+6 NP|{day.d1;d2} NUM|1 N|month.june
 8 NP|{day.d1;d2} NUM|1 N|month.march
 4 NP|{day.d1;d2} NUM|1 N|month.may
 1 NP|{day.d1;d2} NUM|1 N|month.october
@@ -2283,13 +2296,14 @@
 1 NP|{day.d1;d2} NUM|11 N|month.march
 3 NP|{day.d1;d2} NUM|12 N|month.december
 6 NP|{day.d1;d2} NUM|12 N|month.february
-1 NP|{day.d1;d2} NUM|12 N|month.january
+2 NP|{day.d1;d2} NUM|12 N|month.january
 1 NP|{day.d1;d2} NUM|12 N|month.june
 2 NP|{day.d1;d2} NUM|12 N|month.march
 2 NP|{day.d1;d2} NUM|12 N|month.may
 5 NP|{day.d1;d2} NUM|13 N|month.february
 1 NP|{day.d1;d2} NUM|13 N|month.january
-12 NP|{day.d1;d2} NUM|14 N|month.february
+1 NP|{day.d1;d2} NUM|13 N|month.june
+13 NP|{day.d1;d2} NUM|14 N|month.february
 1 NP|{day.d1;d2} NUM|14 N|month.january
 4 NP|{day.d1;d2} NUM|14 N|month.march
 1 NP|{day.d1;d2} NUM|14 N|month.october
@@ -2298,7 +2312,7 @@
 4 NP|{day.d1;d2} NUM|15 N|month.february
 1 NP|{day.d1;d2} NUM|15 N|month.january
 1 NP|{day.d1;d2} NUM|15 N|month.march
-2 NP|{day.d1;d2} NUM|15 N|month.may
+1 NP|{day.d1;d2} NUM|15 N|month.may
 1 NP|{day.d1;d2} NUM|16 N|month.december
 4 NP|{day.d1;d2} NUM|16 N|month.february
 1 NP|{day.d1;d2} NUM|16 N|month.march
@@ -2307,51 +2321,54 @@
 3 NP|{day.d1;d2} NUM|17 N|month.march
 1 NP|{day.d1;d2} NUM|18 N|month.april
 1 NP|{day.d1;d2} NUM|18 N|month.august
+1 NP|{day.d1;d2} NUM|18 N|month.december
 2 NP|{day.d1;d2} NUM|18 N|month.february
 2 NP|{day.d1;d2} NUM|18 N|month.january
 1 NP|{day.d1;d2} NUM|18 N|month.march
-3 NP|{day.d1;d2} NUM|19 N|month.december
-4 NP|{day.d1;d2} NUM|19 N|month.january
+2 NP|{day.d1;d2} NUM|19 N|month.december
+3 NP|{day.d1;d2} NUM|19 N|month.january
 1 NP|{day.d1;d2} NUM|2 N|month.december
-20 NP|{day.d1;d2} NUM|2 N|month.february
+19 NP|{day.d1;d2} NUM|2 N|month.february
 2 NP|{day.d1;d2} NUM|2 N|month.january
-4 NP|{day.d1;d2} NUM|2 N|month.march
+1 NP|{day.d1;d2} NUM|2 N|month.june
+5 NP|{day.d1;d2} NUM|2 N|month.march
 1 NP|{day.d1;d2} NUM|2 N|month.may
 2 NP|{day.d1;d2} NUM|20 N|month.december
 5 NP|{day.d1;d2} NUM|20 N|month.february
-5 NP|{day.d1;d2} NUM|20 N|month.january
+4 NP|{day.d1;d2} NUM|20 N|month.january
 3 NP|{day.d1;d2} NUM|20 N|month.may
 1 NP|{day.d1;d2} NUM|21 N|month.december
-14 NP|{day.d1;d2} NUM|21 N|month.january
+15 NP|{day.d1;d2} NUM|21 N|month.january
 2 NP|{day.d1;d2} NUM|21 N|month.march
 1 NP|{day.d1;d2} NUM|21 N|month.may
 3 NP|{day.d1;d2} NUM|22 N|month.december
-4 NP|{day.d1;d2} NUM|22 N|month.february
-24 NP|{day.d1;d2} NUM|22 N|month.january
+3 NP|{day.d1;d2} NUM|22 N|month.february
+22 NP|{day.d1;d2} NUM|22 N|month.january
 3 NP|{day.d1;d2} NUM|22 N|month.march
 2 NP|{day.d1;d2} NUM|23 N|month.april
 3 NP|{day.d1;d2} NUM|23 N|month.december
-9 NP|{day.d1;d2} NUM|23 N|month.february
-29 NP|{day.d1;d2} NUM|23 N|month.january
+11 NP|{day.d1;d2} NUM|23 N|month.february
+30 NP|{day.d1;d2} NUM|23 N|month.january
 1 NP|{day.d1;d2} NUM|23 N|month.november
-7 NP|{day.d1;d2} NUM|24 N|month.december
+8 NP|{day.d1;d2} NUM|24 N|month.december
 6 NP|{day.d1;d2} NUM|24 N|month.february
 41 NP|{day.d1;d2} NUM|24 N|month.january
 3 NP|{day.d1;d2} NUM|24 N|month.march
-12 NP|{day.d1;d2} NUM|25 N|month.december
+13 NP|{day.d1;d2} NUM|25 N|month.december
 13 NP|{day.d1;d2} NUM|25 N|month.january
 1 NP|{day.d1;d2} NUM|25 N|month.march
 10 NP|{day.d1;d2} NUM|26 N|month.december
-10 NP|{day.d1;d2} NUM|26 N|month.january
+12 NP|{day.d1;d2} NUM|26 N|month.january
 4 NP|{day.d1;d2} NUM|26 N|month.may
+1 NP|{day.d1;d2} NUM|27 N|month.april
 1 NP|{day.d1;d2} NUM|27 N|month.february
-7 NP|{day.d1;d2} NUM|27 N|month.january
+6 NP|{day.d1;d2} NUM|27 N|month.january
 2 NP|{day.d1;d2} NUM|27 N|month.may
 1 NP|{day.d1;d2} NUM|28 N|month.december
 4 NP|{day.d1;d2} NUM|28 N|month.february
 6 NP|{day.d1;d2} NUM|28 N|month.january
 1 NP|{day.d1;d2} NUM|28 N|month.march
-8 NP|{day.d1;d2} NUM|29 N|month.december
+7 NP|{day.d1;d2} NUM|29 N|month.december
 2 NP|{day.d1;d2} NUM|29 N|month.february
 2 NP|{day.d1;d2} NUM|29 N|month.january
 1 NP|{day.d1;d2} NUM|3 N|month.august
@@ -2368,9 +2385,8 @@
 1 NP|{day.d1;d2} NUM|30 N|month.june
 1 NP|{day.d1;d2} NUM|30 N|month.march
 3 NP|{day.d1;d2} NUM|30 N|month.may
-5 NP|{day.d1;d2} NUM|31 N|month.december
+3 NP|{day.d1;d2} NUM|31 N|month.december
 3 NP|{day.d1;d2} NUM|31 N|month.january
-2 NP|{day.d1;d2} NUM|31 N|month.may
 4 NP|{day.d1;d2} NUM|4 N|month.april
 14 NP|{day.d1;d2} NUM|4 N|month.february
 3 NP|{day.d1;d2} NUM|4 N|month.january
@@ -2378,15 +2394,16 @@
 1 NP|{day.d1;d2} NUM|4 N|month.march
 3 NP|{day.d1;d2} NUM|4 N|month.may
 1 NP|{day.d1;d2} NUM|5 N|month.april
-3 NP|{day.d1;d2} NUM|5 N|month.december
-26 NP|{day.d1;d2} NUM|5 N|month.february
+2 NP|{day.d1;d2} NUM|5 N|month.december
+25 NP|{day.d1;d2} NUM|5 N|month.february
 1 NP|{day.d1;d2} NUM|5 N|month.march
 1 NP|{day.d1;d2} NUM|5 N|month.may
 1 NP|{day.d1;d2} NUM|6 N|month.december
-25 NP|{day.d1;d2} NUM|6 N|month.february
+24 NP|{day.d1;d2} NUM|6 N|month.february
 2 NP|{day.d1;d2} NUM|6 N|month.january
-3 NP|{day.d1;d2} NUM|7 N|month.december
-12 NP|{day.d1;d2} NUM|7 N|month.february
+1 NP|{day.d1;d2} NUM|7 N|month.april
+2 NP|{day.d1;d2} NUM|7 N|month.december
+11 NP|{day.d1;d2} NUM|7 N|month.february
 8 NP|{day.d1;d2} NUM|7 N|month.january
 2 NP|{day.d1;d2} NUM|7 N|month.june
 4 NP|{day.d1;d2} NUM|7 N|month.march
@@ -2394,14 +2411,14 @@
 1 NP|{day.d1;d2} NUM|8 N|month.august
 1 NP|{day.d1;d2} NUM|8 N|month.december
 19 NP|{day.d1;d2} NUM|8 N|month.february
-7 NP|{day.d1;d2} NUM|8 N|month.january
+6 NP|{day.d1;d2} NUM|8 N|month.january
 1 NP|{day.d1;d2} NUM|9 N|month.december
 8 NP|{day.d1;d2} NUM|9 N|month.february
 8 NP|{day.d1;d2} NUM|9 N|month.january
 1 NP|{day.d1;d2} NUM|9 N|month.may
 1 NP|{day.d1;month.d2} NUM|12 NUM|2
 1 NP|{day.d1;month.d2} NUM|14 NUM|2
-2 NP|{day.d1;month.d2} NUM|2 NUM|2
+1 NP|{day.d1;month.d2} NUM|2 NUM|2
 1 NP|{day.d1;month.d2} NUM|22 NUM|1
 1 NP|{day.d1;month.d2} NUM|24 NUM|1
 1 NP|{day.d1;month.d2} NUM|6 NUM|2
@@ -2409,21 +2426,22 @@
 3 NP|{hour.d1;minute.d3} NUM|11 NUM|0 NUM|0
 1 NP|{hour.d1;minute.d3} NUM|15 NUM|0 NUM|0
 1 NP|{hour.d1;minute.d3} NUM|16 NUM|0 NUM|0
-2 NP|{hour.d2;minute.d4} NUM|0 NUM|1 NUM|0 NUM|0
+1 NP|{hour.d2;minute.d4} NUM|0 NUM|1 NUM|0 NUM|0
 1 NP|{origin.place.d1;destination.place.d2} NP|town.almelo NP|town.etten_leur
 1 NP|{origin.place.d1;destination.place.d2} NP|town.haarlem NP|town.breda
 1 NP|{origin.place.d1;destination.place.d2} NP|town.hertogenbosch NP|town.leeuwarden
 2 NP|{origin.place.d1;destination.place.d2} NP|town.leiden NP|town.venlo
 1 NP|{origin.place.d1;destination.place.d2} NP|town.rotterdam NP|town.maastricht
+1 NP|{origin.place.d1;destination.place.d2} NP|town.tilburg NP|town.breda
 1 NP|{origin.place.d1;destination.place.d2} NP|town.zwolle NP|town.brunssum
 1 NP|{origin.place.d1;destination.place.d2} NP|town.zwolle NP|town.winsum
 1 NUM|d1d2d3 NUM|2 CON|+ NUM|20
 1 NUM|d2 ERRORNUM NUM|16
 1 N|[d1d2] ADJ|# N|day
-4 N|[d1d2] ADJ|# N|time
+3 N|[d1d2] ADJ|# N|time
 1 N|clock_hour.12 N|afternoon N|hour
 1 N|d1 ADJ|first N|moment.time
-9 N|d1 ADJ|later N|connection
+8 N|d1 ADJ|later N|connection
 1 N|d1 ADJ|later N|d2
 24 N|d1 ADJ|more N|connection
 1 N|d1 ADV|[#browse] N
@@ -2432,16 +2450,16 @@
 1 N|d1 N|day_of_week.wednesday ADJ
 1 N|d1.d2 N|d2 MP|d1.d2
 1 N|d1.d2 N|d2 MP|{d1;d2}
-1 N|d1.d2 N|travel.origin MP|d1.d2
+2 N|d1.d2 N|travel.origin MP|d1.d2
 1 N|d1.d3 N|clock_hour CON NUM|10
 1 N|d1.d3 N|info P MP|{origin.place.d1;d2}
 6 N|d2 ADJ N|connection
 8 N|d2 ADJ N|day_of_week.friday
 5 N|d2 ADJ N|day_of_week.monday
-7 N|d2 ADJ N|day_of_week.saturday
+8 N|d2 ADJ N|day_of_week.saturday
 7 N|d2 ADJ N|day_of_week.sunday
 1 N|d2 ADJ N|day_of_week.thursday
-4 N|d2 ADJ N|day_of_week.tuesday
+3 N|d2 ADJ N|day_of_week.tuesday
 6 N|d2 ADJ N|day_of_week.wednesday
 1 N|d2 ADJ N|station
 1 N|d2 ADV N|d1
@@ -2455,18 +2473,18 @@
 1 N|d2 N ADJ|earlier
 1 N|d2 N N|connection
 1 N|d2.d1 ADJ|2 N|easter
-19 N|d2.d1 ADJ|next N|week
+17 N|d2.d1 ADJ|next N|week
 4 N|d2.d1 ADJ|return_trip N|connection
 10 N|date.{day.24+d1;month.december} ADJ|1 N|christmas
 11 N|date.{day.24+d1;month.december} ADJ|2 N|christmas
-10 N|{d1;d2} ADJ|first N|connection
+12 N|{d1;d2} ADJ|first N|connection
 1 N|{d1;d2} ADJ|first N|origin.moment
 10 N|{d1;d2} ADJ|last N|connection
 1 N|{d1;d2} ADV|today N|afternoon
 1 N|{d1;d2} N|d2 MP|d1.d2
 3 N|{d1;d2} N|d2.d1 N|day_of_week.friday
 1 N|{d1;d2} N|d2.d1 N|day_of_week.monday
-5 N|{d1;d2} N|d2.d1 N|day_of_week.saturday
+4 N|{d1;d2} N|d2.d1 N|day_of_week.saturday
 2 N|{d1;d2} N|d2.d1 N|day_of_week.sunday
 1 N|{d1;d2} N|d2.d1 N|day_of_week.thursday
 3 N|{d1;d2} N|d2.d1 N|day_of_week.tuesday
@@ -2481,12 +2499,12 @@
 1 PER|d2 ERRORPER PER|user
 1 PPN|d2 ERRORPPN PPN|den
 1 PRO|d2 ERRORPRO PRO|dref
-5 PTP ADV PTP
+6 PTP ADV PTP
 1 PTP MP PTP
 4 PTP NP PTP
-1 PTP PRO PTP
+2 PTP PRO PTP
 1 PTP PTP INT
-2 PTP|[#repeat] PRO PTP
+3 PTP|[#repeat] PRO PTP
 1 PTP|[=no] ADV PTP
 1 PTP|[d1d2] ADV|# PTP|d2
 2 PTP|d1 ADV|! PTP|[#repeat]
@@ -2496,7 +2514,6 @@
 8 PTP|d2 ADV PTP|[#repeat]
 1 PTP|d2 ADV PTP|d1
 1 PTP|d2 ADV PTP|d2
-1 PTP|d2 ADV PTP|{d1;d3}
 2 PTP|d2 NP PTP|[#repeat]
 2 PTP|d2 NP PTP|d2
 1 PTP|d2 NP PTP|repeat
@@ -2504,16 +2521,15 @@
 1 PTP|d2 PER PTP|[=no]
 1 PTP|d2 PER PTP|d1
 2 PTP|d2 PER PTP|d2
-17 PTP|d2 PRO PTP|[#repeat]
+18 PTP|d2 PRO PTP|[#repeat]
 1 PTP|d2 PRO PTP|d1
-3 PTP|d2 PRO PTP|d2
+2 PTP|d2 PRO PTP|d2
 1 PTP|d2 PRO|dref PTP|[#repeat]
 1 PTP|d3 PTP P NP|d1.d2
-1 PTP|{d1;d3} PTP|[#repeat] CON PTP|[#repeat]
 1 P|d1.d2 P|at P|at
 3 P|d2 ERRORP P|after
 7 P|d2 ERRORP P|at
-10 P|d2 ERRORP P|destination.place
+9 P|d2 ERRORP P|destination.place
 12 P|d2 ERRORP P|origin.place
 1 QS ADV SO
 1 QS SO INFP
@@ -2523,57 +2539,57 @@
 1 QS|d3 V ADV NP|d2
 1 QS|repeat ADV SO
 1 QS|{d2;d4} SO MP|evening INT MP|{d1;d2}
-7 S CON S
+6 S CON S
 1 S NP V
 1 S NP|{day.d1;d2} VP
 2 S PER V
 2 S PER VP
-13 S PER|user VP
+14 S PER|user VP
 1 S PER|user VP|d2
-5 S PRO V
+4 S PRO V
 4 S PRO VP
 4 S PRO|dref V
-7 S PRO|dref VP
+5 S PRO|dref VP
 2 S PRO|dref VP|d2
 1 S S ERRORS
 1 S S S
 3 SO SO ADV
 1 SO SO INF
 3 SO SO INFP
-2 SO SO INT
+1 SO SO INT
 1 SO SO MP
-1 SO SO PTP
-12 SO V PER
-13 SO V PER|user
+13 SO V PER
+12 SO V PER|user
 1 SO V PRO
 3 SO V PRO|dref
 1 SO V|wants PER
 1 SO V|wants PER|user
 2 SO|d1 SO|d2 PTP
-5 SO|d1 SO|d2.d1 ADV
+6 SO|d1 SO|d2.d1 ADV
 1 SO|d1.d2 SO|d1.d2 MP|{d1;d2}
 3 SO|d1.d2 SO|d2 INFP|d2
 8 SO|d1.d2 SO|d2.d1 INFP|d1.d2
-6 SO|d1.d2 SO|d2.d1 INFP|d2
+5 SO|d1.d2 SO|d2.d1 INFP|d2
 8 SO|d1.d2 SO|d2.d1 INFP|d2.d1
 1 SO|d1.d2 SO|d2.d1 INF|info
 4 SO|d1.d2 SO|d2.d1 INF|travel
-20 SO|d1.d2 SO|d2.d1 INF|travel.origin
+19 SO|d1.d2 SO|d2.d1 INF|travel.origin
 2 SO|d1.d2 SO|d2.d1 MP|[d1d2]
 3 SO|d1.d2 SO|d2.d1 MP|d1.d2
 2 SO|d1.d2 SO|d2.d1 MP|d2
 1 SO|d1.d2 SO|d2.d1 MP|{d1;d2}
 1 SO|d1.d2 SO|d2.d1 NP|{d1;d2}
+1 SO|d1.d2 SO|d2.d1 PRO|dref
 1 SO|d1.d2 SO|d2.d1 P|at
 1 SO|d1.d2.d3 SO|d2.d1 INF|info P|origin.place
 2 SO|d2 SO ADV|#
-2 SO|d2 SO INFP|d1
+3 SO|d2 SO INFP|d1
 1 SO|d2 SO INFP|d2
 1 SO|d2 SO MP|d1
 1 SO|d2 SO N|day_of_week.wednesday
 2 SO|d2 SO PTP|d2
 1 SO|d2 SO|d2 PTP|d2
-11 SO|d2 SO|d2.d1 ADV|#
+10 SO|d2 SO|d2.d1 ADV|#
 4 SO|d2 SO|d2.d1 ADV|d2
 1 SO|d2 SO|d2.d1 INFP|d2
 1 SO|d2 SO|d2.d1 INFP|{d1.d2;d3}
@@ -2581,21 +2597,19 @@
 1 SO|d2 V NP|{day.d1;d2}
 4 SO|d2 V PER|user
 2 SO|d2.d1 V|travel.origin PER|user
-105 SO|d2.d1 V|wants PER|user
+103 SO|d2.d1 V|wants PER|user
 2 SO|d2.d1 V|wants PER|user MP
-3 SO|d3 V PER|user ADV|#
+4 SO|d3 V PER|user ADV|#
 1 SO|{d1;d2} SO|d2 MP|d1.d2
 1 S|[d1d2] INT|! S|d1.d2
 1 S|[d2d1] MP|day_after_tomorrow VP|d2
 1 S|[d2d1] MP|later VP|d2
 4 S|[d2d1] NP|d2 VP|d2
 1 S|[d2d1] NP|d2.d1 V|+
-1 S|[d2d1] PRO|dref VP|d1
-178 S|[d2d1] PRO|dref VP|d2
-184 S|[d2d1] PRO|dref V|+
+175 S|[d2d1] PRO|dref VP|d2
+182 S|[d2d1] PRO|dref V|+
 1 S|d1 INT|! N
 1 S|d1 S|d1.d2 CON S
-1 S|d1.confused PER|user VP
 1 S|d1.d2 NP|d1.d2 VP|d3
 1 S|d1.d2 PER|d2 VP|d1.d2
 1 S|d1.d2 PER|user INFP|d2
@@ -2607,9 +2621,9 @@
 6 S|d1.d2 PER|user VP|d1
 1 S|d1.d2 PER|user VP|d1.[d2dref]
 1 S|d1.d2 PER|user VP|d1.[d3d2]
-1451 S|d1.d2 PER|user VP|d1.d2
+1442 S|d1.d2 PER|user VP|d1.d2
 2 S|d1.d2 PER|user VP|d1.d3
-23 S|d1.d2 PER|user VP|d2
+22 S|d1.d2 PER|user VP|d2
 2 S|d1.d2 PER|user VP|d3
 10 S|d1.d2 PER|user V|wants
 1 S|d1.d2 PRO|dref VP|d2
@@ -2624,12 +2638,11 @@
 1 S|d2 NP VP|d2
 1 S|d2 NP|christmas S|d1.d2
 1 S|d2 PER VP|d1
-22 S|d2 PER VP|d2
+23 S|d2 PER VP|d2
 1 S|d2 PER|user INFP|d2.d1
-1 S|d2 PER|user MP|d2
 1 S|d2 PER|user VP|[=no]
 1 S|d2 PER|user VP|d1
-34 S|d2 PER|user VP|d2
+36 S|d2 PER|user VP|d2
 4 S|d2 PER|user VP|d3
 25 S|d2 PRO VP|d2
 1 S|d2 PRO|dref VP|[=yes]
@@ -2637,13 +2650,13 @@
 1 S|d2 S QS|d2
 1 S|d2 S S|[d2d1]
 1 S|d2 S S|d1.d2
-7 S|d2.d1 PRO|dref VP|d2
+1 S|d2 S S|d2
+5 S|d2.d1 PRO|dref VP|d2
 1 S|d2.d1 PRO|dref VP|d2.d1
 1 S|d3 S CON S|[d2d1]
 1 S|{d1;[d2d3]} MP|tomorrow CON|! S|d1.d2
 1 S|{d1;[d2d3]} NP|[d1d2] CON|! S|d1.d2
-1 S|{d1;[d2d3]} S|[d2d1] CON|! S|d1.d2
-3 S|{d1;[d2d3]} S|d1.d2 CON|! MP|d1.d2
+4 S|{d1;[d2d3]} S|d1.d2 CON|! MP|d1.d2
 1 S|{d1;[d2d3]} S|d1.d2 CON|! MP|{d1;d2}
 5 S|{d1;[d2d3]} S|d1.d2 CON|! S|d1.d2
 2 S|{d1;[d2d3]} S|d2 CON|! S|d2
@@ -2652,14 +2665,14 @@
 1 S|{d1;[d2d3]} VP|d2 CON|! S|d2
 1 S|{d1;d3} MP|day_after_tomorrow CON S|d1.d2
 1 S|{d1;d3} MP|first CON S|d1.d2
-1 S|{d1;d3} NP|{d1;d2} CON S|d1.d2
 1 S|{d1;d3} N|day_of_week.sunday CON S|d1.d2
+1 S|{d1;d3} S|[d2d1] CON S|d1.d2
 1 S|{d1;d3} S|[d2d1] CON S|d2
 1 S|{d1;d3} S|d1.d2 CON AS|d1.d2
 1 S|{d1;d3} S|d1.d2 CON INFP|d2.d1
 1 S|{d1;d3} S|d1.d2 CON INFP|d2.{d1;d3}
 2 S|{d1;d3} S|d1.d2 CON MP|[d1d2]
-4 S|{d1;d3} S|d1.d2 CON S|d1.d2
+6 S|{d1;d3} S|d1.d2 CON S|d1.d2
 1 S|{d1;d3} S|d1.d2 CON S|d2
 2 S|{d1;d3} S|d1.d2 CON TS|d2
 1 S|{d1;d3} S|d1.d2 CON TS|d2.d1
@@ -2667,111 +2680,114 @@
 1 S|{d1;d3} TS|d2 CON S|d1.d2
 1 S|{d1;d3} TS|d2.d1 CON S|d1.d2
 1 TOP ADJ|26
-5 TOP ADV|[=no]
+7 TOP ADV|[=no]
 76 TOP ADV|[=yes]
 9 TOP ADV|[d1dref]
 3 TOP ADV|d1
 9 TOP ADV|d2
-6 TOP ADV|now
+5 TOP ADV|now
 1 TOP ADV|return_trip
-256 TOP A|[d1d2]
+260 TOP A|[d1d2]
 5 TOP A|[d1d3]
 1 TOP A|[d2d3]
-671 TOP A|d1
+679 TOP A|d1
 3 TOP A|d1.d2
-3 TOP A|d1;[!d2]
+4 TOP A|d1;[!d2]
 3 TOP A|d1;[d2d3]
 2 TOP A|d1;[d3d2]
 606 TOP A|d1;d2
-29 TOP A|d1;d2;d3
+31 TOP A|d1;d2;d3
 1 TOP A|d1;d2;d4
-20 TOP A|d1;d3
+16 TOP A|d1;d3
 1 TOP A|d1;d3;d4
 1 TOP A|d1;origin.place.d2;destination.place.d3
 21 TOP A|d2
-10 TOP A|d2;[d1d3]
+9 TOP A|d2;[d1d3]
 1 TOP A|d3
 1 TOP A|d3;[d1d4]
 1 TOP A|error.not_understood
 5 TOP A|origin.place.d1;d2
-120 TOP A|origin.place.d1;destination.place.d2
+116 TOP A|origin.place.d1;destination.place.d2
 1 TOP A|{after.d1;before.d2}
 1 TOP A|{d1;d2}
 1 TOP A|{origin.place.d1;destination.place.d2}
 1 TOP CON|error.not_understood
 1 TOP IMPS|[=yes]
+1 TOP IMPS|[d1d2]
 4 TOP IMPS|d1
-7 TOP IMPS|d2
+5 TOP IMPS|d2
+1 TOP INFP|d1
 1 TOP INFP|d1.d2
-21 TOP INFP|d2.d1
+22 TOP INFP|d2.d1
 2 TOP INFP|d2.{d1;d3}
-3 TOP INF|travel.destination
+2 TOP INF|travel.destination
 1 TOP INT|user.confused
 1 TOP MP|[d1d2]
-14 TOP MP|d1
-2 TOP MP|d1.clock_hour.d2
-700 TOP MP|d1.d2
+1 TOP MP|afternoon
+17 TOP MP|d1
+3 TOP MP|d1.clock_hour.d2
+709 TOP MP|d1.d2
 1 TOP MP|d1.day.d2
 2 TOP MP|d1;d2
-19 TOP MP|d2
-4 TOP MP|d2.d1
-32 TOP MP|day_after_tomorrow
+21 TOP MP|d2
+3 TOP MP|d2.d1
+30 TOP MP|day_after_tomorrow
 1 TOP MP|day_before_yesterday
 1 TOP MP|evening
 4 TOP MP|first
 1 TOP MP|morning
-12 TOP MP|now
-4 TOP MP|return_trip
-62 TOP MP|today
-102 TOP MP|tomorrow
+11 TOP MP|now
+5 TOP MP|return_trip
+64 TOP MP|today
+104 TOP MP|tomorrow
 2 TOP MP|yesterday
 1 TOP MP|{after.clock_hour.d1;before.clock_hour.d3}
-3 TOP MP|{after.clock_hour.d2;before.clock_hour.d4}
-5 TOP MP|{after.d2;before.d4}
+2 TOP MP|{after.clock_hour.d2;before.clock_hour.d4}
+6 TOP MP|{after.d2;before.d4}
 2 TOP MP|{clock_hour.d1;d2}
 1 TOP MP|{d1;[!d2]}
 3 TOP MP|{d1;[d2d3]}
-1392 TOP MP|{d1;d2}
+1393 TOP MP|{d1;d2}
 2 TOP MP|{d1;d3}
 1 TOP MP|{destination.place.d1;d2}
-157 TOP MP|{origin.place.d1;d2}
-8 TOP MP|{today;afternoon}
+164 TOP MP|{origin.place.d1;d2}
+7 TOP MP|{today;afternoon}
 1 TOP MP|{today;d2}
-6 TOP MP|{today;evening}
+4 TOP MP|{today;evening}
 2 TOP MP|{tomorrow;afternoon}
 3 TOP MP|{tomorrow;evening}
-17 TOP MP|{tomorrow;morning}
+18 TOP MP|{tomorrow;morning}
 1 TOP NP|bad_bentheim
-8 TOP NP|d1
+9 TOP NP|d1
 2 TOP NP|d1.d2
 3 TOP NP|d1;d2
-29 TOP NP|d2
-241 TOP NP|d2.d1
+30 TOP NP|d2
+242 TOP NP|d2.d1
 1 TOP NP|d3
 1 TOP NP|date.{day.31;month.december}
 3 TOP NP|day.d2
 2 TOP NP|station.d1_d2
 1 TOP NP|station.driebergen_zeist
 1 TOP NP|station.leidschendam_voorburg
+1 TOP NP|station.naarden_bussum
 1 TOP NP|suffix.blaak
 1 TOP NP|suffix.d1_d2
 2 TOP NP|suffix.d1_d2_noi
 1 TOP NP|suffix.kogerveld
 2 TOP NP|suffix.sportpark
 3 TOP NP|town.abcoude
-1 TOP NP|town.alkmaar
 1 TOP NP|town.almelo
 1 TOP NP|town.almere
-2 TOP NP|town.amersfoort
-7 TOP NP|town.amsterdam
+1 TOP NP|town.amersfoort
+8 TOP NP|town.amsterdam
 2 TOP NP|town.apeldoorn
-2 TOP NP|town.arnhem
-9 TOP NP|town.assen
+1 TOP NP|town.arnhem
+11 TOP NP|town.assen
 4 TOP NP|town.baarn
 4 TOP NP|town.barendrecht
 1 TOP NP|town.beek_elsloo
 1 TOP NP|town.boxmeer
-3 TOP NP|town.breda
+2 TOP NP|town.breda
 2 TOP NP|town.brussel
 3 TOP NP|town.bunde
 1 TOP NP|town.bussum
@@ -2779,7 +2795,7 @@
 2 TOP NP|town.d1_d2_d3
 4 TOP NP|town.d1_d2_d3_d4
 2 TOP NP|town.dalen
-1 TOP NP|town.delfzijl
+2 TOP NP|town.delfzijl
 2 TOP NP|town.deventer
 1 TOP NP|town.dordrecht
 1 TOP NP|town.driebergen
@@ -2788,9 +2804,9 @@
 3 TOP NP|town.enschede
 1 TOP NP|town.franeker
 1 TOP NP|town.goes
-9 TOP NP|town.groningen
-2 TOP NP|town.haarlem
-4 TOP NP|town.heerenveen
+7 TOP NP|town.groningen
+3 TOP NP|town.haarlem
+5 TOP NP|town.heerenveen
 1 TOP NP|town.heerhugowaard
 4 TOP NP|town.heerlen
 1 TOP NP|town.heiloo
@@ -2800,15 +2816,14 @@
 3 TOP NP|town.hoofddorp
 1 TOP NP|town.hoogeveen
 1 TOP NP|town.hoorn
+1 TOP NP|town.landgraaf
 2 TOP NP|town.leeuwarden
 10 TOP NP|town.leiden
-1 TOP NP|town.lunteren
 1 TOP NP|town.maarssen
 1 TOP NP|town.maassluis
-7 TOP NP|town.maastricht
+6 TOP NP|town.maastricht
 1 TOP NP|town.middelburg
 5 TOP NP|town.nieuweschans
-1 TOP NP|town.nijkerk
 4 TOP NP|town.nijmegen
 4 TOP NP|town.nuth
 5 TOP NP|town.ommen
@@ -2817,14 +2832,15 @@
 1 TOP NP|town.rijsbergen
 1 TOP NP|town.roermond
 1 TOP NP|town.roodeschool
-8 TOP NP|town.rotterdam
+1 TOP NP|town.roosendaal
+9 TOP NP|town.rotterdam
 3 TOP NP|town.schagen
 1 TOP NP|town.schiphol
-4 TOP NP|town.sittard
-2 TOP NP|town.sneek
+3 TOP NP|town.sittard
+3 TOP NP|town.sneek
 2 TOP NP|town.tegelen
 3 TOP NP|town.terneuzen
-6 TOP NP|town.utrecht
+7 TOP NP|town.utrecht
 1 TOP NP|town.venlo
 1 TOP NP|town.vlaardingen
 3 TOP NP|town.vlissingen
@@ -2835,31 +2851,32 @@
 1 TOP NP|town.wierden
 2 TOP NP|town.wijchen
 2 TOP NP|town.woerden
-6 TOP NP|town.zaandam
+7 TOP NP|town.zaandam
 2 TOP NP|town.zaltbommel
 1 TOP NP|town.zandvoort
-3 TOP NP|town.zoetermeer
+2 TOP NP|town.zoetermeer
 4 TOP NP|town.zwolle
 1 TOP NP|{after.d1;before.d3}
 1 TOP NP|{clock_hour.d1;minute.d2}
-12 TOP NP|{clock_hour.d3;minute.d2d1}
+14 TOP NP|{clock_hour.d3;minute.d2d1}
 1 TOP NP|{d1;[d2d3]}
-17 TOP NP|{d1;clock_hour.d2}
-173 TOP NP|{d1;d2}
+19 TOP NP|{d1;clock_hour.d2}
+170 TOP NP|{d1;d2}
 2 TOP NP|{d1;d3}
 7 TOP NP|{d1;year.d2}
-39 TOP NP|{d2.d1;minute.d3}
-6 TOP NP|{d3.d1;minute.d2}
+41 TOP NP|{d2.d1;minute.d3}
+5 TOP NP|{d3.d1;minute.d2}
 1 TOP NP|{d4.d1;minute.d3}
 2 TOP NP|{d5.d1;minute.d4}
 1 TOP NP|{day.d1;d2;d3}
-275 TOP NP|{day.d1;d2}
+273 TOP NP|{day.d1;d2}
 4 TOP NP|{day.d1;month.d2}
 1 TOP NP|{day_of_week.friday;part_of_day.afternoon}
 1 TOP NP|{day_of_week.saturday;part_of_day.evening}
 1 TOP NP|{day_of_week.thursday;evening}
-1 TOP NP|{day_of_week.thursday;part_of_day.morning}
 1 TOP NUM|1
+1 TOP NUM|10
+1 TOP NUM|13
 1 TOP NUM|22
 1 TOP NUM|26
 1 TOP NUM|29
@@ -2867,21 +2884,20 @@
 1 TOP N|christmas
 1 TOP N|clock_hour
 1 TOP N|d1
-2 TOP N|d1.d2
-23 TOP N|d2
+3 TOP N|d1.d2
+24 TOP N|d2
 2 TOP N|d2.d1
 7 TOP N|date.{day.24+d1;month.december}
 26 TOP N|day_of_week.friday
-21 TOP N|day_of_week.monday
-26 TOP N|day_of_week.saturday
-21 TOP N|day_of_week.sunday
+20 TOP N|day_of_week.monday
+27 TOP N|day_of_week.saturday
+20 TOP N|day_of_week.sunday
 22 TOP N|day_of_week.thursday
-22 TOP N|day_of_week.tuesday
-18 TOP N|day_of_week.wednesday
+21 TOP N|day_of_week.tuesday
+23 TOP N|day_of_week.wednesday
 1 TOP N|month.february
-1 TOP N|month.may
 1 TOP N|travel.origin
-15 TOP N|{d1;d2}
+14 TOP N|{d1;d2}
 6 TOP P|at
 6 TOP P|origin.place
 3 TOP P|{error.not_understood}
@@ -2889,43 +2905,42 @@
 1 TOP QS|d3
 1 TOP QS|repeat
 1 TOP S|[d1d2]
-103 TOP S|[d2d1]
+98 TOP S|[d2d1]
 1 TOP S|d1
-1 TOP S|d1.confused
-1072 TOP S|d1.d2
+1062 TOP S|d1.d2
 1 TOP S|d1.d3
 1 TOP S|d1.wants.quit
 1 TOP S|d1;d2
-30 TOP S|d2
-2 TOP S|d2.d1
-16 TOP S|{d1;[d2d3]}
-16 TOP S|{d1;d3}
+31 TOP S|d2
+1 TOP S|d2.d1
+17 TOP S|{d1;[d2d3]}
+17 TOP S|{d1;d3}
 1 TOP TS|[=yes]
 3 TOP TS|[d2d1]
 2 TOP TS|d1
-8 TOP TS|d2
+7 TOP TS|d2
 20 TOP TS|d2.d1
-15 TOP TS|{d1;d2}
+16 TOP TS|{d1;d2}
 3 TOP TS|{travel.destination.d1;d2}
 4 TOP TS|{travel.origin.d1;d2}
-1054 TOP TV|[=no]
-1190 TOP TV|[=yes]
-86 TOP TV|d1
-4 TOP TV|d2
+1055 TOP TV|[=no]
+1185 TOP TV|[=yes]
+79 TOP TV|d1
+3 TOP TV|d2
 3 TOP VP|[=no]
-8 TOP VP|[d2dref]
+9 TOP VP|[d2dref]
 5 TOP VP|d1
-7 TOP VP|d1.d2
+8 TOP VP|d1.d2
 8 TOP V|[=yes]
 2 TOP V|{error.not_understood}
 1 TS ADV SO
 1 TS MP SO
-4 TS PRO|dref SO
+3 TS PRO|dref SO
 1 TS|[=yes] PRO|dref SO
 1 TS|[d2d1] NP|d2 SO|d2
 2 TS|[d2d1] PRO|dref SO|d1
 16 TS|[d2d1] PRO|dref SO|d2
-3 TS|[d2d1] PRO|dref SO|d3
+4 TS|[d2d1] PRO|dref SO|d3
 1 TS|d1 MP|d1.d2 SO
 1 TS|d1 NP|town.maarssen SO
 1 TS|d1 NP|{day.d1;d2} QS
@@ -2935,27 +2950,27 @@
 1 TS|d2 INT TS|d2
 1 TS|d2 MP SO|{d1;d2}
 1 TS|d2 NP|d2 SO|d2
-1 TS|d2 PRO|dref SO|d1.d2
 2 TS|d2 PRO|dref SO|d2
 1 TS|d2.d1 MP|d1.clock_hour.d2 SO|d1.d2
 11 TS|d2.d1 MP|d1.d2 SO|d1.d2
+1 TS|d2.d1 MP|d1.d2 SO|d2.d1
 1 TS|d2.d1 MP|d1.d2 S|d1.d2
 3 TS|d2.d1 MP|tomorrow SO|d1.d2
 7 TS|d2.d1 MP|{d1;d2} SO|d1.d2
 1 TS|d2.d1 NP|{d1;d2} SO|d2.d1
-1 TS|d2.d1 NP|{d2.d1;minute.d3} SO|d1.d2
 1 TS|d2.d1 NP|{day.d1;d2} SO|d2.d1
 1 TS|d2.d1 N|day_of_week.wednesday SO|d1.d2
 1 TS|d2.d1 PRO|d2 SO|d1.d2
-5 TS|d2.d1 PRO|dref SO|d1
+6 TS|d2.d1 PRO|dref SO|d1
 1 TS|d2.d1 PRO|dref SO|d1.d2
 1 TS|d2.d1 PRO|dref SO|d2
-27 TS|d2.d1 PRO|dref SO|d2.d1
+25 TS|d2.d1 PRO|dref SO|d2.d1
 10 TS|{d1;d2} MP|d1.d2 SO|d1.d2
 1 TS|{d1;d2} MP|moment.dref SO|d1.d2
 1 TS|{d1;d2} MP|today SO|d1.d2
 1 TS|{d1;d2} MP|tomorrow SO|d2
 2 TS|{d1;d2} MP|{d1;d2} SO|d1.d2
+1 TS|{d1;d2} MP|{tomorrow;afternoon} SO|d1.d2
 1 TS|{d1;d2} MP|{tomorrow;morning} SO|d1.d2
 1 TS|{d1;d2} NP|d2 SO|d1.d2
 1 TS|{d1;d2} NP|d2 SO|d1.d2.d3
@@ -2967,85 +2982,82 @@
 2 TS|{travel.origin.d1;d2} MP|d1.d2 SO|d1.d2
 1 TS|{travel.origin.d1;d2} MP|{d1;d2} SO|d1.d2
 1 TS|{travel.origin.d1;d2} MP|{tomorrow;morning} SO|d1.d2
-1 TV|d1 TV|! TV|[=yes]
-181 TV|d1 TV|[=no] INT
-1 TV|d1 TV|[=no] TV|[=yes]
-6 TV|d1 TV|[=yes] INT
+177 TV|d1 TV|[=no] INT
+5 TV|d1 TV|[=yes] INT
 1 TV|d2 INT TV|[=yes]
 1 TV|d2 TV|! N|!
 2 TV|d2 TV|! TV|!
-4 TV|d2 TV|[=no] TV|[=no]
+3 TV|d2 TV|[=no] TV|[=no]
 1 TV|d2 TV|[=yes] TV|!
 3 TV|d2 TV|[=yes] TV|[=yes]
 1 VP V ADJ
-10 VP V ADV
+8 VP V ADV
 1 VP V ADV|[d1dref]
 1 VP V ADV|d1
 1 VP V CON AS
 3 VP V INFP
-5 VP V MP
+4 VP V MP
 1 VP V NP
 1 VP V NP ADV
 1 VP V P ADV
-484 VP V PER
-2 VP V PER|user
+489 VP V PER
+3 VP V PER|user
 4 VP V PRO
-5 VP V PTP
-230 VP VP ADV
+6 VP V PTP
+231 VP VP ADV
+1 VP VP ADV|#
 3 VP VP MP
 2 VP VP|[d2dref] ADV
-1 VP V|wants PER|user
 1 VP V|wants V
-13 VP|[=no] V PER
+12 VP|[=no] V PER
 3 VP|[=no] VP ADV
 1 VP|[=yes] V PER ADV|# P
 9 VP|[d2dref] V ADV|#
-9 VP|[d2dref] V ADV|+
+10 VP|[d2dref] V ADV|+
 6 VP|[d2dref] V ADV|d1
 7 VP|d1 VP|[=no] ADV
 1 VP|d1 VP|[=no] MP
 2 VP|d1 VP|d2 ADV
-1 VP|d1 V|+ ADV
 6 VP|d1 V|wants ADV
 1 VP|d1 V|wants DET
 1 VP|d1 V|wants MP
 1 VP|d1.[d2dref] V|wants ADV|#
 1 VP|d1.[d3d2] V|wants PRO|dref ADV|#
-1 VP|d1.d2 V|d2 INFP|d2.{d1;d3}
 1 VP|d1.d2 V|travel MP|[d1d2]
-2 VP|d1.d2 V|travel.origin MP|d1.d2
-4 VP|d1.d2 V|wants INFP|[d1d2]
-2 VP|d1.d2 V|wants INFP|[d2d3]
+3 VP|d1.d2 V|travel.origin MP|d1.d2
+5 VP|d1.d2 V|wants INFP|[d1d2]
+1 VP|d1.d2 V|wants INFP|[d2d3]
 19 VP|d1.d2 V|wants INFP|d1
-162 VP|d1.d2 V|wants INFP|d1.d2
-47 VP|d1.d2 V|wants INFP|d2
-586 VP|d1.d2 V|wants INFP|d2.d1
+158 VP|d1.d2 V|wants INFP|d1.d2
+48 VP|d1.d2 V|wants INFP|d2
+585 VP|d1.d2 V|wants INFP|d2.d1
 1 VP|d1.d2 V|wants INFP|d2.d1.d3
 1 VP|d1.d2 V|wants INFP|d2.d3
-37 VP|d1.d2 V|wants INFP|d2.{d1;d3}
+39 VP|d1.d2 V|wants INFP|d2.{d1;d3}
 3 VP|d1.d2 V|wants INFP|{d1;[d2d3]}
 2 VP|d1.d2 V|wants INFP|{d1;d2}
 3 VP|d1.d2 V|wants INFP|{d1;d3}
 1 VP|d1.d2 V|wants INF|info
 5 VP|d1.d2 V|wants INF|travel
-1 VP|d1.d2 V|wants INF|travel.destination
+3 VP|d1.d2 V|wants INF|travel.destination
 2 VP|d1.d2 V|wants INF|travel.origin
-43 VP|d1.d2 V|wants MP|[d1d2]
-71 VP|d1.d2 V|wants MP|d1.d2
+41 VP|d1.d2 V|wants MP|[d1d2]
+69 VP|d1.d2 V|wants MP|d1.d2
 1 VP|d1.d2 V|wants MP|d1.hour.d2
-65 VP|d1.d2 V|wants MP|d2
+68 VP|d1.d2 V|wants MP|d2
 2 VP|d1.d2 V|wants MP|d2.d1
 1 VP|d1.d2 V|wants MP|day_after_tomorrow
 2 VP|d1.d2 V|wants MP|today
-7 VP|d1.d2 V|wants MP|{d1;[d2d3]}
-337 VP|d1.d2 V|wants MP|{d1;d2}
+8 VP|d1.d2 V|wants MP|{d1;[d2d3]}
+329 VP|d1.d2 V|wants MP|{d1;d2}
 1 VP|d1.d2 V|wants MP|{d1;destination.place.d2}
 7 VP|d1.d2 V|wants MP|{origin.place.d1;d2}
 1 VP|d1.d2 V|wants MP|{today;afternoon}
 6 VP|d1.d2 V|wants NP|[d1d2]
 4 VP|d1.d2 V|wants NP|d1
 2 VP|d1.d2 V|wants NP|d1.d2
-11 VP|d1.d2 V|wants NP|d2
+10 VP|d1.d2 V|wants NP|d2
+2 VP|d1.d2 V|wants NP|{d1;d2}
 1 VP|d1.d2 V|wants NP|{day.d1;d2}
 1 VP|d1.d2 V|wants NUM|24
 1 VP|d1.d2 V|wants N|d1.d3
@@ -3060,27 +3072,27 @@
 2 VP|d2 NP V|repeat
 59 VP|d2 V ADV|#
 2 VP|d2 V ADV|# INT
-46 VP|d2 V ADV|+
+45 VP|d2 V ADV|+
 16 VP|d2 V ADV|[#browse]
-3 VP|d2 V ADV|[#repeat]
+2 VP|d2 V ADV|[#repeat]
 1 VP|d2 V ADV|[=yes]
 4 VP|d2 V ADV|[d1dref]
-66 VP|d2 V ADV|d1
-9 VP|d2 V ADV|d2
+64 VP|d2 V ADV|d1
+8 VP|d2 V ADV|d2
 2 VP|d2 V INFP|[d1d2]
-13 VP|d2 V INFP|[d2d3]
+14 VP|d2 V INFP|[d2d3]
 4 VP|d2 V INFP|d1.d2
-5 VP|d2 V INFP|d2
-4 VP|d2 V INFP|d2.d1
+6 VP|d2 V INFP|d2
+3 VP|d2 V INFP|d2.d1
 1 VP|d2 V INFP|{d3;d1}
 3 VP|d2 V MP|d1
 2 VP|d2 V MP|d1.d2
 4 VP|d2 V MP|d2
 1 VP|d2 V MP|d2 N
-5 VP|d2 V MP|{d1;d2}
+4 VP|d2 V MP|{d1;d2}
 1 VP|d2 V MP|{origin.place.d1;d2}
 1 VP|d2 V MP|{today;afternoon}
-4 VP|d2 V NP|[d1d2]
+3 VP|d2 V NP|[d1d2]
 1 VP|d2 V NP|d1
 2 VP|d2 V NP|d2
 1 VP|d2 V NP|d2.d1
@@ -3092,8 +3104,9 @@
 1 VP|d2 V NP|{day.d1;d2}
 1 VP|d2 V N|d1
 1 VP|d2 V N|d2
+1 VP|d2 V N|day_of_week.sunday
 1 VP|d2 V N|day_of_week.tuesday
-7 VP|d2 V PTP|[#repeat]
+8 VP|d2 V PTP|[#repeat]
 1 VP|d2 V PTP|[d1d2]
 2 VP|d2 V PTP|d1
 30 VP|d2 V PTP|d2
@@ -3102,11 +3115,10 @@
 1 VP|d2 VP ADV|#
 2 VP|d2 VP ADV|[#browse]
 4 VP|d2 VP ADV|[#repeat]
-1 VP|d2 VP ADV|d2
+2 VP|d2 VP ADV|d2
 7 VP|d2 V|+ ADV|#
 1 VP|d2.d1 V|wants PER|user
 3 VP|d3 V CON AS|d1.d2
 2 VP|d3 V MP ADV|[#browse]
 1 VP|d3 V P MP|d1.d2
 1 VP|d3 V PRO MP|d2
-1 V|d2 ERRORV V|wants

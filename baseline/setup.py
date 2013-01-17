@@ -63,8 +63,13 @@ def main():
     os.system("java -jar PCFG_extractor.jar trainTrees combinedGrammar")
     os.system("./splitGrammar.py combinedGrammar grammar lexicon")
     os.system("rm combinedGrammar")
+
     print "done"
             
+    #formatting the sentences for bitpar
+    os.system("./bitParSentence.py testSentence >testSentence")
+    
+    
 #-------------------------------
 if __name__ == "__main__":
     main()
