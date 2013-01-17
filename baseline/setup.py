@@ -49,7 +49,7 @@ def main():
     trainTrees=open("trainTrees","w+")
     testTrees=open("testTrees","w+")
     trainSentences=open("trainSentences","w+")
-    testSentences=open("testSentences","w+")
+    testSentences=open("testSentencesDum","w+")
     
     for i in xrange(len(trees)):
         if i <=9500:
@@ -67,8 +67,8 @@ def main():
     print "done"
             
     #formatting the sentences for bitpar
-    os.system("./bitParSentence.py testSentences >testSentences")
-    
+    os.system("./bitParSentence.py testSentencesDum > testSentences")
+    os.system("rm testSentencesDum")
     
 #-------------------------------
 if __name__ == "__main__":
