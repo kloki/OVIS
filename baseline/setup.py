@@ -67,7 +67,7 @@ def main():
     print "done"
             
     #formatting the sentences for bitpar
-    os.system("./bitParSentence.py testSentence >testSentence")
+    os.system("./bitParSentence.py testSentences >testSentences")
     
     
 #-------------------------------

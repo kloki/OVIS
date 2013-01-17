@@ -1,57 +1,57 @@
 napoleonlaan	 NP|suffix.napoleonlaan 2
-soestdijk	 NP|town.soestdijk 8
+soestdijk	 NP|town.soestdijk 7
 tijdstip	 N|moment.time 3
-pardon	 INT|! 1 INT|user.confused 1
-ede	 NP|town.ede 10
+pardon	 INT|! 1
+ede	 NP|town.ede 11
 oudejaarsdag	 NP|date.{day.31;month.december} 1
 datum	 N 1 N|date 1
-inderdaad	 ADV|[=yes] 23
+inderdaad	 ADV|[=yes] 22
 reuver	 NP|town.reuver 4
-eerste	 ADJ|1 10 ADJ|first 11
-maastricht	 NP|town.maastricht 166
+eerste	 ADJ|1 10 ADJ|first 10
+maastricht	 NP|town.maastricht 173
 retour	 ADJ|return_trip 1 ADV|return_trip 2
 wederom	 ADV 1
 nunspeet	 NP|town.nunspeet 4
-als	 CON 8
+als	 CON 9
 ver	 V 1
 vroegste	 ADJ|first 2
 paris	 NP|town.paris 1
 woensdagmorgen	 NP|{day_of_week.wednesday;part_of_day.morning} 1
-arkel	 NP|town.arkel 4
+arkel	 NP|town.arkel 3
 elst	 NP|town.elst 12
-ochtend	 N|morning 25
+ochtend	 N|morning 24
 nord	 NP|nord 1
-reizen	 INF|travel 437
+reizen	 INF|travel 438
 sorry	 INT|! 2
-te	 ADV 1 PART 22
-oss	 NP|town.oss 39
+te	 ADV 2 PART 21
+oss	 NP|town.oss 38
 bedum	 NP|town.bedum 5
-weten	 INF 2 INF|info 42
+weten	 INF 2 INF|info 39
 hout	 PPN|hout 1
 klomp	 PPN|klomp 7
 niets	 ADV|# 1
-oorschot	 NP|town.oorschot 7
+oorschot	 NP|town.oorschot 8
 nooit	 ADV|[=no] 2
-spoor	 PPN|spoor 8
-maar	 ADV 31 ADV|! 2 CON 3 CON|! 48
+spoor	 PPN|spoor 9
+maar	 ADV 31 ADV|! 2 CON 4 CON|! 49
 maal	 N 1
 daarlerveen	 NP|town.daarlerveen 4
 maak	 V 1
-heerhugowaard	 NP|town.heerhugowaard 3
+heerhugowaard	 NP|town.heerhugowaard 4
 ga	 V|wants 3
 terugweg	 N|return_trip 1
 morgenvroeg	 MP|{tomorrow;morning} 3
 kaart	 N 1
 verband	 N 1
 die	 CON 5 PRO|dref 5
-winsum	 NP|town.winsum 7
+winsum	 NP|town.winsum 8
 vroegere	 ADJ|earlier 1
 anna	 PPN|anna 1
-dit	 DET 3 PRO 3 PRO|dref 31
+dit	 DET 4 PRO 3 PRO|dref 30
 correctie	 N|! 4
-heemstedeaerdenhout	 NP|station.heemstede_aerdenhout 4
-zo	 ADV 41
-juni	 N|month.june 15
+heemstedeaerdenhout	 NP|station.heemstede_aerdenhout 5
+zo	 ADV 40
+juni	 N|month.june 16
 fout	 ADV|# 2 TV|[=no] 9
 hulst	 NP|hulst 1
 ze	 PRO 2 PRO|dref 1
@@ -60,35 +60,34 @@ ogenblik	 N|moment 3
 bergweg	 NP|suffix.bergweg 2
 kunnen	 INF 1
 schiedamrotterdam	 NP|station.schiedam_rotterdamwest 1 PPN|schiedam_rotterdam 5
-doe	 V 12 V|+ 4
+doe	 V 13 V|+ 4
 heino	 NP|town.heino 1
-vleuten	 NP|town.vleuten 2
-hoofdstad	 N 1
-haag	 PPN|haag 263
+vleuten	 NP|town.vleuten 3
+haag	 PPN|haag 261
 velp	 NP|town.velp 8
-even	 ADV 3
-goed	 ADV 11 ADV|+ 22
+even	 ADV 2
+goed	 ADV 11 ADV|+ 20
 allervroegste	 ADJ|first 1
 dag	 N|day 2
 ettenleur	 NP|town.etten_leur 6
-orde	 N 3
-nee	 TV 1 TV|! 267 TV|[=no] 1844
+orde	 N 2
+nee	 TV 1 TV|! 262 TV|[=no] 1845
 vroeger	 ADJ|earlier 2 MP|earlier 1
 wychen	 NP|town.wijchen 10
-landgraaf	 NP|town.landgraaf 8
+landgraaf	 NP|town.landgraaf 10
 goes	 NP|town.goes 22
-vlaardingen	 NP|town.vlaardingen 2 NP|vlaardingen 1
-vijftig	 NUM|50 2
+vlaardingen	 NP|town.vlaardingen 2 NP|vlaardingen 2
+vijftig	 NUM|50 3
 zeuvende	 NUM|7 1
-delfzijl	 NP|town.delfzijl 14
-vierlingsbeek	 NP|town.vierlingsbeek 7
-mei	 N|month.may 31
-tegelen	 NP|town.tegelen 8
+delfzijl	 NP|town.delfzijl 17
+vierlingsbeek	 NP|town.vierlingsbeek 8
+mei	 N|month.may 35
+tegelen	 NP|town.tegelen 7
 elsloo	 PPN|elsloo 1
 limburg	 NP 3
 harderwijk	 NP|town.harderwijk 19
 ingelicht	 PTP 1
-hoogezand	 NP|town.hoogezand 7
+hoogezand	 NP|town.hoogezand 6
 nacht	 N|night 1
 stavoren	 NP|town.stavoren 13
 traject	 N|connection 1
@@ -101,23 +100,23 @@ tegen	 P|at 2
 dalen	 NP|town.dalen 3
 later	 ADJ|later 2 MP|later 2
 corrigeer	 V 1
-zandvoort	 NP|town.zandvoort 7
+zandvoort	 NP|town.zandvoort 6
 spijt	 V 1
 perse	 ADV 1
-venlo	 NP|town.venlo 49
-graag	 ADV 321 ADV|[=yes] 36
-verkeerd	 ADV|! 2
+venlo	 NP|town.venlo 51
+graag	 ADV 311 ADV|[=yes] 38
+verkeerd	 ADV|! 1
 eenentwintig	 NUM|21 32
 straks	 ADV|now 1
 seghwaert	 NP|suffix.seghwaert 5
 oedelrode	 PPN|oedelrode 2
 wil	 V 1 V|wants 1527
-smiddags	 MP|afternoon 60
+smiddags	 MP|afternoon 59
 wij	 PER|user 1
 castricum	 NP|town.castricum 9
 negentienzevenennegentig	 NUM|1997 1
-nijmegen	 NP|town.nijmegen 98
-zijn	 INF 1 INF|to_be 31 V 2
+nijmegen	 NP|town.nijmegen 96
+zijn	 INF 1 INF|to_be 30 V 1
 maarssen	 NP|town.maarssen 12
 camminghaburen	 NP|suffix.camminghaburen 1
 vught	 NP|town.vught 10
@@ -125,272 +124,270 @@ palenstein	 NP|suffix.palenstein 1
 middag	 N|afternoon 21
 oostsouburg	 NP|oostsouburg 2
 houtwijk	 NP|suffix.houtwijk 1
-roermond	 NP|town.roermond 47
-gaat	 V 9
+roermond	 NP|town.roermond 44
+gaat	 V 8
 bijvoorbeeld	 ADV|[=yes] 1
-schiphol	 NP|town.schiphol 55 N|town.schiphol 1
-assen	 NP|town.assen 82
+schiphol	 NP|schiphol 1 NP|town.schiphol 52 N|town.schiphol 1
+assen	 NP|town.assen 80
 geval	 N 1
 brummen	 NP|town.brummen 6
 grijpskerk	 NP|town.grijpskerk 5
 souburg	 NP|suffix.souburg 2
-nodig	 ADV 79
+nodig	 ADV 76
 eerder	 ADJ|earlier 2 MP|earlier 1
-pijnacker	 NP|town.pijnacker 30
+pijnacker	 NP|town.pijnacker 34
 gaan	 INF 1 INF|travel 3
 treinen	 N 1
 door	 P 1
 komt	 V 1
-heerlen	 NP|town.heerlen 43
+heerlen	 NP|town.heerlen 42
 hoop	 V 1
+opgenoteerd	 PTP|[#repeat] 1
 eygelshoven	 NP|town.eijgelshoven 2
-ook	 ADV 25
-laatste	 ADJ 1 ADJ|last 14
+ook	 ADV 24
+laatste	 ADJ 1 ADJ|last 13
 doof	 ADJ 1
 wierden	 NP|town.wierden 3
 mevrouw	 N 1
-zeuventien	 NUM|17 2
-me	 PER 6 PER|user 2
-tharde	 NP|town.t_harde 9
+zeuventien	 NUM|17 3
+me	 PER 5 PER|user 2
+tharde	 NP|town.t_harde 8
 flora	 NP|flora 2
 gelegenheid	 N|connection 3
 werkdag	 N|day_of_week.monday 1
 ik	 PER 5 PER|user 1705
 nieuwjaar	 NP|{day.1;month.january} 1
-den	 DET 1 PPN|den 374
+den	 DET 1 PPN|den 371
 voorwegh	 NP|suffix.voorweg 1
 soest	 NP|town.soest 2
-voldoende	 ADV 1 ADV|[#browse] 21
+voldoende	 ADV 1 ADV|[#browse] 20
 uitgeest	 NP|town.uitgeest 6
 behoefte	 N 1
-meer	 ADV 16
+meer	 ADV 17
 antwerpen	 NP|town.antwerpen 9
 ravenstein	 NP|town.ravenstein 1
 bent	 V 1
-indie	 PPN 23
-december	 N|month.december 73
-weet	 V 10
-genoeg	 ADV|[#browse] 7
+indie	 PPN 22
+december	 N|month.december 78
+weet	 V 9
+genoeg	 ADV|[#browse] 8
 naarden	 NP|town.naarden 2
 uithof	 PPN|uithof 4
 want	 CON 8
 bekend	 ADV 1
-station	 N 283 N|station 1
+station	 N 277 N|station 1
 veendam	 NP|town.veendam 2
-haarlem	 NP|town.haarlem 101
+haarlem	 NP|town.haarlem 98
 muiden	 NP|muiden 3
 hoe	 ADV 5
 jazeker	 TV|[=yes] 12
 gebruik	 N 1
 treinkosten	 N 1
-wassenaar	 NP|town.wassenaar 1
 zeuvenentwintig	 NUM|27 2
-nuth	 NP|town.nuth 7
+nuth	 NP|town.nuth 6
 bredaprinsenbeek	 NP|breda_prinsenbeek 1
 soestduinen	 NP|town.soestduinen 1
-weert	 NP|town.weert 8
+weert	 NP|town.weert 9
 barendrecht	 NP|town.barendrecht 8
 zinvol	 ADJ 1
 tiel	 NP|town.tiel 13
 verstond	 V 1
-meerssen	 NP|town.meerssen 10
-maarn	 NP|town.maarn 8
+meerssen	 NP|town.meerssen 9
+maarn	 NP|town.maarn 10
 zesennegentig	 NUM|96 9
-tien	 NUM|10 315
-drenthe	 NP|drenthe 2
-maart	 N|month.march 52
+tien	 NUM|10 311
+maart	 N|month.march 49
 zestienhonderd	 NUM|16 2
 mag	 V 3
 centrum	 N|suffix.centrum 8 PPN|centrum 1
 rhenen	 NP|town.rhenen 5
-zevenaar	 NP|town.zevenaar 7
+kogerveld	 PPN|kogerveld 2
 alphen	 NP|town.alphen_aan_den_rijn 4 PPN|alphen 29
-eindhoven	 NP|town.eindhoven 74
-brussel	 NP|town.brussel 39
+eindhoven	 NP|town.eindhoven 75
+brussel	 NP|town.brussel 38
 eysden	 NP|town.eijsden 10
 alstublieft	 ADV 23 ADV|[=yes] 16 ADV|user.wants 2
 horen	 INF 2
-bodegraven	 NP|town.bodegraven 11
-vanuit	 P|origin.place 282
+bodegraven	 NP|town.bodegraven 10
+vanuit	 P|origin.place 285
 medewerking	 N 1
 winschoten	 NP|town.winschoten 6
 enter	 NP 2
-op	 P 2 PPN|op 7 P|at 315 P|place 4 P|{error.not_understood} 1
-verbinding	 N|connection 85
+op	 P 3 PPN|op 6 P|at 319 P|place 2 P|{error.not_understood} 1
+verbinding	 N|connection 82
 overdag	 MP|before.time.hour.18 1
 sloterdijk	 NP|suffix.sloterdijk 23
 zeg	 INT 2
 huut	 PPN|huet 1
 zee	 N 1
-kampen	 NP|town.kampen 10
-roodeschool	 NP|town.roodeschool 10
+kampen	 NP|town.kampen 11
+roodeschool	 NP|town.roodeschool 9
 zei	 V 15
 trade	 PPN|trade 2
-zes	 NUM|6 105
-purmerend	 NP|town.purmerend 4
-deventer	 NP|town.deventer 18
+hele	 ADJ 1
+zes	 NUM|6 104
+purmerend	 NP|town.purmerend 3
+deventer	 NP|town.deventer 19
 inlichtingen	 N|info 1
-middelburg	 NP|town.middelburg 13
+middelburg	 NP|town.middelburg 12
 zitten	 INF 1 V 1
-holland	 PPN 3 PPN|holland 16
-zevenendertig	 NUM|37 2
-negen	 NUM|9 244 N|9 1
-shertogenbosch	 NP|town.hertogenbosch 26
-morgen	 MP|tomorrow 238 N|morning 21
-rosmalen	 NP|town.rosmalen 1
+holland	 PPN 4 PPN|holland 17
+zevenendertig	 NUM|37 1
+negen	 NUM|9 237 N|9 1
+shertogenbosch	 NP|town.hertogenbosch 25
+morgen	 MP|tomorrow 243 N|morning 22
+rosmalen	 NP|town.rosmalen 2
 noi	 PPN|noi 4
-dan	 ADV 17 MP|moment.dref 2
-nog	 ADV 30 ADV|more 1
-nob	 NP|suffix.nob 1
+was	 V 7
+dan	 ADV 19 MP|moment.dref 2
+nog	 ADV 29 ADV|more 1
 geinformeerd	 PTP 1
-dat	 CON 8 PRO 6 PRO|dref 440
-namelijk	 ADV 5
-tijden	 N|moment 2
+dat	 CON 8 PRO 6 PRO|dref 448
+namelijk	 ADV 4
+tijden	 N|moment 1
 goor	 NP|town.goor 5
-half	 ADJ|minute.-30 89
+half	 ADJ|minute.-30 88
 komende	 ADJ 6
-nou	 INT 15
+nou	 INT 17
 gegeven	 PTP 1
-helder	 PPN|helder 39
-groningen	 NP|town.groningen 311
+helder	 PPN|helder 41
+groningen	 NP|town.groningen 318
 enkhuizen	 NP|town.enkhuizen 5
 winterswijk	 NP|town.winterswijk 4
 hoogeveen	 NP|town.hoogeveen 6
-arnemuiden	 NP|town.arnemuiden 1
+arnemuiden	 NP|town.arnemuiden 2
 zeist	 NP|town.zeist 2 PPN|zeist 3
 drieentwintigste	 ADJ|23 1
-februari	 N|month.february 242
+februari	 N|month.february 247
 swalmen	 NP|town.swalmen 4
-herhalen	 INF|repeat 26
-avond	 N|evening 17
+herhalen	 INF|repeat 25
+avond	 N|evening 16
 helmond	 NP|town.helmond 6
 donderdagavond	 NP|{day_of_week.thursday;evening} 1
 week	 NP|weeks.1 1 N|week 17 N|weeks 1
-en	 CON 58 CON|+ 1 PPN 1 PPN|en 3
+en	 CON 57 CON|+ 2 PPN 1 PPN|en 2
 hoogcatharijne	 NP|suffix.centraal 1
-zaterdagochtend	 NP|{morning;saturday} 2
-venray	 NP|town.venray 9
-zuid	 NP|suffix.zuid 17 PPN|zuid 3
+zaterdagochtend	 NP|{morning;saturday} 3
+venray	 NP|town.venray 8
+zuid	 NP|suffix.zuid 18 PPN 1 PPN|zuid 3
 achttien	 NUM|18 26
 mijn	 DET 2 DET|user 1
 oud	 PPN 1
-lelylaan	 NP|suffix.lelylaan 12 PPN|lelylaan 4
+lelylaan	 NP|suffix.lelylaan 13 PPN|lelylaan 3
 mierlohout	 NP|town.mierlo_hout 2
 oisterwijk	 NP|town.oisterwijk 2
 afreizen	 INF|travel.origin 1
-steenwijk	 NP|town.steenwijk 5
-terug	 ADJ|return_trip 3 MP 1 MP|return_trip 7
+duseldorf	 NP|town.duesseldorf 1
+terug	 ADJ|return_trip 3 MP 2 MP|return_trip 6
 zesentwintigste	 ADJ|26 2
 voorweg	 NP|suffix.voorweg 1
-nieuw	 PPN 20 PPN|nieuw 7
+nieuw	 PPN 19 PPN|nieuw 7
 driebergenrijsenburg	 NP|driebergenrijsenburg 1
 aerdenhout	 NP|aerdenhout 1
-almelo	 NP|town.almelo 39
+almelo	 NP|town.almelo 42
 blerick	 NP|town.blerick 3
 eerstvolgende	 ADJ|later 3
 geldrop	 NP|town.geldrop 3
-hartelijk	 ADV 2
+hartelijk	 ADV 1
 eergisteren	 MP|day_before_yesterday 1
-zaterdagmorgen	 NP|{day_of_week.saturday;part_of_day.morning} 1
+zaterdagmorgen	 NP|{day_of_week.saturday;part_of_day.morning} 2
 borne	 NP|town.borne 20
-correct	 ADV|+ 33 ADV|[=yes] 15
-sneek	 NP|town.sneek 7
+correct	 ADV|+ 34 ADV|[=yes] 11
+sneek	 NP|town.sneek 8
 correcte	 ADJ 1
 opvragen	 INF|info 1
 treinverbinding	 N|connection 1
 zondagochtend	 NP|{day_of_week.sunday;part_of_day.morning} 1
 betreffende	 ADV 1
-vroeg	 MP 1 MP|morning 11 V 1
+vroeg	 MP 2 MP|morning 12 V 1
 kerkrade	 NP|town.kerkrade 7
 eenentwintigste	 ADJ|21 1
-nieuweschans	 NP|town.nieuweschans 9
-vlissingen	 NP|town.vlissingen 64
-schinnen	 NP|town.schinnen 1
-precies	 ADV 2
+nieuweschans	 NP|town.nieuweschans 10
+precies	 ADV 3
 kruiningenyerseke	 NP|station.kruiningen_ijerseke 4
-kerstdag	 N|christmas 22
-sgravenhage	 NP|town.den_haag 3
+kerstdag	 N|christmas 21
+sgravenhage	 NP|town.den_haag 2
 kunt	 V 1
 route	 N|connection 1
 keer	 N 13
-voor	 P 8 P|- 15 P|before 9
-sportpark	 NP|suffix.sportpark 17
+voor	 P 7 P|- 14 P|before 10
+sportpark	 NP|suffix.sportpark 15
 punt	 N 5
 retourreis	 N|return_trip 1
 negende	 ADJ|9 1
-morgenochtend	 MP|{tomorrow;morning} 48
+morgenochtend	 MP|{tomorrow;morning} 43
 vertrektijd	 N|origin.moment 3 N|travel.origin 1
 wanneer	 ADV 1 CON|connection 2
-terapel	 NP|town.ter_apel 3
-hoor	 INT 183
+terapel	 NP|town.ter_apel 2
+hoor	 INT 180
 kerst	 NP|christmas 1
-hoef	 V 1 V|wants 10
-veertien	 NUM|14 44
-woerden	 NP|town.woerden 47
+hoef	 PPN|hoef 1 V 1 V|wants 11
+veertien	 NUM|14 42
+woerden	 NP|town.woerden 46
 echt	 ADV 1
 opgeschreven	 PTP|[#repeat] 5
 terneuzen	 NP|town.terneuzen 8
 dokkum	 NP|town.dokkum 1
 dinsdagochtend	 NP|{tuesday;morning} 1
-amstel	 NP|suffix.amstel 8
+amstel	 NP|suffix.amstel 7
 kom	 V|wants 1
 begrepen	 PTP|[#repeat] 34
 schollevaar	 PPN|schollevaar 1
 latere	 ADJ|later 3
-duidelijk	 ADV|[#repeat] 10
-twaalf	 NUM|12 85
+duidelijk	 ADV|[#repeat] 11
+twaalf	 NUM|12 86
 tot	 P 3
 schijndel	 NP|town.schijndel 3
 horst	 NP|horst 1
 zelfs	 ADV 1
-circa	 ADV|at 1 P|at 2
-bosch	 PPN|bosch 38
+circa	 ADV|at 2 P|at 3
+bosch	 PPN|bosch 36
 toe	 PART 9
 paar	 N 3
-trein	 N|connection 27
-hooghalen	 NP|town.hooghalen 3
+trein	 N|connection 28
+hooghalen	 NP|town.hooghalen 4
 juli	 N|month.july 2
 liever	 ADV|liever 2
 vanochtend	 MP|{today;morning} 2
-oost	 NP|suffix.oost 12 PPN 21 PPN|oost 2
+oost	 NP|suffix.oost 13 PPN 20 PPN|oost 2
 rechtstreeks	 ADV 1
-hilversum	 NP|town.hilversum 48
+hilversum	 NP|town.hilversum 44
 hem	 PRO 1
-hoek	 PPN|hoek 15
+hoek	 PPN|hoek 16
 haven	 NP|suffix.haven 1
 tussen	 P 21
 center	 PPN|center 2
-needanku	 TV|[=no] 12
-oosterwijk	 NP|town.oisterwijk 1
-volgende	 ADJ 2 ADJ|later 4 ADJ|next 17
-arnhem	 NP|town.arnhem 58
+needanku	 TV|[=no] 11
+oosterwijk	 NP|town.oisterwijk 2
+volgende	 ADJ 2 ADJ|later 5 ADJ|next 17
+arnhem	 NP|town.arnhem 60
 ben	 V 2 V|is 1
 direkt	 ADV|now 1
-was	 V 8
+donderdagmorgen	 NP|{day_of_week.thursday;part_of_day.morning} 1
 liefst	 ADV 2
 lisse	 NP|town.lisse 5
-woensdag	 N|day_of_week.wednesday 74
+woensdag	 N|day_of_week.wednesday 75
 hardinxveldgiessendam	 NP|station.hardinxveld_giessendam 4
 merci	 INT 2
-dank	 N 2 V 493
-parijs	 NP|town.paris 4
+dank	 N 1 V 497
+parijs	 NP|town.paris 5
 zuidbroek	 NP|town.zuidbroek 1
 breukelen	 NP|town.breukelen 7
 kerstmis	 NP|christmas 2 N|christmas 5
-vijf	 NUM|5 68
+vijf	 NUM|5 70
 alles	 PRO 4
-rai	 NP|suffix.rai 14
-neen	 TV|! 7 TV|[=no] 28
-bunde	 NP|town.bunde 20
+rai	 NP|suffix.rai 13
+neen	 TV|! 9 TV|[=no] 28
+bunde	 NP|town.bunde 22
 vechtwijk	 N 1
-donderdag	 N|day_of_week.thursday 71
+donderdag	 N|day_of_week.thursday 68
 allemaal	 N 4
-usquert	 NP|town.usquert 4
+usquert	 NP|town.usquert 3
 ijssel	 PPN|ijssel 3
 verstreken	 PTP 1
-gezegd	 PTP 2
-rond	 P|at 54
-mij	 PER 7
+gezegd	 PTP 3
+rond	 P|at 57
+mij	 PER 8
 noteren	 INF 1
 voerendaal	 NP|town.voerendaal 1
 zaterdagavond	 NP|{day_of_week.saturday;part_of_day.evening} 1
@@ -401,112 +398,111 @@ gevraagd	 PTP 2
 aardig	 ADJ 1
 zevenbergen	 NP|town.zevenbergen 1
 meppel	 NP|town.meppel 11
-zou	 V 17
-leiden	 NP|town.leiden 122
-utrecht	 NP|town.utrecht 192
+zou	 V 16
+leiden	 NP|town.leiden 119
+utrecht	 NP|town.utrecht 188
 geerdijk	 NP|town.geerdijk 8
 wormerveer	 NP|town.wormerveer 2
 negentienhonderdzesennegentig	 NUM|1996 1
-volledig	 ADV 3
-alleen	 ADV 5
+volledig	 ADV 2
+alleen	 ADV 4
 zettenandelst	 NP|zetten_andelst 3
 muiderpoort	 NP|suffix.muiderpoort 3
 deurne	 NP|town.deurne 12
 vertrekt	 V|travel.origin 1
-mariahoeve	 NP|suffix.mariahoeve 50
-ligt	 V 1
-negentienzesennegentig	 NUM|year.1996 23
+mariahoeve	 NP|suffix.mariahoeve 48
+negentienzesennegentig	 NUM|year.1996 25
 duiven	 NP|town.duiven 1
 hoofddorp	 NP|town.hoofddorp 17
 america	 NP|town.america 1
 alexanderpolder	 NP|suffix.alexander 7
 zegt	 V 2
-hengelo	 NP|town.hengelo 24
+hengelo	 NP|town.hengelo 22
 abcoude	 NP|town.abcoude 12
 dordrecht	 NP|town.dordrecht 11
-berkel	 NP|berkel 1 PPN|berkel 3
-schothorst	 NP|suffix.schothorst 1
-herhaald	 PTP|repeat 1 V|repeat 6
+berkel	 NP|berkel 1 PPN|berkel 2
+schothorst	 NP|suffix.schothorst 3
+herhaald	 PTP|repeat 1 V|repeat 5
 negentienvijfennegentig	 NUM|year.1995 1
 ljouwert	 NP|town.leeuwarden 1
-lijkt	 V|wants 2
+lijkt	 V 1 V|wants 2
 voorhout	 NP|town.voorhout 1
 roosendaal	 NP|town.roosendaal 32
 daarvoor	 ADV 1
-aanstaande	 ADJ 46
+aanstaande	 ADJ 48
 rading	 PPN|rading 4
 plusminus	 ADV 13 ADV|at 1
-twee	 NUM 1 NUM|2 117
-vertrek	 N|travel.origin 5 V|travel.origin 5
-wehl	 NP|town.wehl 4
-niet	 ADV 1 ADV|# 393 ADV|[=no] 15 INT 1
+twee	 NUM 1 NUM|2 122
+vertrek	 N|travel.origin 6 V|travel.origin 5
+wehl	 NP|town.wehl 3
+niet	 ADV 1 ADV|# 389 ADV|[=no] 16 INT 1
 morgenmiddag	 MP|{tomorrow;afternoon} 14
 prinsenbeek	 NP|suffix.prinsenbeek 2
-heerenveen	 NP|town.heerenveen 27
+heerenveen	 NP|town.heerenveen 26
 zoiets	 ADV 1
-voorburg	 NP|town.voorburg 96 PPN|voorburg 5
-daar	 ADV 3
+voorburg	 NP|town.voorburg 97 PPN|voorburg 5
+daar	 ADV 2
 eigenlijk	 ADV 3
-obdam	 NP|town.obdam 1
-moet	 V 1 V|wants 18
-jadatklopt	 TV|[=yes] 7
+obdam	 NP|town.obdam 2
+moet	 V 2 V|wants 19
+jadatklopt	 TV|[=yes] 5
 weken	 N|weeks 1
-centraal	 NP|suffix.cs 212
+centraal	 NP|suffix.cs 217
 begrijpen	 PTP 1
 medemblik	 NP|town.medemblik 1
 achtentwintig	 NUM|28 12
 sinterklaas	 N|date.{day.5;month.december} 2
 wolfheze	 NP|town.wolfheze 1
-rotterdam	 NP|town.rotterdam 139
-over	 P 4 P|+ 29 P|in 5
-twintig	 NUM|20 34
+rotterdam	 NP|town.rotterdam 136
+over	 P 4 P|+ 31 P|in 6
+twintig	 NUM|20 37
 toch	 ADV 2 INT 1
 emmen	 NP|town.emmen 30
-de	 DET 127 PPN|de 51
+de	 DET 124 PPN|de 50
 stop	 V 1 V|{error.not_understood} 2
-bedankt	 PTP 33
-hoorn	 NP|town.hoorn 38
+bedankt	 PTP 32
+hoorn	 NP|town.hoorn 39
 wordt	 V 1
 tweeen	 NUM|clock_hour.2 1
 mierlo	 PPN|mierlo 1
-geen	 ADV 1 DET|# 24
+geen	 DET|# 25
 aken	 NP|town.aachen 10
 alexander	 NP|suffix.alexander 10 PPN|alexander 2
 prima	 ADV|+ 6 TV|[=yes] 1
 reis	 N|connection 6 V|travel 3
-alkmaar	 NP|town.alkmaar 65
-mogelijk	 ADV 21
+alkmaar	 NP|town.alkmaar 68
+mogelijk	 ADV 22
 leerdam	 NP|town.leerdam 2
-vrijdagmorgen	 NP|{day_of_week.friday;part_of_day.morning} 3
+vrijdagmorgen	 NP|{day_of_week.friday;part_of_day.morning} 2
 houten	 NP|houten 1
-schagen	 NP|town.schagen 11
-perron	 N 1
-vier	 NUM|4 92
+schagen	 NP|town.schagen 10
+vlissingen	 NP|town.vlissingen 62
+vier	 NUM|4 94
 veertig	 NUM|40 8
-laan	 PPN|laan 23
-eenendertig	 NUM|31 6
-vink	 NP|town.de_vink 1 PPN|vink 29
+laan	 PPN|laan 22
+eenendertig	 NUM|31 9
+vink	 NP|town.de_vink 1 PPN|vink 26
 aan	 P 6 PART 1 PPN|aan 30
-genoteerd	 PTP|[#repeat] 1
+genoteerd	 PTP|[#repeat] 2
 zeggen	 INF 2
 tevreden	 ADV|[#browse] 1
 goeiendag	 INT 1
 amstelstation	 NP|suffix.amstel 1
 sliedrecht	 NP|town.sliedrecht 4
-zestien	 NUM|16 26
-nul	 NUM|0 47
+zestien	 NUM|16 25
+nul	 NUM|0 52
 brunssum	 NP|town.brunssum 2
 randwijk	 NP|suffix.randwijck 1
 drieenveertig	 NUM|43 1
 laat	 ADV 4 ADV|last 1 V 4
 gouda	 NP|town.gouda 19
 best	 NP|town.best 4
-vanaf	 P|after 24 P|origin.place 45
+vanaf	 P|after 24 P|origin.place 44
 vierentwintig	 NUM|24 64
 maand	 N 1
-wijhe	 NP|town.wijhe 2
+wijhe	 NP|town.wijhe 1
 wou	 V|wants 3
-klopt	 V|+ 190 V|[=yes] 9
+klopt	 V|+ 192 V|[=yes] 9
 eindpunt	 N|destination.place 1
 heusden	 NP|town.heusden 4
 verbindingen	 N|connection 3
@@ -515,65 +511,63 @@ ken	 V 1
 we	 ADV 1 PER 1
 opnieuw	 ADV 1
 koog	 PPN|koog 1
-uur	 N|clock_hour 1238 N|hour 191
+uur	 N|clock_hour 1225 N|hour 196
 wtc	 NP|suffix.zuid_wtc 9 PPN|wtc 3
 gehoord	 PTP 1
 je	 PER 5
 zeer	 ADV 3
 kersenboogerd	 NP|kersenboogerd 2
-nummer	 N 1
-oldenzaal	 NP|town.oldenzaal 1
-honderd	 NUM|0 22
+honderd	 NUM|0 21
 driebergenzeist	 NP|station.driebergen_zeist 6
-badbentheim	 NP|bad_bentheim 4
+badbentheim	 NP|bad_bentheim 3
 hofplein	 NP|suffix.hofplein 4
 rijn	 PPN|rijn 28
 minuten	 N|minute 8
 oever	 PPN|oever 2
 colmschate	 NP|suffix.colmschate 2
 capelle	 PPN|capelle 4
-noord	 NP|suffix.noord 26 PPN 6
-jawel	 TV|[=yes] 40
+noord	 NP|suffix.noord 25 PPN 6
+jawel	 TV|[=yes] 42
 dezelfde	 DET 2 DET|dref 2
 aanwezig	 ADV 1
 had	 V 2 V|wants 2
 geleen	 NP|town.geleen 1
 savonds	 MP|evening 76
 papendrecht	 NP|town.papendrecht 3
-cs	 NP|suffix.cs 31
-zeuven	 NUM|7 35
-tilburg	 NP|town.tilburg 24 PPN|town.tilburg 1
+cs	 NP|suffix.cs 29
+zeuven	 NUM|7 34
+tilburg	 NP|town.tilburg 26 PPN|town.tilburg 1
 varsseveld	 NP|town.varsseveld 3
 november	 N|month.november 1
 ergens	 ADV 1
-snel	 ADV 10
+snel	 ADV 11
 west	 NP|suffix.west 6 PPN|west 6
 friesland	 NP 1
-ja	 TV|[=yes] 1606
-lunteren	 NP|town.lunteren 10
-hoeft	 V 91
+ja	 TV|[=yes] 1624
+lunteren	 NP|town.lunteren 11
+hoeft	 V 89
 dus	 CON 1 INT 11
 meteen	 ADV 1
 veenwouden	 NP|town.veenwouden 3
-drieentwintig	 NUM|23 57
+drieentwintig	 NUM|23 58
 weesp	 NP|town.weesp 20
 horstsevenum	 NP|station.horst_sevenum 3
-voorschoten	 NP|town.voorschoten 15
-minuutjes	 N|minute 1
+voorschoten	 NP|town.voorschoten 14
+minuutjes	 N|minute 2
 zwaluwe	 PPN|zwaluwe 6
 arriveren	 INF|travel.destination 1
 amersfoort	 NP|town.amersfoort 71
 vanavond	 MP|{today;evening} 38
-aankomen	 INF|travel.destination 159
+aankomen	 INF|travel.destination 158
 dankuwel	 ADV 5
-vandaag	 MP|today 109
-zwolle	 NP|town.zwolle 125
+vandaag	 MP|today 110
+zwolle	 NP|town.zwolle 124
 wilt	 V 7 V|wants 1
-apeldoorn	 NP|town.apeldoorn 18
+apeldoorn	 NP|town.apeldoorn 17
 vijfenveertig	 NUM|45 12
 goedemiddag	 INT 1
-sittard	 NP|town.sittard 53
-smorgens	 MP|morning 123
+sittard	 NP|town.sittard 52
+smorgens	 MP|morning 111
 doetichem	 NP|town.doetinchem 1
 kwart	 NUM|15 28
 leidschendam	 NP|town.leidschendam 4 PPN|leidschendam 5
@@ -583,28 +577,29 @@ intercity	 N 1 N|connection 2
 sneltrein	 N 1
 vrijdagmiddag	 NP|{day_of_week.friday;part_of_day.afternoon} 1
 informatie	 N|info 8
-is	 V 185
+is	 V 190
 veenendaal	 NP|town.veenendaal 16
-dertien	 NUM|13 16
+dertien	 NUM|13 19
 buiten	 NP|suffix.buiten 11
 senioren	 N 1
-in	 P 17 P|at 10 P|place 70
-omstreeks	 P|at 9
-rijswijk	 NP|town.rijswijk 11
-franeker	 NP|town.franeker 19
+in	 P 18 P|at 10 P|place 66
+omstreeks	 P|at 8
+rijswijk	 NP|town.rijswijk 13
+franeker	 NP|town.franeker 24
 hollandsche	 PPN|hollandsche 4
-april	 N|month.april 21
-driemanspolder	 NP|town.driemanspolder 4
-akkrum	 NP|town.akkrum 6
-duivendrecht	 NP|town.duivendrecht 21
-vrijdag	 N|day_of_week.friday 84
+april	 N|month.april 18
+driemanspolder	 NP|town.driemanspolder 3
+niks	 ADV 1
+akkrum	 NP|town.akkrum 5
+duivendrecht	 NP|town.duivendrecht 22
+vrijdag	 N|day_of_week.friday 85
 achtendertig	 NUM|38 1
 appelscha	 NP|town.appelscha 1
-diemen	 NP|town.diemen 10
+diemen	 NP|town.diemen 8
 allerlaatste	 ADJ 1
 gisteren	 MP|yesterday 3
 voorkeur	 N|wants 2
-moment	 N|moment 7
+moment	 N|moment 8
 weer	 ADV 1
 hebben	 INF 3
 bloemwijk	 PPN|bloemwijk 1
@@ -613,18 +608,18 @@ zeeland	 NP 2
 maassluis	 NP|town.maassluis 11
 weichen	 NP|town.wijchen 1
 valkenburg	 NP|town.valkenburg 7
-breda	 NP|town.breda 51 N|town.breda 1
-dertig	 NUM|30 72
+breda	 NP|town.breda 52 N|town.breda 1
+dertig	 NUM|30 73
 vannacht	 ADV|{today;part_of_day.night} 1
 rijsbergen	 NP|town.rijsbergen 2
-overvecht	 NP|suffix.overvecht 7
-almere	 NP|town.almere 32
-na	 P|after 25
-drie	 NUM|3 100 PPN|3 1
+overvecht	 NP|suffix.overvecht 6
+almere	 NP|town.almere 33
+na	 P|after 22
+drie	 NUM|3 101 PPN|3 1
 polder	 PPN|polder 2
 lunetten	 NP|suffix.lunetten 1
-bussum	 NP|town.bussum 12
-enschede	 NP|town.enschede 44
+bussum	 NP|town.bussum 14
+enschede	 NP|town.enschede 49
 andere	 ADJ 1 ADJ|# 4 ADJ|more 24
 deze	 DET 7 PRO|dref 2
 rijssen	 NP|town.rijssen 12
@@ -632,184 +627,188 @@ beverwijk	 NP|town.beverwijk 4
 hardegarijp	 NP|town.hardegarijp 2
 muziekwijk	 NP|suffix.muziekwijk 2
 via	 P 2 P|via 4
-sochtends	 MP|morning 84
-tweede	 ADJ|2 12
-cornelis	 PPN|cornelis 4
+sochtends	 MP|morning 85
+tweede	 ADJ|2 11
+cornelis	 PPN|cornelis 3
 weg	 ADV|travel.origin 3
 sprinter	 N|sprinter 1
 twintigste	 ADJ|20 1
 maakt	 V 1
-elf	 NUM|11 132
-wel	 ADV 253 ADV|+ 1
+elf	 NUM|11 134
+wel	 ADV 258 ADV|+ 1
 bovenkarspel	 NP|town.bovenkarspel 2
-leidschendamvoorburg	 NP|station.leidschendam_voorburg 8
-vlugtlaan	 NP|suffix.de_vlugtlaan 1
+begrijp	 V 1
+leidschendamvoorburg	 NP|station.leidschendam_voorburg 7
+vlugtlaan	 NP|suffix.de_vlugtlaan 2
 tijd	 N 1 N|time 4
-naardenbussum	 NP|station.naarden_bussum 6
+naardenbussum	 NP|station.naarden_bussum 7
 eenmaal	 NUM|1 1
 bij	 P 1
 buitenpost	 NP|town.buitenpost 2
 nogmaals	 ADV 1
+vijfendertig	 NUM|35 1
 emmeloord	 NP|town.emmeloord 4
 af	 P 1
 ermelo	 NP|town.ermelo 6
 santpoort	 NP|santpoort 4
 nijverdal	 NP|town.nijverdal 1
 world	 PPN|world 2
-nijkerk	 NP|town.nijkerk 3
+nijkerk	 NP|town.nijkerk 4
 paasdag	 N|easter 1
-baarn	 NP|town.baarn 23
+baarn	 NP|town.baarn 20
 lombardijen	 NP|suffix.lombardijen 3
-ns	 ADJ 14
-accoord	 ADV 1 ADV|+ 3 ADV|[=yes] 2
-zoom	 PPN|zoom 7
+ns	 ADJ 17
+accoord	 ADV 1 ADV|+ 3 ADV|[=yes] 3
+zoom	 PPN|zoom 6
 wageningen	 NP|town.wageningen 2
-harlingen	 NP|town.harlingen 24
-zevenentwintig	 NUM|27 9
-een	 DET 68 NUM|1 127
+harlingen	 NP|town.harlingen 25
+zevenentwintig	 NUM|27 10
+een	 DET 67 NUM|1 123
 bolsward	 NP|town.bolsward 1
 t	 DET 1 DET|t 2 PPN|t 7
 leyens	 PPN|leyens 2
-hardenberg	 NP|town.hardenberg 2
+hardenberg	 NP|town.hardenberg 3
 waarmee	 CON|error.not_understood 1
 heyendaal	 NP|suffix.heyendaal 10
-zaltbommel	 NP|town.zaltbommel 5 NP|zaltbommel 9
+zaltbommel	 NP|town.zaltbommel 4 NP|zaltbommel 8
 heel	 ADV 20
 kosten	 N 1
-olst	 NP|town.olst 3
+olst	 NP|town.olst 2
 aankomst	 N|destination 2
 zwijndrecht	 NP|town.zwijndrecht 2
-naar	 CON|! 1 N 1 P 1 PPN 2 P|destination.place 2180
-vijftien	 NUM|15 47
+naar	 CON|! 1 N 1 P 1 PPN 2 P|destination.place 2189
+vijftien	 NUM|15 48
 aalten	 NP|town.aalten 1
-edewageningen	 NP|station.ede_wageningen 3
-heeft	 V 3
+edewageningen	 NP|station.ede_wageningen 2
+heeft	 V 2
 opgegeven	 PTP 1
+vrij	 ADV 1
 ieder	 DET 1
-beilen	 NP|town.beilen 15
+beilen	 NP|town.beilen 14
 doen	 INF 4 V 1
-boxmeer	 NP|town.boxmeer 2
+boxmeer	 NP|town.boxmeer 1
 doet	 V 10
 putten	 NP|town.putten 9
-riet	 PPN|riet 7
+riet	 PPN|riet 8
 oktober	 N|month.october 3
 vennep	 PPN|vennep 3
-negentien	 NUM|19 28
+negentien	 NUM|19 29
 overwhere	 NP|suffix.overwhere 2
 lochem	 NP|town.lochem 16
 zaandam	 NP|town.zaandam 25 PPN|zaandam 2
-acht	 NUM|8 270
+acht	 NUM|8 265
 rijen	 NP|town.rijen 4 PPN|rijen 3
 kan	 V 11
-negenentwintig	 NUM|29 13
+negenentwintig	 NUM|29 14
 opgeven	 INF 1
 oeteldonk	 NP|town.oeteldonk 2
 bergambacht	 NP|town.bergambacht 3
 januari	 N|month.january 224
 heemstede	 NP|heemstede 1
-hollands	 PPN|hollands 7
-om	 ERRORP|at 1 P|at 964 P|{error.not_understood} 2
-vertrekken	 INF|travel.origin 303
+hollands	 PPN|hollands 8
+om	 ERRORP|at 1 P|at 950 P|{error.not_understood} 2
+vertrekken	 INF|travel.origin 301
 ok	 ADV|+ 1 ADV|[=yes] 2
-maandag	 N|day_of_week.monday 92
+maandag	 N|day_of_week.monday 93
 of	 CON 17
 ervan	 ADV 1
-vierendertig	 NUM|34 3
+vierendertig	 NUM|34 2
 ander	 ADJ|more 1
-hier	 ADV|here 3
+hier	 ADV 1 ADV|here 3
 vanmorgen	 MP|{today;part_of_day.morning} 1
-kogerveld	 NP|suffix.kogerveld 1 PPN|kogerveld 2
+zevenaar	 NP|town.zevenaar 8
 herhaalt	 V|repeat 1
-zaterdag	 N|day_of_week.saturday 92
-zesentwintig	 NUM|26 28
-beek	 NP|town.beek 12 PPN|beek 1
+zaterdag	 N|day_of_week.saturday 94
+zesentwintig	 NUM|26 27
+beek	 NP|town.beek 11 PPN|beek 1
 doetinchem	 NP|town.doetinchem 7
 bericht	 N 1
-scheveningen	 NP|town.scheveningen 3
+scheveningen	 NP|town.scheveningen 2
 marienheem	 NP|town.marienheem 2
 augustus	 N|month.august 5
 bijlmer	 NP|suffix.bijlmer 11
-wilde	 V|wants 17
+wilde	 V|wants 16
 verstaan	 PTP 5
-rodenrijs	 PPN|rodenrijs 3
-amsterdam	 NP|town.amsterdam 308 PPN|amsterdam 3
+rodenrijs	 PPN|rodenrijs 2
+amsterdam	 NP|town.amsterdam 305 PPN|amsterdam 3
 uiteraard	 TV|[=yes] 1
-bergen	 NP|town.bergen 4 PPN|bergen 8
+bergen	 NP|town.bergen 4 PPN|bergen 7
 zuidhorn	 NP|town.zuidhorn 1
-het	 DET 23 PPN|t 2 PRO 63 PRO|dref 11
+het	 DET 23 PPN|t 2 PRO 64 PRO|dref 10
 hallo	 INT 3
-van	 P 18 PPN|van 38 P|after 1 P|origin.moment 8 P|origin.place 1788
+van	 P 18 PPN|van 38 P|after 1 P|origin.moment 8 P|origin.place 1800
 terugreis	 N|return_trip 5
 eens	 ADV 5
 loo	 PPN|loo 9
-zoetermeer	 NP|town.zoetermeer 50
-tweeentwintig	 NUM|22 38
-wiechen	 NP|town.wijchen 14
-heb	 V 51
+zoetermeer	 NP|town.zoetermeer 52
+tweeentwintig	 NUM|22 40
+wiechen	 NP|town.wijchen 12
+heb	 V 53
 lage	 PPN|lage 6
 wat	 ADV 1 N 1
-boxtel	 NP|town.boxtel 10
-driebergen	 NP|town.driebergen 5 PPN|driebergen 3
-opdam	 NP|town.obdam 3
-koogbloemwijk	 NP|station.koog_bloemwijk 2
-dagen	 N|days 2
-didam	 NP|town.didam 5
+boxtel	 NP|town.boxtel 8
+driebergen	 NP|town.driebergen 4 PPN|driebergen 3
+opdam	 NP|town.obdam 2
+koogbloemwijk	 NP|station.koog_bloemwijk 3
+dagen	 N|days 3
+didam	 NP|town.didam 4
 hs	 NP|suffix.hs 1
-zeven	 NUM|7 88
-overmorgen	 MP|day_after_tomorrow 58
-lelystad	 NP|town.lelystad 6
+zeven	 NUM|7 87
+overmorgen	 MP|day_after_tomorrow 59
+lelystad	 NP|town.lelystad 4
 zeventien	 NUM|17 28
 maandagmorgen	 NP|{day_of_week.monday;part_of_day.morning} 3
-helemaal	 ADV 8
+helemaal	 ADV 7
 gorinchem	 NP|town.gorinchem 18
 richting	 P|destination.place 1
 vriendelijk	 ADV 2
 uw	 DET 3
-hellendoorn	 NP|town.hellendoorn 4
+hellendoorn	 NP|town.hellendoorn 5
 heiloo	 NP|town.heiloo 4
 boskoop	 NP|town.boskoop 1
-dinsdag	 N|day_of_week.tuesday 85
-vanmiddag	 MP|{today;afternoon} 26
+dinsdag	 N|day_of_week.tuesday 83
+vanmiddag	 MP|{today;afternoon} 28
 rijden	 INF|travel 3
 alsjeblieft	 INT 2
-willen	 INF|wants 14 V|wants 1
-loppersum	 NP|town.loppersum 5
+willen	 INF|wants 13 V|wants 1
+loppersum	 NP|town.loppersum 6
 chevremont	 NP|town.chevremont 3
-zutphen	 NP|town.zutphen 11
+steenwijk	 NP|town.steenwijk 6
+zutphen	 NP|town.zutphen 14
 al	 ADV 5
-appingedam	 NP|town.appingedam 11
+appingedam	 NP|town.appingedam 12
 tweeendertig	 NUM|32 1
 uit	 P 13 P|origin.place 29
 antwoord	 N 2
 komen	 INF|travel.destination 1
 dacht	 V 1
 oosterhout	 NP|town.oosterhout 6
-vierentwintigste	 ADJ|24 4
-beekelsloo	 NP|town.beek_elsloo 7
+vierentwintigste	 ADJ|24 3
+beekelsloo	 NP|town.beek_elsloo 6
 koogzaandijk	 NP|station.koog_zaandijk 2
 cuyk	 NP|town.cuyk 25
 delftsewal	 NP|suffix.delftsewallen 1
-leeuwarden	 NP|town.leeuwarden 103
+leeuwarden	 NP|town.leeuwarden 111
 paulowna	 NP|town.anna_paulowna 1 PPN|paulowna 1
 lammenschans	 NP|suffix.lammenschans 6
 ommen	 NP|town.ommen 19
-juist	 ADV|+ 14 ADV|[=yes] 11
+juist	 ADV|+ 13 ADV|[=yes] 10
 rechtstreekse	 ADJ 6
 stadskanaal	 NP|town.stadskanaal 1
 bargeres	 NP|suffix.bargeres 2
-zondag	 N|day_of_week.sunday 88
-blaak	 NP|suffix.blaak 7
-er	 ADV 1 MP|place.dref 3
-nu	 ADV 5 ADV|now 6
+zondag	 N|day_of_week.sunday 90
+blaak	 NP|suffix.blaak 6
+er	 ADV 2 MP|place.dref 3
+nu	 ADV 6 ADV|now 7
 slotervaart	 NP|suffix.slotervaart 1
 daarvan	 ADV 1
 marienberg	 NP|town.marienberg 1
-met	 P 15 P|at 12
+met	 P 14 P|at 12
 gelderland	 NP 1
 culemborg	 NP|town.culemborg 6
-ongeveer	 ADV 74 ADV|[=yes] 1
+ongeveer	 ADV 72 ADV|[=yes] 1
 stad	 N 2 N|suffix.stad 1
-delden	 NP|town.delden 4
+delden	 NP|town.delden 3
 ontvangen	 PTP 1
 weekend	 N|weekend 2
 schiedam	 NP|town.schiedam 5
@@ -819,11 +818,11 @@ loosduinen	 NP|town.loosduinen 1
 zetten	 NP|town.zetten 1
 inmiddels	 ADV 1
 voorlopig	 ADV 1
-bilthoven	 NP|town.bilthoven 3
+bilthoven	 NP|town.bilthoven 2
 eentje	 NP 1
 steeds	 ADV 1
 ruurlo	 NP|town.ruurlo 4
-u	 PER 549
+u	 PER 548
 verder	 ADV 2 ADV|more 3
 delft	 NP|town.delft 64
 vijfentwintig	 NUM|25 27
