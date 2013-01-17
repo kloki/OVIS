@@ -18,7 +18,7 @@
 # Koen Klinkers k.klinkers@gmail.com
 
 
-import random, sys,numpy
+import random, sys,numpy,os
 import cPickle as pickle
 
 
@@ -38,7 +38,6 @@ def main():
 
     #shuffle
     p = numpy.random.permutation(len(trees))
-    print p
     shuffTrees=[]
     shuffSentences=[]
     for i in p:
@@ -54,9 +53,18 @@ def main():
     
     for i in xrange(len(trees)):
         if i <=9500:
-            trainTrees.write(shuffTrees[i][:-1])
+            trainTrees.write(shuffTrees[i])
+            trainSentences.write(shuffSentences[i])
+        else:
+            testTrees.write(shuffTrees[i])
+            testSentences.write(shuffSentences[i])
             
-            trainTrees.write(shuffTrees[i][:-1])
+    print "building Grammar, This can take a while..."  
+    os.system("java -jar PCFG_extractor.jar trainTrees combinedGrammar")
+    os.system("./splitGrammar.py combinedGrammar grammar lexicon")
+    os.system("rm combinedGrammar")
+    print "done"
+            
 #-------------------------------
 if __name__ == "__main__":
     main()
