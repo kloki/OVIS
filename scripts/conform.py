@@ -91,7 +91,7 @@ def conform(tree,semantical):
 def helpprint():
     print "This function conforms the tree annotation to a more conventional one"
     print "use: ./conform -f Inputfile"
-    print "-s: Ignore semantical annotions"
+    print "-s: Ignore semantical annotations"
     print "-h: You just did this"
     print "-b: Use curly braces in semantical annotation to not confuse most parsers" 
 

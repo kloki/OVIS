@@ -201,7 +201,7 @@ def unnesstedbracket(update):
 def helpprint():
 
     print "use: ./tree2updateSem.py -f Inputfile"
-    print "-p: Do a post processing step to get 100 percent on the golden standerd"
+    print "-p: Do a post processing step to get 100 percent on the golden standard (incomplete)"
     print "-h: You just did this"
     
 

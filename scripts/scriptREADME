@@ -1,3 +1,47 @@
-This directory contains three script that might be helpfull when working with the OVIS corpus.
+This directory contains three script that might be helpful when working with the OVIS corpus.
 
 conform.py
+==========
+
+This will conform the tree annotation of OVIS to a more conventional one. Some of the files in the corpora folder where created using this script
+    use: ./conform -f Inputfile
+    -s: Ignore semantical annotations
+    -h: You just did this
+    -b: Use curly braces in semantical annotation to not confuse most parsers
+
+tree2updateSem.py
+=================
+
+This script extracts the update semantic from the semantically annotated trees. 
+It does this by looking at the semantics of the top node. For example: (d1;d2) after this d1 is replaced
+by the semantics of the first daughter and d2 by the semantics of the second daughter. The semantics of 
+the daughters might also contain variables. These need to be replaced by the variables of their daughters etc.
+
+This method will have 95% success rate. This is because in some places the annotation is a bit inconsistent.
+An effort was made to cover these inconsistencies but it is incomplete. At the moment it still fails about 180 
+sentences of the 10000/
+
+use: ./tree2updateSem.py -f Inputfile
+  -p: Do a post processing step to get 100 percent on the golden standard (incomplete) 
+  -h: You just did this
+
+
+ovisEva.py
+==========
+
+This script allows you to compare your semantics updates with the golden standard. It works by splitting the
+updateSemantics in units and then calculation the precision and recall values. 
+
+Example
+([=yes];user.wants.(origin.place.(town.amsterdam;suffix.cs);destination.place.town.amersfoort))
+Units
+[=yes]
+user.wants.origin.place.town.amsterdam
+user.wants.origin.place.suffix.cs
+user.wants.destination.place.town.amersfoort
+
+use: ./OvisEva -f Inputfile -g Goldenfile
+     -v: verbose, print results per line
+     -d: print the created items from the semantical annotation
+     -i: Creates a file containing als line numbers of updates that were incorrect
+     -h: You just did this
