@@ -18,8 +18,7 @@
 # Koen Klinkers k.klinkers@gmail.com
 
 
-import random, sys,numpy,os
-import cPickle as pickle
+import random, sys, numpy
 
 
 def main():
@@ -67,48 +66,15 @@ def main():
             testSentences.write(shuffSentences[i])
             testSemantics.write(shuffSemantics[i])
                               
-    print "building Grammar, This can take a while..."  
-    os.system("java -jar PCFG_extractor.jar trainTrees combinedGrammar")
-    os.system("./splitGrammar.py combinedGrammar grammar lexicon")
-    os.system("rm combinedGrammar")
-
-    print "done"
-            
-    #formatting the sentences for bitpar
-    os.system("./bitParSentence.py testSentencesDum > testSentences")
-    os.system("rm testSentencesDum")
-    
-    #run bitpar
-    print "running bitpar"
-    os.system(" bitpar grammar lexicon testSentences bitParResults -p -s TOP -u unknown -v")
-    
+    trainTrees.close()
+    testTrees.close()
+    trainSentences.close()
+    testSentences.close()
+    trainSemantics.close()
+    testSemantics.close()
 
 
-    #first sanatize bitparResults
-    results=open("bitParResults").readlines()
-    newresults=open("results","w+")
-    for i in results:
-        if "No parse for" in i:
-            i="(TOP (EMPTY))" 
-        else:
-            i=i.replace("\\=","=")
-            i=i.replace("\\[","[")
-            i=i.replace("\\]","]")
-            i=i.replace("\\{","(")
-            i=i.replace("\\}",")")
-            i=i.replace(")(",") (")
-        newresults.write(i)
-    
-    
-    newresults.close()
-    
 
-    #extract semantics
-    print "extracting semantics"
-    os.system("../scripts/tree2updateSem.py -f results -p > extractedSemantics")
-    
-    print "evaluation"
-    os.system("../scripts/ovisEva.py -f extractedSemantics -g testSemantics")
 #-------------------------------
 if __name__ == "__main__":
     main()

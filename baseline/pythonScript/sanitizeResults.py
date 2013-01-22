@@ -22,11 +22,23 @@ import random, sys
 
 
 def main():
-    dd=open(sys.argv[1]).read()
-    dd=dd.replace("\n","\n\n")
-    dd=dd.replace(" ","\n")
-    dd=dd.replace("\n\n\n","\n\n")
-    print dd
+    results=open(sys.argv[1]).readlines()
+    newresults=open(sys.argv[2],"w+")
+    for parse in results:
+        if "No parse for" in parse:
+            parse="(TOP (EMPTY))\n" 
+        else:
+            parse=parse.replace("\\=","=")
+            parse=parse.replace("\\[","[")
+            parse=parse.replace("\\]","]")
+            parse=parse.replace("\\{","(")
+            parse=parse.replace("\\}",")")
+            parse=parse.replace(")(",") (")
+        newresults.write(parse)
+    
+    
+    newresults.close()
+
 
 #-------------------------------
 if __name__ == "__main__":
