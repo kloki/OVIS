@@ -22,9 +22,9 @@ import random, sys, numpy
 
 
 def main():
-    trees=open("../corpera/conformedTreesCurly").readlines()
-    sentences=open("../corpera/sentences").readlines()
-    semantics=open("../corpera/updateSemantics").readlines()
+    trees=open("../corpora/conformedTreesCurly").readlines()
+    sentences=open("../corpora/sentences").readlines()
+    semantics=open("../corpora/updateSemantics").readlines()
     assert len(trees)==len(sentences)
     print str(len(trees))+" sentences" 
 
