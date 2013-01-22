@@ -1,0 +1,9 @@
+This directory contains the full OVIS corpus.
+There are some extra files containing specific parts of the corpus for your convenience
+sentences:              The input strings for the answers
+updateSemantics:        The corresponding semantics for the answers
+flatTreesOvis:          The corresponding semantically annotated trees
+conformedTrees:         Same as above only a more conventional annotation
+conformedTrees:Curly:   Because the semantics also contain parenthesis most parsers will get confused.
+                        Therefore the semantical parenthesis are replaced with curly braces
+ 

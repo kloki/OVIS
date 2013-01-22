@@ -19,7 +19,6 @@
 
 
 import random, sys
-import cPickle as pickle
 
 
 def main():
@@ -56,7 +55,7 @@ def curlyBrackets(conformed):
 
 
 def conform(tree,semantical):
-    #is going to be a bit of a hack but they messed up tree annotation not me not me
+    #is going to be a bit of a hack but they messed up tree annotation not me
     returntree="(TOP "
     if tree=="( empty_tree|error.nothing_recorded)":    
         returntree=returntree+tree[2:]
@@ -90,11 +89,11 @@ def conform(tree,semantical):
     return returntree
 
 def helpprint():
-    print "This function conforms the tree annotation a bit because it is weird at times"
+    print "This function conforms the tree annotation to a more conventional one"
     print "use: ./conform -f Inputfile"
     print "-s: Ignore semantical annotions"
     print "-h: You just did this"
-    print "-b: Use brackets in semantical annotation to not confuse normal tree viewers" 
+    print "-b: Use curly braces in semantical annotation to not confuse most parsers" 
 
 #-------------------------------
 if __name__ == "__main__":
