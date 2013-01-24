@@ -2,6 +2,8 @@ This directory contains a baseline for extracting the updatesemantics from the n
 For more information about the baseline see the report.
 
 Rerunning the experiment should be as easy as running baseline.sh (./baseline.sh) given:
--It depends on the folder structure in the repository so this should be the same
+-It depends on the folder structure in the repository so this should be the same.
 -You have installed bitpar, you can get it here <http://www.ims.uni-stuttgart.de/tcl/SOFTWARE/BitPar.html>
--PCFG_extractor.jar should be in this folder. You can download it here.
+
+
+The PCFG_extractor was not written by me but Federico Sangati <http://homepages.inf.ed.ac.uk/fsangati/>
