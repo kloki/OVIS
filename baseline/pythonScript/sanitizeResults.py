@@ -29,6 +29,7 @@ def main():
             parse="(TOP (EMPTY))\n" 
         else:
             parse=parse.replace("\\=","=")
+            parse=parse.replace("\\#","#")
             parse=parse.replace("\\[","[")
             parse=parse.replace("\\]","]")
             parse=parse.replace("\\{","(")
