@@ -19,8 +19,6 @@
 
 
 import random, sys
-import cPickle as pickle
-
 
 
 def main():
@@ -28,7 +26,7 @@ def main():
     for i in xrange(1,len(sys.argv)):
         if sys.argv[i]== "-f":#file to evaluate
             inputfile=open(sys.argv[i+1]).readlines()
-        elif sys.argv[i]== "-p":#print help screen
+        elif sys.argv[i]== "-p":#postprocessing
             post=True
         elif sys.argv[i]== "-h":#print help screen
             helpprint()
