@@ -15,7 +15,7 @@ bitpar grammar lexicon testSentences bitParResults -p -s TOP -u unknown -v
 pythonScript/sanitizeResults.py bitParResults results
 
 echo "extracting semantics"
-../scripts/tree2updateSem.py -f results > extractedSemantics
+../scripts/tree2updateSem.py -f results -p > extractedSemantics
 
 echo "evaluation"
-../scripts/ovisEva.py -f extractedSemantics -g testSemantics
+../scripts/ovisEva.py -f extractedSemantics -g testSemantics -v
