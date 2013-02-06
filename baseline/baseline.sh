@@ -18,4 +18,8 @@ echo "extracting semantics"
 ../scripts/tree2updateSem.py -f results -p > extractedSemantics
 
 echo "evaluation"
-../scripts/ovisEva.py -f extractedSemantics -g testSemantics -v
+../scripts/ovisEva.py -f extractedSemantics -g testSemantics
+
+echo "maximum score would be"
+../scripts/tree2updateSem.py -f testTrees -p > bestpossible
+../scripts/ovisEva.py -f bestpossible -g testSemantics
