@@ -37,7 +37,7 @@ def main():
             verbose=True
         elif sys.argv[i]== "-d":#debug mode
             debug=True
-        elif sys.argv[i]== "-i":#debug mode
+        elif sys.argv[i]== "-i":#list al incorrect lines
             incorrect=True
         elif sys.argv[i]== "-h":#print help screen
             helpprint()
@@ -77,9 +77,6 @@ def itemize(inputlist,debug):
 #breakup a line in items
 
 def breakup(stringer):
-    #if there are outside parenthesis ,remove
-    if stringer[0]=="(" and stringer[-1]==")":
-        stringer=stringer[1:-1]
     itemlist=[]
     
     while True:
