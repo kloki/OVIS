@@ -46,10 +46,11 @@ def main():
         print "input file and golden file must contain the same amount of lines"
         exit()
 
-
+    print "itemizing eval file.."
     evalItem=itemize(evalfile,debug)
+    print "itemizing golden file..."
     goldenItem=itemize(golden,debug)
-
+    print "comparing"
     evaluate(evalItem,goldenItem,verbose,incorrect)
 
 
@@ -60,9 +61,9 @@ def itemize(inputlist,debug):
     counter=1
     for line in inputlist:
         linelist=[]
-        
+
         try:
-            linelist=breakup(line[:-1],linelist,"","")#remove end of line symbol
+            linelist=breakup(line[:-1])#remove end of line symbol
         except:
             lineslist=["error"]
         if debug:
@@ -74,82 +75,59 @@ def itemize(inputlist,debug):
     return itemized
 
 #breakup a line in items
-def breakup(stringer,lister,prefix,suffix):
-    if nested(stringer):
+
+def breakup(stringer):
+    #if there are outside parenthesis ,remove
+    if stringer[0]=="(" and stringer[-1]==")":
         stringer=stringer[1:-1]
-    stringer=stringer+";"
-    while (len(stringer)>1):
+    itemlist=[]
+    
+    while True:
         [chunk,stringer]=getchunk(stringer)
-        if "(" in chunk or "[" in chunk :#still nested elements
-            if ifSuffix(chunk):#they only occur 5 times or something!!!!!!
-                [chunker,suffix2]=getsuf(chunk)
-                lister=breakup(chunker,lister,prefix,suffix2+suffix)#add a dot because it looks nice
-            else:#prefix of just nested, handeled the same (nested uses an empty prefix)
-                    [chunker,prefix2]=getpred(chunk)
-                    lister=breakup(chunker,lister,prefix+prefix2+".",suffix)#add a dot because it looks nice
+        if "(" in chunk:
+            [prefix,middle,suffix]=getfix(chunk)
+            newlist=breakup(middle)
+            for item in newlist:
+                itemlist.append(prefix+item+suffix)
         else:
-            lister.append(prefix+chunk+suffix) #single elements
+            itemlist.append(chunk)
+        if stringer=="":
+            break
+    return itemlist
 
-    return lister
-
-
-def nested(stringer):
-    answer=False
-    brackets=0
-    if "(" in stringer or "[" in stringer or "{" in stringer:
-        for i in xrange(len(stringer)):
-            if stringer[i]=="(" or stringer[i]=="[" or stringer[i]=="{":
-                brackets=brackets+1
-            elif stringer[i]==")" or stringer[i]=="]"or stringer[i]=="{":
-                brackets=brackets-1
-            if brackets==0:
-                if i==len(stringer)-1:
-                    answer=True
-                break
-    return answer
-
-def ifSuffix(chunk):
-    answer=False
-    if chunk[0]=="(" or chunk[0]=="[" or chunk[i]=="{":
-        for i in xrange(len(chunk)-1,0,-1):
-            if chunk[i]==")" or chunk[i]=="]" or chunk[i]=="}":
-                break
-            elif chunk[i]==".":
-                answer=True
-                break
- 
-    return answer
 
 def getchunk(stringer):
     brackets=0
+    chunk="XOXO"
     for i in xrange(0,len(stringer)):
-        if stringer[i]=="(" or stringer[i]=="{" :
+        if stringer[i]=="(":
             brackets=brackets+1
-        if stringer[i]==")" or stringer[i]=="}" :
+        if stringer[i]==")":
             brackets=brackets-1    
         if brackets==0 and stringer[i]==";":#only unnestedsemicolons
             chunk=stringer[:i]
             stringer=stringer[i+1:]
             break
+    if chunk=="XOXO":
+        chunk=stringer
+        stringer=""
     return [chunk,stringer]
 
-def getpred(stringer):
-    prefix=""
-    for i in xrange(0,len(stringer)-1):
-        if stringer[i]=="(" or stringer[i]=="{" or stringer[i]=="[":
-            prefix=stringer[:i-1]
-            stringer=stringer[i:]
-            break
-    return [stringer,prefix]
 
-def getsuf(stringer):
-    suffix=""
-    for i in xrange(len(stringer)-1,0,-1):
-        if stringer[i]=="]" or stringer[i]==")" or stringer[i]=="}" :
-            suffix=stringer[i+1:]
-            stringer=stringer[:i+1]
+def getfix(chunk):
+    index1=0
+    index2=0
+    for i in xrange(len(chunk)):
+        if chunk[i]=="(":
+            index1=i
             break
-    return [stringer,suffix]
+    for i in xrange(len(chunk)-1,-1,-1):
+        if chunk[i]==")":
+            index2=i
+            break
+    return [chunk[:index1],chunk[index1+1:index2],chunk[index2+1:]]
+
+    
 
 def evaluate(Input,Golden,verbose,incorrect):
     Correct=0
